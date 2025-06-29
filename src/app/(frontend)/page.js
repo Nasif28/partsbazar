@@ -1,9 +1,10 @@
-import Header from '@/components/header/Header';
+// import Header from '@/components/header/Header';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <main>
-      <Header />
+      <h1>Frontend Home</h1>
+      {/* <Header /> */}
       {/* <HeroBanner />
       <CategoryGrid />
       <FeaturedProducts /> */}
