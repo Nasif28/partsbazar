@@ -1,14 +1,9 @@
-// import Header from '@/components/header/Header';
+import HeroBanner from "@/components/Home/HeroBanner";
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <main>
-      <h1>Frontend Home</h1>
-      {/* <Header /> */}
-      {/* <HeroBanner />
-      <CategoryGrid />
-      <FeaturedProducts /> */}
-      {/* Add other sections */}
-    </main>
+    <div>
+      <HeroBanner />
+    </div>
   );
 }
