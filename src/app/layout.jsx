@@ -1,18 +1,23 @@
 "use client";
+import { ThemeProvider } from "@/providers/theme-provider";
 import "../styles/globals.css";
 import { store } from "@/redux/store";
 import { Provider } from "react-redux";
 
-// export const metadata = {
-//   title: "Parts Bazar",
-//   description: "A Complete Vehicle Parts Shop",
-// };
-
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
-        <Provider store={store}>{children}</Provider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="light"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Provider store={store}>
+            <div className="maxContainer">{children}</div>
+          </Provider>
+        </ThemeProvider>
       </body>
     </html>
   );

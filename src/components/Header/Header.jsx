@@ -1,13 +1,13 @@
 import React from "react";
 import TopBar from "./TopBar";
-import MainHeader from "./MainHeader";
+import MiddleBar from "./MiddleBar";
 import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <div className="flex flex-col">
+    <div>
       <TopBar />
-      <MainHeader />
+      <MiddleBar />
       <Navbar />
     </div>
   );
