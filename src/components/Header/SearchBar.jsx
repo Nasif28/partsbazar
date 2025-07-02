@@ -1,5 +1,5 @@
 "use client";
-import { Search } from "lucide-react";
+import { Search, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { useEffect, useState } from "react";
 
@@ -12,7 +12,7 @@ const mockProducts = [
   { id: 6, name: "Laptop2", category: "Electronics" },
 ];
 
-const SearchBar = () => {
+const SearchBar = ({ isMobileOpen, onClose }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [results, setResults] = useState([]);
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +21,7 @@ const SearchBar = () => {
     let timeoutId;
     return (...args) => {
       clearTimeout(timeoutId);
-      timeoutId = setTimeout(() => func(...args), 1000);
+      timeoutId = setTimeout(() => func(...args), 300);
     };
   };
 
@@ -35,28 +35,48 @@ const SearchBar = () => {
     );
     setResults(filtered);
     setIsOpen(filtered.length > 0);
-  }, 300);
+  });
 
   useEffect(() => {
     handleSearch(searchTerm);
   }, [searchTerm, handleSearch]);
 
+  const clearSearch = () => {
+    setSearchTerm("");
+    setResults([]);
+    setIsOpen(false);
+  };
+
   return (
     <div className="relative flex-1 max-w-2xl mx-2">
-      <Input
-        type="text"
-        placeholder="Search for products..."
-        className="pl-10 pr-4 py-6 rounded-full focus-visible:ring-2 focus-visible:ring-primary"
-        aria-label="Search products"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        onFocus={() => results.length > 0 && setIsOpen(true)}
-        onBlur={() => setTimeout(() => setIsOpen(false), 200)}
-      />
-      <Search
-        className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-muted-foreground"
-        aria-hidden="true"
-      />
+      <div className="relative">
+        <Input
+          type="text"
+          placeholder="Search products..."
+          className="px-10 py-2 md:py-6 rounded-full focus-visible:ring-1 focus-visible:ring-primary"
+          aria-label="Search products"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          onFocus={() => results.length > 0 && setIsOpen(true)}
+          onBlur={() => setTimeout(() => setIsOpen(false), 200)}
+        />
+        <Search
+          className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-muted-foreground"
+          aria-hidden="true"
+        />
+        {(searchTerm || isMobileOpen) && (
+          <button
+            onClick={() => {
+              clearSearch();
+              if (onClose) onClose();
+            }}
+            className="absolute right-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-muted-foreground hover:text-foreground"
+            aria-label="Clear search"
+          >
+            <X className="h-5 w-5" />
+          </button>
+        )}
+      </div>
 
       {isOpen && results.length > 0 && (
         <div className="absolute z-50 w-full mt-1 bg-popover text-popover-foreground rounded-lg shadow-lg border">
