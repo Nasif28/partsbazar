@@ -43,7 +43,7 @@ const Navbar = () => {
               >
                 <div className="flex items-center">
                   <LayoutGrid className="h-5 w-5 mr-2" />
-                  <span className="text-inherit">Categories</span>
+                  <span className="text-[16px]">Categories</span>
                 </div>
                 <ChevronDown
                   className={clsx(

@@ -94,7 +94,7 @@ export default function CategoriesMenu() {
 
   return (
     <div className="relative bg-background z-20 w-3xs">
-      <ul className="border divide-y ">
+      <ul className="border divide-y">
         {categories.map((category, index) => (
           <li
             key={category.id}
@@ -115,7 +115,7 @@ export default function CategoriesMenu() {
 
             {/* Submenu */}
             {category.subcategories && hoveredIndex === index && (
-              <ul className="absolute left-full top-0 bg-background border w-48 z-20">
+              <ul className="absolute left-full top-0 bg-background border divide-y w-48 z-20">
                 {category.subcategories.map((sub) => (
                   <li key={sub.id}>
                     <Link

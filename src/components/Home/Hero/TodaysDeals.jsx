@@ -52,7 +52,7 @@ const TodaysDeals = () => {
           {deals.map((deal, index) => (
             <div
               key={index}
-              className="bg-white flex rounded-xl overflow-hidden hover:shadow-md transition-shadow"
+              className="bg-white flex rounded-lg overflow-hidden hover:shadow-md transition-shadow"
             >
               <div className="relative">
                 <div className="bg-gray-200 border-2 border-dashed w-36 h-28" />
