@@ -47,7 +47,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[300px] md:h-[400px] rounded-xl overflow-hidden group">
+    <div className="relative w-full h-[300px] md:h-[390px] rounded-xl overflow-hidden group">
       {slides.map((slide, index) => (
         <div
           key={index}

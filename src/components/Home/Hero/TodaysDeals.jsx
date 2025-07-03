@@ -34,7 +34,7 @@ const TodaysDeals = () => {
   ];
 
   return (
-    <section className="bg-muted rounded-xl p-2">
+    <section className="bg-secondary rounded-xl p-2">
       <div className="container mx-auto">
         <div className="flex justify-between items-center py-1 pb-2">
           <h2 className="text-xl font-bold text-center w-full">Today's Deal</h2>
