@@ -8,11 +8,16 @@ import SearchBar from "./SearchBar";
 import CartDropdown from "./CartDropdown";
 import UserAuth from "./UserAuth";
 import logo from "./../../assets/logo.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const MiddleBar = () => {
   const { theme, setTheme } = useTheme();
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const toggleTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");

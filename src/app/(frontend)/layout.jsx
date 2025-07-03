@@ -4,13 +4,11 @@ import TopBar from "@/components/Header/TopBar";
 
 export default function FrontendLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
-        <TopBar />
-        <Header />
-        <main>{children}</main>
-        <Footer />
-      </body>
-    </html>
+    <>
+      <TopBar />
+      <Header />
+      <main>{children}</main>
+      <Footer />
+    </>
   );
 }

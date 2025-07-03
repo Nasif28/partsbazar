@@ -93,32 +93,34 @@ export default function CategorySidebar() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="relative z-10 w-64">
-      <ul className="bg-white border shadow-md divide-y rounded-sm">
+    <div className="relative bg-background z-20 w-64">
+      <ul className="border divide-y ">
         {categories.map((category, index) => (
           <li
             key={category.id}
             onMouseEnter={() => setHoveredIndex(index)}
             onMouseLeave={() => setHoveredIndex(null)}
-            className="relative group px-4 py-2 hover:bg-gray-100 cursor-pointer flex justify-between items-center"
+            className="relative group hover:bg-muted cursor-pointer flex justify-between items-center"
           >
             <Link
               href={`/product/category=${category.slug}`}
-              className="flex-1"
+              className="flex-1 px-4 py-2 group-hover:text-primary"
             >
               {category.name}
             </Link>
 
-            {category.subcategories && <ChevronRight className="w-4 h-4" />}
+            {category.subcategories && (
+              <ChevronRight className="w-4 h-4 group-hover:text-primary" />
+            )}
 
             {/* Submenu */}
             {category.subcategories && hoveredIndex === index && (
-              <ul className="absolute left-full top-0 ml-1 bg-white border shadow-lg rounded-sm w-48 z-50">
+              <ul className="absolute left-full top-0 bg-background border w-48 z-20">
                 {category.subcategories.map((sub) => (
                   <li key={sub.id}>
                     <Link
                       href={`/product/subcategory=${sub.slug}`}
-                      className="block px-4 py-2 hover:bg-gray-100 hover:text-primary transition-colors"
+                      className="block px-4 py-2 hover:bg-muted hover:text-primary transition-colors"
                     >
                       {sub.name}
                     </Link>
