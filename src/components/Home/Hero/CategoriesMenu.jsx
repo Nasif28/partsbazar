@@ -1,13 +1,8 @@
 "use client";
-import React, { useState } from "react";
+import { ChevronRight } from "lucide-react";
+import { useState } from "react";
+import clsx from "clsx";
 import Link from "next/link";
-import {
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
-} from "@/components/ui/dropdown-menu";
 
 const categories = [
   {
@@ -94,132 +89,56 @@ const categories = [
   },
 ];
 
-const CategoriesMenu = ({ variant = "dropdown", onSelect }) => {
-  const [activeCategory, setActiveCategory] = useState(null);
+export default function CategorySidebar() {
+  const [hoveredIndex, setHoveredIndex] = useState(null);
 
-  const handleCategoryHover = (categoryId) => {
-    setActiveCategory(categoryId);
-  };
-
-  const handleCategoryLeave = () => {
-    setActiveCategory(null);
-  };
-
-  const renderCategoryItem = (category, isSub = false) => {
-    const hasSubcategories =
-      category.subcategories && category.subcategories.length > 0;
-    const isActive = activeCategory === category.id;
-
-    if (variant === "dropdown") {
-      if (hasSubcategories) {
-        return (
-          <DropdownMenuSub key={category.id}>
-            <DropdownMenuSubTrigger className="hover:bg-gray-100 px-3 py-2 cursor-pointer text-left w-full">
-              {category.name}
-            </DropdownMenuSubTrigger>
-            <DropdownMenuSubContent
-              className="p-0 overflow-hidden rounded-none max-h-[60vh] overflow-y-auto"
-              align="start"
-              sideOffset={0}
-            >
-              {category.subcategories.map((sub) => (
-                <DropdownMenuItem key={sub.id} asChild>
-                  <Link
-                    href={`/products?subcategory=${sub.slug}`}
-                    className="block w-full px-2 py-1"
-                    onClick={onSelect}
-                  >
-                    {sub.name}
-                  </Link>
-                </DropdownMenuItem>
-              ))}
-            </DropdownMenuSubContent>
-          </DropdownMenuSub>
-        );
-      }
-      return (
-        <DropdownMenuItem key={category.id} asChild>
-          <Link
-            href={`/products?category=${category.slug}`}
-            className="block w-full px-3 py-2"
-            onClick={onSelect}
-          >
-            {category.name}
-          </Link>
-        </DropdownMenuItem>
-      );
-    }
-
-    // Sidebar variant rendering
-    return (
-      <div
-        key={category.id}
-        className="relative group border-b border-gray-100"
-        onMouseEnter={() => handleCategoryHover(category.id)}
-        onMouseLeave={handleCategoryLeave}
-      >
-        <Link
-          href={`/products?category=${category.slug}`}
-          className="block px-4 py-3 hover:bg-gray-50 hover:text-primary"
-        >
-          <div className="flex justify-between items-center">
-            <span>{category.name}</span>
-            {hasSubcategories && (
-              <svg
-                className="w-4 h-4 text-gray-400"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            )}
-          </div>
-        </Link>
-
-        {hasSubcategories && isActive && (
-          <div className="absolute left-full top-0 w-64 bg-white border border-gray-100 shadow-md rounded-md z-50">
-            {category.subcategories.map((sub) => (
-              <Link
-                key={sub.id}
-                href={`/products?subcategory=${sub.slug}`}
-                className="block px-4 py-2 hover:bg-gray-100"
-              >
-                {sub.name}
-              </Link>
-            ))}
-          </div>
-        )}
-      </div>
-    );
-  };
-
-  if (variant === "dropdown") {
-    return (
-      <DropdownMenuContent
-        className="p-0 overflow-hidden rounded-none w-3xs max-h-[60vh] overflow-y-auto"
-        align="start"
-        sideOffset={0}
-      >
-        {categories.map(renderCategoryItem)}
-      </DropdownMenuContent>
-    );
-  }
-
-  // Sidebar variant
   return (
-    <div className="w-3xs bg-white shadow-lg rounded-lg overflow-hidden">
-      <div className="max-h-[60vh] overflow-y-auto">
-        {categories.map(renderCategoryItem)}
-      </div>
+    <div className="relative z-10 w-64">
+      <ul className="bg-white border shadow-md divide-y rounded-sm">
+        {categories.map((category, index) => (
+          <li
+            key={category.id}
+            onMouseEnter={() => setHoveredIndex(index)}
+            onMouseLeave={() => setHoveredIndex(null)}
+            className="relative group px-4 py-2 hover:bg-gray-100 cursor-pointer flex justify-between items-center"
+          >
+            <Link
+              href={`/product/category=${category.slug}`}
+              className="flex-1"
+            >
+              {category.name}
+            </Link>
+
+            {category.subcategories && <ChevronRight className="w-4 h-4" />}
+
+            {/* Submenu */}
+            {category.subcategories && hoveredIndex === index && (
+              <ul className="absolute left-full top-0 ml-1 bg-white border shadow-lg rounded-sm w-48 z-50">
+                {category.subcategories.map((sub) => (
+                  <li key={sub.id}>
+                    <Link
+                      href={`/product/subcategory=${sub.slug}`}
+                      className="block px-4 py-2 hover:bg-gray-100 hover:text-primary transition-colors"
+                    >
+                      {sub.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
+
+      {/* Sticky View All Button */}
+      {/* <div className="sticky bottom-0 bg-white border-t p-4">
+        <Link
+          href="/product/all"
+          className="block w-full text-center bg-primary text-white py-2 rounded hover:bg-primary/90 transition"
+        >
+          View All
+        </Link>
+      </div> */}
     </div>
   );
-};
-
-export default CategoriesMenu;
+}

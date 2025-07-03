@@ -16,16 +16,17 @@ const HeroBanner = () => {
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-5">
           <div className="hidden lg:block w-3xs">
-            <DropdownMenu defaultOpen>
+            {/* <DropdownMenu defaultOpen>
               <DropdownMenuTrigger asChild>
                 <span>A</span>
-              </DropdownMenuTrigger>
+              </DropdownMenuTrigger> */}
 
-              <CategoriesMenu
-                variant="dropdown"
-                // onSelect={() => setMobileMenuOpen(false)}
-              />
-            </DropdownMenu>
+            <CategoriesMenu
+              isOpen={true}
+              // variant="dropdown"
+              // onSelect={() => setMobileMenuOpen(false)}
+            />
+            {/* </DropdownMenu> */}
           </div>
 
           <div className="w-full  flex flex-col gap-5">

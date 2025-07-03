@@ -9,11 +9,14 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import CategoriesMenu from "../Home/Hero/CategoriesMenu";
+import CategorySidebar from "../Home/Hero/CategoriesMenu";
+import clsx from "clsx";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [showCategories, setShowCategories] = useState(false);
+  const [isCategoryOpen, setIsCategoryOpen] = useState(false);
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -38,9 +41,9 @@ const Navbar = () => {
       <nav className="bg-primary">
         <div className="myContainer">
           <div className="container mx-auto">
-            <div className="flex items-center">
+            <div className="flex items-center relative">
               {/* Categories Dropdown */}
-              <div className="hidden lg:block">
+              {/* <div className="hidden lg:block">
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
                     <Button className="justify-between hover:bg-primary-dark cursor-pointer rounded-none bg-primary-dark flex items-center py-6 w-3xs">
@@ -57,6 +60,28 @@ const Navbar = () => {
                     onSelect={() => setMobileMenuOpen(false)}
                   />
                 </DropdownMenu>
+              </div> */}
+
+              <nav className="bg-white border-b shadow px-6 py-4 flex justify-between items-center">
+                <div>
+                  <button
+                    onClick={() => setIsCategoryOpen(!isCategoryOpen)}
+                    className="text-sm font-medium hover:text-primary"
+                  >
+                    Categories
+                  </button>
+                </div>
+                {/* Other navbar items */}
+              </nav>
+
+              {/* Category Sidebar Dropdown */}
+              <div
+                className={clsx(
+                  "absolute left-0 w-64 z-30 bg-white shadow-lg border-r transition-all duration-300",
+                  isCategoryOpen ? "top-14" : "-top-264"
+                )}
+              >
+                <CategorySidebar />
               </div>
 
               {/* Mobile Menu Button */}
