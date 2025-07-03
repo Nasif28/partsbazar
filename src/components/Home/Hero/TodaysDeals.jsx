@@ -34,64 +34,50 @@ const TodaysDeals = () => {
   ];
 
   return (
-    <section className=" bg-gray-50">
-      <div className="container mx-auto px-4">
-        <div className="flex justify-between items-center mb-8">
-          <h2 className="text-2xl font-bold">Today's Deal</h2>
-          <div className="flex items-center gap-2">
+    <section className="bg-muted rounded-xl p-2">
+      <div className="container mx-auto">
+        <div className="flex justify-between items-center py-1 pb-2">
+          <h2 className="text-xl font-bold text-center w-full">Today's Deal</h2>
+          {/* <div className="flex items-center gap-2">
             <Button variant="outline" size="icon">
               <ChevronLeft size={20} />
             </Button>
             <Button variant="outline" size="icon">
               <ChevronRight size={20} />
             </Button>
-          </div>
+          </div> */}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-1 gap-2">
           {deals.map((deal, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+              className="bg-white flex rounded-xl overflow-hidden hover:shadow-md transition-shadow"
             >
               <div className="relative">
-                <div className="bg-gray-200 border-2 border-dashed w-full h-48" />
-                <div className="absolute top-4 left-4 bg-red-600 text-white px-3 py-1 rounded-full text-sm font-bold">
+                <div className="bg-gray-200 border-2 border-dashed w-36 h-28" />
+                <div className="absolute top-2 left-2 bg-red-600 text-white px-2 py-1 rounded-sm text-[10px] font-bold">
                   24% OFF
                 </div>
               </div>
 
-              <div className="p-4">
-                <h3 className="font-bold mb-2">{deal.name}</h3>
-
-                <div className="flex items-center mb-3">
-                  <div className="flex text-yellow-400">
-                    {[...Array(5)].map((_, i) => (
-                      <Star
-                        key={i}
-                        size={16}
-                        fill={i < Math.floor(deal.rating) ? "#F59E0B" : "none"}
-                      />
-                    ))}
-                  </div>
-                  <span className="text-sm text-gray-500 ml-2">
-                    ({deal.reviews})
-                  </span>
-                </div>
+              <div className="p-2">
+                <h3 className="font-bold pb-1">{deal.name}</h3>
 
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-lg font-bold text-red-600">
+                    <div className="text-md font-bold text-red-600">
                       ${deal.discountedPrice.toFixed(2)}
                     </div>
-                    <div className="text-sm text-gray-500 line-through">
+                    <div className="text-xs text-gray-500 line-through">
                       ${deal.originalPrice.toFixed(2)}
                     </div>
                   </div>
-                  <Button className="bg-blue-700 hover:bg-blue-800">
-                    Add to Cart
-                  </Button>
                 </div>
+
+                {/* <Button className="bg-blue-700 hover:bg-blue-800">
+                  Add to Cart
+                </Button> */}
               </div>
             </div>
           ))}

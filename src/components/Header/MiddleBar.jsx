@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { BarChart2, Sun, Moon, Search, X } from "lucide-react";
+import { BarChart2, Sun, Moon, Search, X, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "next-themes";
 import SearchBar from "./SearchBar";
@@ -93,6 +93,18 @@ const MiddleBar = () => {
                 >
                   <BarChart2 className="h-6 w-6" />
                   <span className="text-xs">Compare</span>
+                </Button>
+              </Link>
+
+              <Link href="/wishlist">
+                <Button
+                  variant="ghost"
+                  size="sm"
+                  className="flex flex-col items-center h-auto py-2 px-1 sm:px-2 gap-0.5"
+                  aria-label="My Wishlist"
+                >
+                  <Heart className="h-6 w-6" />
+                  <span className="text-xs">My Wishlist</span>
                 </Button>
               </Link>
 

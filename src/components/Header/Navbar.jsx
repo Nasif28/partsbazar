@@ -4,12 +4,14 @@ import Link from "next/link";
 import { Menu, ChevronDown, X, LayoutGrid } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CategoriesMenu from "../Home/Hero/CategoriesMenu";
-import CategorySidebar from "../Home/Hero/CategoriesMenu";
 import clsx from "clsx";
+import Image from "next/image";
+import logo from "./../../assets/logo.png";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -24,7 +26,6 @@ const Navbar = () => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -59,15 +60,15 @@ const Navbar = () => {
                   isCategoryOpen ? "top-12" : "-top-264"
                 )}
               >
-                <CategorySidebar />
+                <CategoriesMenu />
               </div>
 
               {/* Mobile Menu Button */}
-              <div className="lg:hidden mr-3">
+              <div className="lg:hidden ml-auto">
                 <Button
                   variant="ghost"
                   className="text-white"
-                  onClick={() => setMobileMenuOpen(true)}
+                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 >
                   <Menu className="h-6 w-6" />
                 </Button>
@@ -91,12 +92,14 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`fixed inset-y-0 left-0 w-80 bg-white z-50 transform transition-transform duration-300 lg:hidden ${
+          className={`fixed inset-y-0 left-0 w-68 bg-background z-50 transform transition-transform duration-300 lg:hidden ${
             mobileMenuOpen ? "translate-x-0" : "-translate-x-full"
           }`}
         >
           <div className="flex items-center justify-between p-4 border-b">
-            <h2 className="text-xl font-bold">Menu</h2>
+            <div className="flex items-center">
+              <Image src={logo} alt="Parts Bazar Logo" width={80} height={80} />
+            </div>
             <Button
               variant="ghost"
               size="icon"
@@ -106,17 +109,18 @@ const Navbar = () => {
             </Button>
           </div>
 
-          <div className="p-4">
-            <h3 className="font-bold mb-2">Categories</h3>
-            <CategoriesMenu
-              variant="sidebar"
-              onSelect={() => setMobileMenuOpen(false)}
-            />
-          </div>
-
           <div className="p-4 border-t">
             <h3 className="font-bold mb-2">Navigation</h3>
             <div className="space-y-2">
+              <Link
+                // key={index}
+                href="/categories"
+                className="block py-2 px-4 hover:bg-gray-100 rounded"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Categories
+              </Link>
+
               {navLinks.map((link, index) => (
                 <Link
                   key={index}

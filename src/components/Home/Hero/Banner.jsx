@@ -38,7 +38,6 @@ const Banner = () => {
     setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
   };
 
-  // Auto slide
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
@@ -48,8 +47,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-[300px] md:h-[400px] rounded-xl overflow-hidden">
-      {/* Slides */}
+    <div className="relative w-full h-[300px] md:h-[400px] rounded-xl overflow-hidden group">
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -60,14 +58,18 @@ const Banner = () => {
           <div
             className={`absolute inset-0 bg-gradient-to-r ${slide.bgColor}`}
           ></div>
+
           <div className="relative z-10 text-white max-w-lg">
             <h2 className="text-2xl md:text-3xl font-bold mb-2">
               {slide.title}
             </h2>
+
             <h1 className="text-3xl md:text-4xl font-extrabold mb-4">
               {slide.subtitle}
             </h1>
+
             <p className="mb-6">{slide.description}</p>
+
             <Button className="bg-yellow-500 text-gray-900 hover:bg-yellow-400 px-8 py-6 text-lg">
               {slide.cta}
             </Button>
@@ -80,22 +82,23 @@ const Banner = () => {
       <Button
         variant="ghost"
         size="icon"
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white/30 text-white hover:bg-white/50 z-20"
+        className="absolute left-4 hidden group-hover:flex top-1/2 transform -translate-y-1/2 bg-white/30 text-white hover:bg-white/50 z-10"
         onClick={prevSlide}
       >
         <ChevronLeft size={24} />
       </Button>
+
       <Button
         variant="ghost"
         size="icon"
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white/30 text-white hover:bg-white/50 z-20"
+        className="absolute right-4 hidden group-hover:flex top-1/2 transform -translate-y-1/2 bg-white/30 text-white hover:bg-white/50 z-10"
         onClick={nextSlide}
       >
         <ChevronRight size={24} />
       </Button>
 
       {/* Indicators */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-20">
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
         {slides.map((_, index) => (
           <button
             key={index}

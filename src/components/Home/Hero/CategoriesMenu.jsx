@@ -89,11 +89,11 @@ const categories = [
   },
 ];
 
-export default function CategorySidebar() {
+export default function CategoriesMenu() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className="relative bg-background z-20 w-64">
+    <div className="relative bg-background z-20 w-3xs">
       <ul className="border divide-y ">
         {categories.map((category, index) => (
           <li
@@ -110,7 +110,7 @@ export default function CategorySidebar() {
             </Link>
 
             {category.subcategories && (
-              <ChevronRight className="w-4 h-4 group-hover:text-primary" />
+              <ChevronRight className="w-4 h-4 mr-2 group-hover:text-primary" />
             )}
 
             {/* Submenu */}
