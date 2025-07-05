@@ -226,7 +226,8 @@ const Footer = () => {
                 {/* Google Map Integration */}
                 <div className="h-44 rounded-lg mb-6 overflow-hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.561884114956!2d90.39144888641252!3d23.762997833288214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c761e03c2f25%3A0x5e81dc24f86b39b7!2sMultibrand%20Workshop%20Ltd.!5e0!3m2!1sen!2sbd!4v1751696717925!5m2!1sen!2sbd"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.013993705835!2d90.39649417602284!3d23.746880388910203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8913a476625%3A0x4b2a8a21b4657668!2sFantasia%20Motor%20Parts%20AC%20Market!5e0!3m2!1sen!2sbd!4v1751715399968!5m2!1sen!2sbd"
+                    // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.561884114956!2d90.39144888641252!3d23.762997833288214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c761e03c2f25%3A0x5e81dc24f86b39b7!2sMultibrand%20Workshop%20Ltd.!5e0!3m2!1sen!2sbd!4v1751696717925!5m2!1sen!2sbd"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
