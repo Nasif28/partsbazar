@@ -8,15 +8,6 @@ const nextConfig = {
     // serverActions: true,
     serverActions: {},
   },
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/frontend",
-        permanent: true,
-      },
-    ];
-  },
 };
 
 export default nextConfig;
