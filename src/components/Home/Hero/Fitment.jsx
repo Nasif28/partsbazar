@@ -87,7 +87,7 @@ export default function Fitment() {
   };
 
   return (
-    <div className="bg-secondary p-5 rounded-xl shadow-md">
+    <div className="bg-background border border-primary p-5 rounded-xl shadow-md">
       <h2 className="text-xl text-primary font-bold mb-4">
         SELECT VEHICLE TO FIND EXACT FIT PARTS
       </h2>
