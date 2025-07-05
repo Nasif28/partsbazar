@@ -11,6 +11,15 @@ import {
 } from "lucide-react";
 import logo from "./../../assets/logo.png";
 import Image from "next/image";
+import RedX from "./../SVG/RedX.svg";
+import SteedFast from "./../SVG/SteadFast.svg";
+import Pathao from "./../SVG/Pathao.svg";
+import bKash from "./../SVG/bKash.svg";
+import Nagad from "./../SVG/Nagad.svg";
+import VISA from "./../SVG/VISA.svg";
+import Rocket from "./../SVG/Rocket.svg";
+import PlayStore from "./../SVG/PlayStore.svg";
+import AppStore from "./../SVG/AppStore.svg";
 
 const footerData = {
   quickLinks: [
@@ -30,18 +39,18 @@ const footerData = {
     { name: "Sustainability", href: "/sustainability" },
   ],
   deliveryPartners: [
-    { name: "RedX", color: "text-blue-400" },
-    { name: "SteedFast", color: "text-green-400" },
-    { name: "Pathao", color: "text-yellow-400" },
-    // { name: "eCourier", color: "text-red-400" },
+    { name: "RedX", icon: RedX },
+    {
+      name: "SteedFast",
+      icon: SteedFast,
+    },
+    { name: "Pathao", icon: Pathao },
   ],
   paymentPartners: [
-    { name: "bKash", icon: "" },
-    { name: "Nagad", icon: "" },
-    { name: "Visa", icon: "" },
-    // { name: "Mastercard", icon: "" },
-    // { name: "American Express", icon: "" },
-    { name: "Rocket", icon: "" },
+    { name: "bKash", icon: bKash },
+    { name: "Nagad", icon: Nagad },
+    { name: "Rocket", icon: Rocket },
+    { name: "Visa", icon: VISA },
   ],
 };
 
@@ -52,7 +61,7 @@ const Footer = () => {
         <div className="container mx-auto pt-10">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Section 1: Logo, Description, Contact Info, Social */}
-            <div className="space-y-2">
+            <div className="space-y-1">
               <div className="flex items-center">
                 <Image
                   src={logo}
@@ -140,16 +149,23 @@ const Footer = () => {
 
               <div>
                 <h4 className="font-medium text-white mb-3">
-                  Download App on Mobile
+                  Our Delivery Partner
                 </h4>
 
                 <div className="flex flex-wrap gap-2">
-                  <button className="bg-black text-white px-3 py-2 rounded-md flex items-center hover:bg-gray-800 transition">
-                    Google Play
-                  </button>
-                  <button className="bg-black text-white px-3 py-2 rounded-md flex items-center hover:bg-gray-800 transition">
-                    App Store
-                  </button>
+                  {footerData.deliveryPartners.map((partner, index) => (
+                    <div
+                      key={index}
+                      className="bg-white p-2 rounded-md flex items-center justify-center"
+                    >
+                      <Image
+                        src={partner.icon}
+                        alt={partner.name}
+                        width={50}
+                        height={30}
+                      />
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
@@ -176,21 +192,26 @@ const Footer = () => {
               </div>
 
               <div>
-                <h4 className="font-medium text-white mb-3">
-                  Our Delivery Partner
-                </h4>
+                <div>
+                  <h4 className="font-medium text-white mb-3">
+                    Payment Partners
+                  </h4>
 
-                <div className="flex flex-wrap gap-2">
-                  {footerData.deliveryPartners.map((partner, index) => (
-                    <div
-                      key={index}
-                      className="bg-gray-800 p-2 rounded-md flex items-center justify-center"
-                    >
-                      <div className={`font-bold ${partner.color}`}>
-                        {partner.name}
+                  <div className="flex flex-wrap gap-2">
+                    {footerData.paymentPartners.map((partner, index) => (
+                      <div
+                        key={index}
+                        className="bg-white py-1 px-2 rounded-md flex items-center justify-center"
+                      >
+                        <Image
+                          src={partner.icon}
+                          alt={partner.name}
+                          width={40}
+                          height={30}
+                        />
                       </div>
-                    </div>
-                  ))}
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
@@ -217,21 +238,27 @@ const Footer = () => {
               </div>
 
               <div>
-                <div>
-                  <h4 className="font-medium text-white mb-3">
-                    Payment Partners
-                  </h4>
+                <h4 className="font-medium text-white mb-3">
+                  Download App on Mobile
+                </h4>
 
-                  <div className="flex flex-wrap gap-2">
-                    {footerData.paymentPartners.map((partner, index) => (
-                      <div
-                        key={index}
-                        className="bg-gray-800 px-3 py-2 rounded-md text-sm"
-                      >
-                        {partner.name}
-                      </div>
-                    ))}
-                  </div>
+                <div className="flex flex-wrap gap-2">
+                  <Link href="#" target="_blank">
+                    <Image
+                      src={PlayStore}
+                      alt="Google Play Store"
+                      width={120}
+                      height={40}
+                    />
+                  </Link>
+                  <Link href="#" target="_blank">
+                    <Image
+                      src={AppStore}
+                      alt="Google Play Store"
+                      width={120}
+                      height={40}
+                    />
+                  </Link>
                 </div>
               </div>
             </div>
