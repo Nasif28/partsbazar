@@ -2,7 +2,7 @@
 // const path = require("path");
 const nextConfig = {
   images: {
-    domains: ["res.cloudinary.com", "example.com"],
+    domains: ["res.cloudinary.com", "example.com", "partschai.com"],
   },
   experimental: {
     // serverActions: true,

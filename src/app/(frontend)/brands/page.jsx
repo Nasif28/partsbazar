@@ -1,6 +1,7 @@
 import React from "react";
+import Brands from "@/components/Brands/Brands.jsx";
 
-const Brands = () => {
+const BrandsPage = () => {
   return (
     <div>
       <Brands />
@@ -8,4 +9,4 @@ const Brands = () => {
   );
 };
 
-export default Brands;
+export default BrandsPage;

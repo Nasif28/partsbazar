@@ -1,0 +1,824 @@
+[
+    {
+        "id": 1,
+        "bname": "YAMAHA",
+        "logo": "https://partschai.com/public/uploads/all/MQmhdBAouH45laUtA3t9OPENSUEQlmkVM8n3H6hV.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 2,
+        "bname": "ACURA",
+        "logo": "https://partschai.com/public/uploads/all/Twsx35vJI5NQaV9ZsfEDmP9w1UJgdh95oPKEpMaF.jpg",
+        "top": "no"
+    },
+    {
+        "id": 3,
+        "bname": "APRILIA",
+        "logo": "https://partschai.com/public/uploads/all/Q4Rp0Xy2ql8E1uzUnUx0J4wJfyD6sb0Qcp5h1D5m.jpg",
+        "top": "no"
+    },
+    {
+        "id": 4,
+        "bname": "ASHOK LEYLAND",
+        "logo": "https://partschai.com/public/uploads/all/IeR4tZJ0gd0hAcFQvPVkhQrknCeysrDhiIWcp5bz.png",
+        "top": "no"
+    },
+    {
+        "id": 5,
+        "bname": "ASTON MARTIN",
+        "logo": "https://partschai.com/public/uploads/all/QBVS0u7Sk1c6TMJJu1uwjCnNxEaeEgdiNMUftFNl.jpg",
+        "top": "no"
+    },
+    {
+        "id": 6,
+        "bname": "ATLAS CYCLES",
+        "logo": "https://partschai.com/public/uploads/all/XTGjtE8cGoIs9R7qouj5tmLjB9UDkYAOi3X4cErL.png",
+        "top": "no"
+    },
+    {
+        "id": 7,
+        "bname": "AUDI",
+        "logo": "https://partschai.com/public/uploads/all/HEewV7BHZKfPikbu8Tu59F6BUgKzEPAIhLKbUmG8.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 8,
+        "bname": "BAJAJ",
+        "logo": "https://partschai.com/public/uploads/all/rLnts20iFd5fVDA6qlNI9FgT4XFJXNK9i4WW72v2.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 9,
+        "bname": "BANNETT",
+        "logo": "https://partschai.com/public/uploads/all/dWg5FBd8ZMeJoNlAlgqkGX49rxRSYNt87BlNHzZ3.jpg",
+        "top": "no"
+    },
+    {
+        "id": 10,
+        "bname": "BENTLEY",
+        "logo": "https://partschai.com/public/uploads/all/2jPkijlDMfa3e83XG6qbtIzUat3fAjgZIVNNubY6.jpg",
+        "top": "no"
+    },
+    {
+        "id": 11,
+        "bname": "CADILLAC",
+        "logo": "https://partschai.com/public/uploads/all/4X5wkjtV4GXMESWhf6ASQiM99pBaotI8EVyhAkfY.jpg",
+        "top": "no"
+    },
+    {
+        "id": 12,
+        "bname": "CHEVROLET",
+        "logo": "https://partschai.com/public/uploads/all/WGWgpYcNQ37WRo1VdBNIoyPtAqGNWKn4nVBRIUwV.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 13,
+        "bname": "DAYUN",
+        "logo": "https://partschai.com/public/uploads/all/T6sCfwkLrjAnGK7BILd4vVmdD5juTCo5W7OwSaAB.jpg",
+        "top": "no"
+    },
+    {
+        "id": 14,
+        "bname": "DURANTA",
+        "logo": "https://partschai.com/public/uploads/all/wyiHrF7Hg5IUPphHOSIgAPDg8SXmIghInT6V4ekb.png",
+        "top": "no"
+    },
+    {
+        "id": 15,
+        "bname": "EICHER",
+        "logo": "https://partschai.com/public/uploads/all/bhuOX7i1dijVoN0t5AOXmv1tNcBkt6cnpwchX48J.jpg",
+        "top": "no"
+    },
+    {
+        "id": 16,
+        "bname": "FERRARI",
+        "logo": "https://partschai.com/public/uploads/all/eXQkVOpPS5AvBQWB9IWnpXCMGGOO2GYVTmDSjpOb.jpg",
+        "top": "no"
+    },
+    {
+        "id": 17,
+        "bname": "FIAT",
+        "logo": "https://partschai.com/public/uploads/all/yW0ReiFT9zijuXELNnT2JS0L9XqNAAhnzEsv63WY.jpg",
+        "top": "no"
+    },
+    {
+        "id": 18,
+        "bname": "FKM",
+        "logo": "https://partschai.com/public/uploads/all/O8Q4SYqvS309Xxskq193AjZomum1UdBossOiMejT.png",
+        "top": "no"
+    },
+    {
+        "id": 19,
+        "bname": "FORD",
+        "logo": "https://partschai.com/public/uploads/all/fc4QwfbgKVYJ44pOENVLmbCn4MVN7fwCSt5GOKpP.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 20,
+        "bname": "GEELY",
+        "logo": "https://partschai.com/public/uploads/all/9K6xxq58ldlARwUEaHRlo9zT4p2ZczThkXsRe43t.jpg",
+        "top": "no"
+    },
+    {
+        "id": 21,
+        "bname": "HAOJUE",
+        "logo": "https://partschai.com/public/uploads/all/1M5gkbfCvD8YJPxYqE820KeHNIoXDXrKzAtBlufV.jpg",
+        "top": "no"
+    },
+    {
+        "id": 22,
+        "bname": "HINO",
+        "logo": "https://partschai.com/public/uploads/all/RjMzTCQfjSED6qGOGPbs98jwistko8jvrNjHMsha.jpg",
+        "top": "no"
+    },
+    {
+        "id": 23,
+        "bname": "HONDA",
+        "logo": "https://partschai.com/public/uploads/all/mYci8wRrmbNbTL1erZdXwTIwObY4cGA0jRzhI8dI.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 24,
+        "bname": "H POWER",
+        "logo": "https://partschai.com/public/assets/img/placeholder.jpg",
+        "top": "no"
+    },
+    {
+        "id": 25,
+        "bname": "HYUNDAI",
+        "logo": "https://partschai.com/public/uploads/all/4nzY3czNWib7vtufHCYKG3f2I9LswepovX1Oy489.png",
+        "top": "yes"
+    },
+    {
+        "id": 26,
+        "bname": "ISUZU",
+        "logo": "https://partschai.com/public/uploads/all/QpMPcr4S9CHUNg5SP9ui6JxVvCApjMzpCje3FAXk.jpg",
+        "top": "no"
+    },
+    {
+        "id": 27,
+        "bname": "KAWASAKI",
+        "logo": "https://partschai.com/public/uploads/all/nNcW6JeabWMa6hEhq6u1LWqZujEZzB4DHDVKdJST.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 28,
+        "bname": "KEEWAY",
+        "logo": "https://partschai.com/public/uploads/all/7vwwkVAL3A0CjmPbVTAxfkDbqswwQtA36sxxaDvG.jpg",
+        "top": "no"
+    },
+    {
+        "id": 29,
+        "bname": "KIA",
+        "logo": "https://partschai.com/public/uploads/all/DNXlT7Af0lOrdW4DLjn9wKIY067Cq1IWd9dv0EU4.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 30,
+        "bname": "MITSUBISHI",
+        "logo": "https://partschai.com/public/uploads/all/ArKWfmL9uGbl3g6FsqE7BAheE89sGpYS9QgzjBha.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 31,
+        "bname": "NISSAN",
+        "logo": "https://partschai.com/public/uploads/all/tkn3JoJCdVIgrnoiOmQgZdvQqrfPSlPWRLC9yyK6.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 32,
+        "bname": "ROADMASTER",
+        "logo": "https://partschai.com/public/uploads/all/CdKIvl4BYZTtgY4bzyis9ddsboKTEqbTpAif54Im.jpg",
+        "top": "no"
+    },
+    {
+        "id": 33,
+        "bname": "RUNNER",
+        "logo": "https://partschai.com/public/uploads/all/Y8ZmYlK955ICQg0RNJKaH19H8C5RnjHxo4TI6h1l.jpg",
+        "top": "no"
+    },
+    {
+        "id": 34,
+        "bname": "SCANIA",
+        "logo": "https://partschai.com/public/uploads/all/7ld6raklXLzEUW9tVMFdA3TSXc3oRgJ5abzTWvgh.jpg",
+        "top": "no"
+    },
+    {
+        "id": 35,
+        "bname": "HERO",
+        "logo": "https://partschai.com/public/uploads/all/ihCZciFlzcpbNMQNWFBuiEuPwWdkmMoJnijYo7xR.jpg",
+        "top": "no"
+    },
+    {
+        "id": 36,
+        "bname": "SKODA",
+        "logo": "https://partschai.com/public/uploads/all/FHJmmlrEp3SlCSXKXqdW6gRFAWLVbRZzyAZVGAm9.jpg",
+        "top": "no"
+    },
+    {
+        "id": 37,
+        "bname": "SUZUKI",
+        "logo": "https://partschai.com/public/uploads/all/7XXNhcjJQU92wTiqxpLN1mD8HOY98765QjgDR33O.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 38,
+        "bname": "TARO",
+        "logo": "https://partschai.com/public/uploads/all/gjvhZlgo6QOBnnBWAfLroF42NCt9M4i6aymq9Asb.jpg",
+        "top": "no"
+    },
+    {
+        "id": 39,
+        "bname": "TATA MOTORS",
+        "logo": "https://partschai.com/public/uploads/all/lB2M4IJbuOyPIhZrYPVq7C6A3qrY8feKvoAv2g4O.jpg",
+        "top": "no"
+    },
+    {
+        "id": 40,
+        "bname": "Toyota",
+        "logo": "https://partschai.com/public/uploads/all/lbzpUxnjSdZYSTQzebSKQgd0asvJXl6eWgzcjEHb.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 41,
+        "bname": "TVS",
+        "logo": "https://partschai.com/public/uploads/all/6SLxdAFWgHWspftaXXId9kVXKzBbReuU4fLIZ9hu.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 42,
+        "bname": "VECTOR R",
+        "logo": "https://partschai.com/public/uploads/all/yJmXu4mdnqbKFACjeXGnhQRPn7FPq7PSWPx8krhm.jpg",
+        "top": "no"
+    },
+    {
+        "id": 43,
+        "bname": "VOLVO BATTERY",
+        "logo": "https://partschai.com/public/uploads/all/M4NxhJMASC6GL3iiNv9qjOGp26nQRPMyheN2YPnc.jpg",
+        "top": "no"
+    },
+    {
+        "id": 44,
+        "bname": "WALTON",
+        "logo": "https://partschai.com/public/uploads/all/uT56Ix2b0cO7iyB2SV1RYoL7qTnwjZwYKLUxpAML.jpg",
+        "top": "no"
+    },
+    {
+        "id": 45,
+        "bname": "SHARP",
+        "logo": "https://partschai.com/public/uploads/all/G3yqmXQMv73AH9CwzJTXalb1PpmWy8JO8vgfCWjL.png",
+        "top": "no"
+    },
+    {
+        "id": 46,
+        "bname": "PANASONIC",
+        "logo": "https://partschai.com/public/uploads/all/LyGPLhGURkoZQKKVBHfHf3cCVTSNX2Ab5Py1KZzh.jpg",
+        "top": "no"
+    },
+    {
+        "id": 47,
+        "bname": "GENERAL",
+        "logo": "https://partschai.com/public/uploads/all/Qjf3pubS5uQGWykmJBAFG0PGDvzgaFPmZjD17MmS.jpg",
+        "top": "no"
+    },
+    {
+        "id": 48,
+        "bname": "WHIRLPOOL",
+        "logo": "https://partschai.com/public/uploads/all/ooz5J8Ajpfo27NxRngujyiHHMAmsJtANq6b6r7tH.jpg",
+        "top": "no"
+    },
+    {
+        "id": 49,
+        "bname": "HITACHI",
+        "logo": "https://partschai.com/public/uploads/all/hLawakTdT6Q2rPW7u1dFInOV9zVru7xt4QtZqDtN.jpg",
+        "top": "no"
+    },
+    {
+        "id": 50,
+        "bname": "PHILIPS",
+        "logo": "https://partschai.com/public/uploads/all/NUGMoI0TYnGL57TYuM2SUzM0nVhY4tprH6t9YaYX.png",
+        "top": "no"
+    },
+    {
+        "id": 51,
+        "bname": "BOTNY",
+        "logo": "https://partschai.com/public/uploads/all/PK4xA1DZtaF76FUEw8v1vktrKAABCPTzFwYZNJYI.jpg",
+        "top": "no"
+    },
+    {
+        "id": 52,
+        "bname": "OTHERS",
+        "logo": "https://partschai.com/public/assets/img/placeholder.jpg",
+        "top": "no"
+    },
+    {
+        "id": 53,
+        "bname": "ACL",
+        "logo": "https://partschai.com/public/uploads/all/LYv3o0lWSrAFmVk8Idoq0oNVNG2shRo4UXsKV7w9.png",
+        "top": "no"
+    },
+    {
+        "id": 54,
+        "bname": "GOLF",
+        "logo": "https://partschai.com/public/uploads/all/cg2xQSmBNCeQo8y90wpZq6Bm5Zr9Ad2ylnMhAdfb.png",
+        "top": "no"
+    },
+    {
+        "id": 55,
+        "bname": "CASTROL",
+        "logo": "https://partschai.com/public/uploads/all/4tOYpCDSgmKvwJndc5SRWY13hZJpaI4zvaS30vCw.png",
+        "top": "no"
+    },
+    {
+        "id": 56,
+        "bname": "SHELL",
+        "logo": "https://partschai.com/public/uploads/all/GQ8CLoinWqQJuZWvbso4hQLQqgV0PBdme8TyymMu.jpg",
+        "top": "no"
+    },
+    {
+        "id": 57,
+        "bname": "CHINA",
+        "logo": "https://partschai.com/public/assets/img/placeholder.jpg",
+        "top": "no"
+    },
+    {
+        "id": 58,
+        "bname": "DENSO",
+        "logo": "https://partschai.com/public/uploads/all/tla53QQP0QgIBQgNpEFB1z8QRwx5pgNzPvtD8F9Q.png",
+        "top": "no"
+    },
+    {
+        "id": 59,
+        "bname": "NGK",
+        "logo": "https://partschai.com/public/uploads/all/7xuD5qrvuGmnxtmiYZ4vW6i5F2Se1j16T23vuunN.png",
+        "top": "no"
+    },
+    {
+        "id": 60,
+        "bname": "MOTUL",
+        "logo": "https://partschai.com/public/uploads/all/hVEY43OlckGwHTup1twB3CXCduMfXL50D2KeuI7K.jpg",
+        "top": "no"
+    },
+    {
+        "id": 61,
+        "bname": "LIQUIMOLY",
+        "logo": "https://partschai.com/public/uploads/all/TaLGxz9iPB3yioHvpWFNZT2RTZmOmuS9JdxMsjcs.gif",
+        "top": "no"
+    },
+    {
+        "id": 62,
+        "bname": "ELEPHANT",
+        "logo": "https://partschai.com/public/assets/img/placeholder.jpg",
+        "top": "no"
+    },
+    {
+        "id": 63,
+        "bname": "MOTOREX",
+        "logo": "https://partschai.com/public/uploads/all/ThdvrFM8QiDVx0hMFFdT6tOcqSRQ63JuDNgzmahV.png",
+        "top": "no"
+    },
+    {
+        "id": 64,
+        "bname": "SEGAR",
+        "logo": "https://partschai.com/public/assets/img/placeholder.jpg",
+        "top": "no"
+    },
+    {
+        "id": 65,
+        "bname": "CALTEX",
+        "logo": "https://partschai.com/public/uploads/all/2fylQD1m2lMfdRYsOoMwBbOLMU7KBRzB2HiHAD9g.png",
+        "top": "no"
+    },
+    {
+        "id": 66,
+        "bname": "MOBIL",
+        "logo": "https://partschai.com/public/uploads/all/aV3QWzlYlYY3t0A2ymtnZxtrHpyXXVRc8R7i8Qy5.png",
+        "top": "no"
+    },
+    {
+        "id": 67,
+        "bname": "MITASU",
+        "logo": "https://partschai.com/public/uploads/all/w2FjCCsefnrndub7FYGToAi97xJap08XQHRHhfGl.png",
+        "top": "no"
+    },
+    {
+        "id": 68,
+        "bname": "GULF",
+        "logo": "https://partschai.com/public/uploads/all/iytnMoFOTfyAr9IhIx1HMKmAW0FX15cBrp45VSiN.png",
+        "top": "no"
+    },
+    {
+        "id": 69,
+        "bname": "BP",
+        "logo": "https://partschai.com/public/uploads/all/fBgGSWuHvQDoXw7DNYaixqwpbPMpLKlWefldJVvw.png",
+        "top": "no"
+    },
+    {
+        "id": 70,
+        "bname": "ENEOS",
+        "logo": "https://partschai.com/public/uploads/all/PNl6YvRB5yDGV5gYFa7mPYu66oufKwca07CPEnxs.png",
+        "top": "no"
+    },
+    {
+        "id": 71,
+        "bname": "MOBIL 1",
+        "logo": "https://partschai.com/public/uploads/all/f7XBzTGKgupUbzwfDhSXGRUbvk05D9ntL7jUOPFE.png",
+        "top": "no"
+    },
+    {
+        "id": 72,
+        "bname": "BNO",
+        "logo": "https://partschai.com/public/uploads/all/zO2vaZVdaQjHPlMvE4CV3aMwkr5xVkR2ybn66Gh6.jpg",
+        "top": "no"
+    },
+    {
+        "id": 73,
+        "bname": "LUCAS",
+        "logo": "https://partschai.com/public/uploads/all/EZVpZO6zSPWLZJ3xYpNNn92ugd5sPqclMgYov3qd.png",
+        "top": "no"
+    },
+    {
+        "id": 74,
+        "bname": "VOLVO",
+        "logo": "https://partschai.com/public/uploads/all/ucomwnC1WJIaMM4e8STlrxdTikf7hX4PhgctlNPA.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 75,
+        "bname": "PETRONAS ENGINE OIL",
+        "logo": "https://partschai.com/public/uploads/all/uJxMs8yC9yYIwn3YMojQskwv6UkUW3s9MRGt8LuD.png",
+        "top": "no"
+    },
+    {
+        "id": 76,
+        "bname": "RBI",
+        "logo": "https://partschai.com/public/uploads/all/445VWYdi4mpbmSo8KMjerk3rWKk8iVtSfELGI8Eb.jpg",
+        "top": "no"
+    },
+    {
+        "id": 77,
+        "bname": "YOKOHAMA",
+        "logo": "https://partschai.com/public/uploads/all/1UAvpCbrCyj9oE5SdscPDFySoSoyjYRra99Owa2n.jpg",
+        "top": "no"
+    },
+    {
+        "id": 78,
+        "bname": "MRF",
+        "logo": "https://partschai.com/public/uploads/all/ZxWoB6DdIE2PYLBl1KgWZTYXCko35uEEh2cFy44Z.png",
+        "top": "no"
+    },
+    {
+        "id": 79,
+        "bname": "Bridgestone",
+        "logo": "https://partschai.com/public/uploads/all/XvzkMwyrQufy1x7fpa5usoeODO6jFMd4j7aiGD1x.jpg",
+        "top": "no"
+    },
+    {
+        "id": 80,
+        "bname": "Toyo",
+        "logo": "https://partschai.com/public/uploads/all/xXJTVSltCQcX22NHe9WAIz3pjL9KGDvO8BX7ZADT.jpg",
+        "top": "no"
+    },
+    {
+        "id": 81,
+        "bname": "CEAT",
+        "logo": "https://partschai.com/public/uploads/all/1EVjnlkgi2Ku4vRnTn8sUUkNnqnQreY8ZfHWLhs3.png",
+        "top": "no"
+    },
+    {
+        "id": 82,
+        "bname": "Apollo",
+        "logo": "https://partschai.com/public/uploads/all/7GKRDgOEXF3Em5fh7YCpJbz9leINLbjGj7WSM2sF.png",
+        "top": "no"
+    },
+    {
+        "id": 83,
+        "bname": "Good Year",
+        "logo": "https://partschai.com/public/uploads/all/DhFtMFjgtpmOD9HJA617PvhBaESKzoClvLMXStPD.png",
+        "top": "no"
+    },
+    {
+        "id": 84,
+        "bname": "Dunlop",
+        "logo": "https://partschai.com/public/uploads/all/Jqyvu0WZgp0U7y2cgwcqfGeofmYsVpvWLpz32fXC.png",
+        "top": "no"
+    },
+    {
+        "id": 85,
+        "bname": "Hankook",
+        "logo": "https://partschai.com/public/uploads/all/xu3wwCa1K2ymNxYFqCVakJZFUocy6uKcrvkTFvCt.png",
+        "top": "no"
+    },
+    {
+        "id": 86,
+        "bname": "SilverStone",
+        "logo": "https://partschai.com/public/uploads/all/uu5WcZGxE7FRzMOraYWMgsxegqsgIJ35oPatBqYi.png",
+        "top": "no"
+    },
+    {
+        "id": 87,
+        "bname": "Falken",
+        "logo": "https://partschai.com/public/uploads/all/hg4sDRKv1HoeVnQN1KoyvGQGJOIQ7ORLYFO6G379.png",
+        "top": "no"
+    },
+    {
+        "id": 88,
+        "bname": "JK Tyre",
+        "logo": "https://partschai.com/public/uploads/all/VqBceCfAKbLkK450T2zgOb3ud0xzL8gqlzEPt9oM.jpg",
+        "top": "no"
+    },
+    {
+        "id": 89,
+        "bname": "Presa",
+        "logo": "https://partschai.com/public/uploads/all/MhkAsihAt9PjW7qZ6p8ojGVqlA2G8Ao9nqHIym5h.png",
+        "top": "no"
+    },
+    {
+        "id": 90,
+        "bname": "Maxxis",
+        "logo": "https://partschai.com/public/uploads/all/P7Vgy0YWBe4TIXtfbKIi2xxMxGk01dwdxLLHvwEK.png",
+        "top": "no"
+    },
+    {
+        "id": 91,
+        "bname": "Pirelli",
+        "logo": "https://partschai.com/public/uploads/all/gveK31v3yrk6zPyiTcR33eWVsaIXBsYdYJ8krolA.jpg",
+        "top": "no"
+    },
+    {
+        "id": 92,
+        "bname": "BERLIN",
+        "logo": "https://partschai.com/public/uploads/all/UeXdZh57BwKWnQnEeuJpXUwNsZEvaS4VtaUpIgVs.jpg",
+        "top": "no"
+    },
+    {
+        "id": 93,
+        "bname": "MERCEDES BENZ",
+        "logo": "https://partschai.com/public/uploads/all/Ti2dblJmX2Hsx1jQryDycNpgtHcgySLEFUNX0FQf.png",
+        "top": "yes"
+    },
+    {
+        "id": 94,
+        "bname": "MANNOL",
+        "logo": "https://partschai.com/public/uploads/all/cCJ0Zd8jDkomqJtm16M2NrURz7J3ZGP3P4IHmksW.png",
+        "top": "no"
+    },
+    {
+        "id": 95,
+        "bname": "TOTAL",
+        "logo": "https://partschai.com/public/uploads/all/l4y0qNpKcoL3TMLohDcCJcFRioGHWjEirPkQvBLX.png",
+        "top": "no"
+    },
+    {
+        "id": 96,
+        "bname": "SHARK",
+        "logo": "https://partschai.com/public/uploads/all/hcRdhf0TlpBDumrA8AckCflaQ7d5zgtVxMIkZFZ4.jpg",
+        "top": "no"
+    },
+    {
+        "id": 97,
+        "bname": "KYT",
+        "logo": "https://partschai.com/public/uploads/all/kumkLSrVKCYWohtWRAQsRpjlVq9mASs5rtGXLsPG.png",
+        "top": "no"
+    },
+    {
+        "id": 98,
+        "bname": "AXOR",
+        "logo": "https://partschai.com/public/uploads/all/jyvP7ugZ2RH5khHnDdycXAjKL692WZMdq4kJtZ6Z.png",
+        "top": "no"
+    },
+    {
+        "id": 99,
+        "bname": "AXXIS",
+        "logo": "https://partschai.com/public/uploads/all/IGI8cRDwJ6qutWIp20msQdz3Io7zkpdq9dRG8xo7.png",
+        "top": "no"
+    },
+    {
+        "id": 100,
+        "bname": "YOHE",
+        "logo": "https://partschai.com/public/uploads/all/n8V5QrZOJ8sjgO4nEXsKDvbNGp6DQkDi9vmFvycO.png",
+        "top": "no"
+    },
+    {
+        "id": 101,
+        "bname": "HKT",
+        "logo": "https://partschai.com/public/uploads/all/7J3KdIKEIfTswS8io4YMtGbkuBo7tmnDUU0BEMu2.jpg",
+        "top": "no"
+    },
+    {
+        "id": 102,
+        "bname": "PARAUT",
+        "logo": "https://partschai.com/public/assets/img/placeholder.jpg",
+        "top": "no"
+    },
+    {
+        "id": 103,
+        "bname": "STOP",
+        "logo": "https://partschai.com/public/assets/img/placeholder.jpg",
+        "top": "no"
+    },
+    {
+        "id": 104,
+        "bname": "MAZDA",
+        "logo": "https://partschai.com/public/uploads/all/jQUFKPlVkmXI5Wl2OJnlTsC05q6dZWQQhQeHEnB3.png",
+        "top": "yes"
+    },
+    {
+        "id": 105,
+        "bname": "OSCAR",
+        "logo": "https://partschai.com/public/assets/img/placeholder.jpg",
+        "top": "no"
+    },
+    {
+        "id": 106,
+        "bname": "BOSCH",
+        "logo": "https://partschai.com/public/uploads/all/jg7czODqqmtkyGjiCsJ2aVaL1fe0NUaLu93105Cz.jpg",
+        "top": "no"
+    },
+    {
+        "id": 107,
+        "bname": "ABB",
+        "logo": "https://partschai.com/public/uploads/all/Ydbo7P6uFuCAZR4leSq0IL78p9x4X5rDCz41bFEJ.png",
+        "top": "no"
+    },
+    {
+        "id": 108,
+        "bname": "KIXX",
+        "logo": "https://partschai.com/public/uploads/all/pXp6w3f29Xw1aWaLGJlGCzuKMhkJv6YjzpcA9dBl.png",
+        "top": "no"
+    },
+    {
+        "id": 109,
+        "bname": "FUCHS",
+        "logo": "https://partschai.com/public/uploads/all/aZwIOz2RxJr1hOwbIL3Q5KwbAq6H0v4Y2YzroiyO.png",
+        "top": "no"
+    },
+    {
+        "id": 110,
+        "bname": "OSCAR",
+        "logo": "https://partschai.com/public/uploads/all/n1GGzsgNwk58GJE02u98Ekg0NYSF0O5JOFdohNXf.png",
+        "top": "no"
+    },
+    {
+        "id": 111,
+        "bname": "SIGMA",
+        "logo": "https://partschai.com/public/uploads/all/ASLnva6KfwnxR2IIQGBqHZr2wHqYzczjXw6dpqae.png",
+        "top": "no"
+    },
+    {
+        "id": 112,
+        "bname": "LIBKING",
+        "logo": "https://partschai.com/public/assets/img/placeholder.jpg",
+        "top": "no"
+    },
+    {
+        "id": 113,
+        "bname": "BIZOL",
+        "logo": "https://partschai.com/public/uploads/all/NpwJVjLiCfbqQf0gbTsYbk1qiPd8JRTegM1w47nD.png",
+        "top": "no"
+    },
+    {
+        "id": 114,
+        "bname": "MEP",
+        "logo": "https://partschai.com/public/uploads/all/IAeGHkBXtpMY35lgEvA5R0j4kdjJ3E3gQVYShtbN.jpg",
+        "top": "no"
+    },
+    {
+        "id": 115,
+        "bname": "NANKANG",
+        "logo": "https://partschai.com/public/uploads/all/X6GpJ1WERf571LEJH8bAVSYeZsgpvpscfp9T967X.png",
+        "top": "no"
+    },
+    {
+        "id": 116,
+        "bname": "FLAMINGO",
+        "logo": "https://partschai.com/public/uploads/all/WEsMwoHymLPoM3LXr7DZg3dXUEemAWjt2xRsfeow.png",
+        "top": "no"
+    },
+    {
+        "id": 117,
+        "bname": "HIPRO",
+        "logo": "https://partschai.com/public/uploads/all/PasM6VXdgKqfv8NOWStxsan17avJfR69XO6Xy5oI.jpg",
+        "top": "no"
+    },
+    {
+        "id": 118,
+        "bname": "GLOBATT",
+        "logo": "https://partschai.com/public/uploads/all/RpH4bxEXbFMpyhkOHqKFlzzgi94Dysft5n7sGNgw.jpg",
+        "top": "no"
+    },
+    {
+        "id": 119,
+        "bname": "KOYO",
+        "logo": "https://partschai.com/public/uploads/all/wfUIQVoAlKhjUoxOZ2AcmzwaPrkiIb4hUuLHo7oN.jpg",
+        "top": "no"
+    },
+    {
+        "id": 120,
+        "bname": "KRANK",
+        "logo": "https://partschai.com/public/uploads/all/P5SM1i8JcGFbyq21hQAMcivlaIzIQ1xJz36uVJCv.png",
+        "top": "no"
+    },
+    {
+        "id": 121,
+        "bname": "LOOKMAN",
+        "logo": "https://partschai.com/public/uploads/all/B2McR1nQA87754dZcFoAp2b6tQD8DYbpPr2tW5LF.jpg",
+        "top": "no"
+    },
+    {
+        "id": 122,
+        "bname": "LUBKING",
+        "logo": "https://partschai.com/public/uploads/all/n2WcKXwToKqyqdIwo4vtEuBlbILkYgcHdH6r9OpN.png",
+        "top": "no"
+    },
+    {
+        "id": 123,
+        "bname": "PETRAMINA",
+        "logo": "https://partschai.com/public/uploads/all/9Q1AtnonNCuk0uovbMnSqibbEkifmYax3gX9aXfa.png",
+        "top": "no"
+    },
+    {
+        "id": 124,
+        "bname": "LEXUS",
+        "logo": "https://partschai.com/public/uploads/all/VB7G4rhGjqmBD4kjo0P9yuX74h6qBZU5ufpeLjKi.png",
+        "top": "yes"
+    },
+    {
+        "id": 125,
+        "bname": "KYB",
+        "logo": "https://partschai.com/public/uploads/all/7eEKJZ6q1rB8t25SuGOWCvov1CfMLJQ7VOlHersf.png",
+        "top": "no"
+    },
+    {
+        "id": 126,
+        "bname": "YUASA",
+        "logo": "https://partschai.com/public/uploads/all/rYJM1Tvk9YYsuvJnQRIHT6MWgbrzvTzSTgUjrCeZ.jpg",
+        "top": "no"
+    },
+    {
+        "id": 127,
+        "bname": "LS2",
+        "logo": "https://partschai.com/public/uploads/all/BCIBarHbdUibpKpCYH2j3ly28ndWWRWhRIhxjNvX.png",
+        "top": "no"
+    },
+    {
+        "id": 128,
+        "bname": "OWNICE",
+        "logo": "https://partschai.com/public/uploads/all/xo9usl5xpcIUOOrWpshYHeiBr6LQKCgYGVH0CgJG.png",
+        "top": "no"
+    },
+    {
+        "id": 129,
+        "bname": "BOTO",
+        "logo": "https://partschai.com/public/uploads/all/a8mo3gkf5hziS7Lkk2ZDihsprwPvXVGiIAqa9Wl7.png",
+        "top": "no"
+    },
+    {
+        "id": 130,
+        "bname": "HAMKO",
+        "logo": "https://partschai.com/public/uploads/all/z9F8beYacVOd2rl7LryU7K7BkmJw1PFlwQJDHIXo.jpg",
+        "top": "no"
+    },
+    {
+        "id": 131,
+        "bname": "KTM",
+        "logo": "https://partschai.com/public/uploads/all/dJ9k6xMWnauSs2lc5IweSunkPQ8r4tw0bkvPe5Bc.png",
+        "top": "no"
+    },
+    {
+        "id": 132,
+        "bname": "JAGUAR",
+        "logo": "https://partschai.com/public/uploads/all/WSesK2PwL87sFfR7GGgrY8juFi0b0ziiom8YGP6L.jpg",
+        "top": "yes"
+    },
+    {
+        "id": 133,
+        "bname": "VAG",
+        "logo": "https://partschai.com/public/uploads/all/xuVU3d57c0X2Lm4TpCFnVnXESXKNr84xzzilZLyh.png",
+        "top": "no"
+    },
+    {
+        "id": 134,
+        "bname": "BMW",
+        "logo": "https://partschai.com/public/uploads/all/lb9xinyp8KYN4LNSzOEuddOX9H2edYuSp01MOqvl.png",
+        "top": "yes"
+    },
+    {
+        "id": 135,
+        "bname": "Sony",
+        "logo": "https://partschai.com/public/uploads/all/9OVn2iKDr7wWpkOtBvgrTM3dlahI1VuV9n87eap2.jpg",
+        "top": "no"
+    },
+    {
+        "id": 136,
+        "bname": "HIKOKI",
+        "logo": "https://partschai.com/public/uploads/all/46ndMaHz0qkQvKonvOjjEGOYwMGHBll6MEloeZEI.jpg",
+        "top": "no"
+    },
+    {
+        "id": 137,
+        "bname": "Metabo",
+        "logo": "https://partschai.com/public/uploads/all/WtVXI2cLbxiJ9wdvo0fpO40wO801Io5TXoEHllru.jpg",
+        "top": "no"
+    }
+]
