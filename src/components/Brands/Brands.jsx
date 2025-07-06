@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchAllBrands, fetchTopBrands } from "@/redux/features/brandsSlice";
-import BrandCard from "@/components/brands/BrandCard";
+import BrandCard from "@/components/Brands/BrandCard";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Input } from "@/components/ui/input";
 import { Skeleton } from "@/components/ui/skeleton";
