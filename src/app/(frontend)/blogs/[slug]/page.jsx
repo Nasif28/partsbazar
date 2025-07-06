@@ -4,7 +4,7 @@ import React from "react";
 const BlogDetailsPage = ({ params }) => {
   return (
     <div>
-      <BlogDetails params={params} />
+      <BlogDetails slug={params.slug} />
     </div>
   );
 };

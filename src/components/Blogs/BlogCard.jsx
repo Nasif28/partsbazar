@@ -26,7 +26,7 @@ const BlogCard = ({ blog }) => {
           src={blog.thumbnail}
           alt={blog.title}
           fill
-          className="object-cover transition-transform duration-500"
+          className="object-cover transition-transform duration-500 rounded-lg"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
 

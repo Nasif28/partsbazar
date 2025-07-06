@@ -22,7 +22,6 @@ const BlogSlider = () => {
     dispatch(fetchPopularBlogs());
   }, [dispatch]);
 
-  // Auto slide effect
   useEffect(() => {
     if (!api) return;
 
@@ -30,7 +29,7 @@ const BlogSlider = () => {
       if (api.canScrollNext()) {
         api.scrollNext();
       } else {
-        api.scrollTo(0); // Reset to first slide
+        api.scrollTo(0);
       }
     }, 3000);
 
@@ -81,20 +80,20 @@ const BlogSlider = () => {
                   slidesToScroll: 1,
                 }}
                 setApi={setApi}
-                className="w-full px-12"
+                className="w-full"
               >
                 <CarouselContent>
                   {popularBlogs.map((blog) => (
                     <CarouselItem key={blog.id} className="md:basis-1/3 ">
-                      <div className="">
+                      <div className="rounded-lg">
                         <BlogCard blog={blog} />
                       </div>
                     </CarouselItem>
                   ))}
                 </CarouselContent>
 
-                <CarouselPrevious className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white shadow-md transition-all duration-300 hover:scale-110" />
-                <CarouselNext className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white shadow-md transition-all duration-300 hover:scale-110" />
+                <CarouselPrevious />
+                <CarouselNext />
               </Carousel>
             </div>
           )}

@@ -1,4 +1,4 @@
-// src/app/blogs/[slug]/page.jsx
+// src/components/Blogs/BlogDetails.jsx
 "use client";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -8,15 +8,28 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import PopularBlogs from "./PopularBlogs";
-import { fetchBlogBySlug, fetchPopularBlogs } from "@/redux/features/blogSlice";
+import {
+  fetchAllBlogs,
+  fetchBlogBySlug,
+  fetchPopularBlogs,
+} from "@/redux/features/blogSlice";
 
-const BlogDetails = ({ params }) => {
-  const { slug } = params;
+const BlogDetails = ({ slug }) => {
+  //   const { slug } = params;
   const dispatch = useDispatch();
   const router = useRouter();
   const { currentBlog, popularBlogs, allBlogs, loading } = useSelector(
     (state) => state.blogs
   );
+
+  useEffect(() => {
+    // Fetch all blogs first to ensure we have them for navigation
+    dispatch(fetchAllBlogs()).then(() => {
+      // Then fetch the specific blog
+      dispatch(fetchBlogBySlug(slug));
+    });
+    dispatch(fetchPopularBlogs());
+  }, [slug, dispatch]);
 
   // Find current index for next/prev navigation
   const currentIndex = allBlogs.findIndex((blog) => blog.slug === slug);
@@ -24,12 +37,7 @@ const BlogDetails = ({ params }) => {
   const nextBlog =
     currentIndex < allBlogs.length - 1 ? allBlogs[currentIndex + 1] : null;
 
-  useEffect(() => {
-    dispatch(fetchBlogBySlug(slug));
-    dispatch(fetchPopularBlogs());
-  }, [slug, dispatch]);
-
-  if (loading && !currentBlog) {
+  if (loading) {
     return (
       <div className="min-h-screen py-12">
         <div className="container mx-auto px-4">
@@ -50,7 +58,7 @@ const BlogDetails = ({ params }) => {
     );
   }
 
-  if (!currentBlog) {
+  if (!currentBlog && !loading) {
     return (
       <div className="min-h-screen py-12">
         <div className="container mx-auto px-4 text-center">
