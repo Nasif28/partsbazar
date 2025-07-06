@@ -76,5 +76,83 @@
         "category": "Electrical",
         "popular": true,
         "readingTime": "8 min read"
+    },
+    {
+        "id": 7,
+        "title": "Changing Engine Oil",
+        "slug": "changing-engine-oil",
+        "excerpt": "Learn how to change your engine oil properly to extend your vehicle's life.",
+        "content": "<p>Changing your vehicle's engine oil is not a difficult task, but it is one that must be done properly. Learn how to change oil by following these steps.</p><p>A correctly performed oil change extends your vehicle's life while keeping you and the environment safe.</p><h3>Step 1: Park your car on a level surface</h3><p>Park your car on a level surface and apply parking brake. Run your engine for 5 minutes before draining oil, as warm oil drains faster than cold.</p><h3>Step 2: Jack your car up</h3><p>A jack alone will not safely support the full weight of your car. Consult your manual for the proper jacking points.</p>",
+        "author": "Vosure Yoshda",
+        "date": "2022-10-27",
+        "thumbnail": "https://japanparts.com.bd/cdn/shop/articles/1_2.png",
+        "category": "Maintenance",
+        "popular": true,
+        "readingTime": "5 min read"
+    },
+    {
+        "id": 8,
+        "title": "Replacing Brake Pads",
+        "slug": "replacing-brake-pads",
+        "excerpt": "Step-by-step guide to safely replacing your car's brake pads.",
+        "content": "<p>Brake pads are a critical safety component of your vehicle. Learn how to replace them properly.</p>",
+        "author": "Auto Expert",
+        "date": "2023-02-15",
+        "thumbnail": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
+        "category": "Brakes",
+        "popular": true,
+        "readingTime": "4 min read"
+    },
+    {
+        "id": 9,
+        "title": "How to Change Oil Filter",
+        "slug": "change-oil-filter",
+        "excerpt": "Essential guide to changing your car's oil filter for optimal engine performance.",
+        "content": "<p>Changing your oil filter is just as important as changing your engine oil.</p>",
+        "author": "Mechanic Pro",
+        "date": "2023-01-10",
+        "thumbnail": "https://japanparts.com.bd/cdn/shop/articles/1_1.png",
+        "category": "Maintenance",
+        "popular": true,
+        "readingTime": "3 min read"
+    },
+    {
+        "id": 10,
+        "title": "10 Road Safety Tips for Driving in the Rain",
+        "slug": "rain-driving-safety",
+        "excerpt": "Essential safety tips for driving in wet conditions.",
+        "content": "<p>Driving in the rain requires extra caution and preparation.</p>",
+        "author": "Safety First",
+        "date": "2023-03-22",
+        "thumbnail": "https://japanparts.com.bd/cdn/shop/articles/1_4.png",
+        "category": "Safety",
+        "popular": false,
+        "readingTime": "7 min read"
+    },
+    {
+        "id": 11,
+        "title": "Winter Car Maintenance Checklist",
+        "slug": "winter-car-maintenance",
+        "excerpt": "Prepare your car for winter with this comprehensive maintenance checklist.",
+        "content": "<p>Winter brings unique challenges for your vehicle. Be prepared!</p>",
+        "author": "Seasonal Expert",
+        "date": "2022-11-30",
+        "thumbnail": "https://japanparts.com.bd/cdn/shop/articles/ChangeBattery.png",
+        "category": "Seasonal",
+        "popular": false,
+        "readingTime": "6 min read"
+    },
+    {
+        "id": 12,
+        "title": "Understanding Your Car's Electrical System",
+        "slug": "car-electrical-system",
+        "excerpt": "A beginner's guide to your car's electrical components and how they work.",
+        "content": "<p>Modern cars rely heavily on complex electrical systems.</p>",
+        "author": "Electro Auto",
+        "date": "2023-04-18",
+        "thumbnail": "https://japanparts.com.bd/cdn/shop/articles/1_1.png",
+        "category": "Electrical",
+        "popular": true,
+        "readingTime": "8 min read"
     }
 ]
