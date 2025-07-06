@@ -37,14 +37,14 @@ const TopBrands = () => {
   return (
     <section className="myContainer">
       <div className="container mx-auto py-6">
-        <div className="flex items-center mb-8 gap-4">
+        <div className="flex items-center mb-8 gap-2">
           <h2 className="text-2xl font-bold whitespace-nowrap">Top Brands</h2>
 
-          <div className="w-full border-t border-sidebar-border mx-4"></div>
+          <div className="w-full border-t border-primary mx-4"></div>
 
           <Link
             href="/brands"
-            className="bg-primary hover:bg-primary-dark rounded-3xl px-3 py-2 text-white text-sm font-medium flex items-center gap-1 whitespace-nowrap"
+            className="bg-primary hover:bg-primary-dark rounded-3xl px-3 py-1.5 text-white text-xs font-bold flex items-center gap-1 whitespace-nowrap"
           >
             All Brands
             <ChevronRight className="w-4 h-4" />
