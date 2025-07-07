@@ -12,29 +12,15 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { ChevronRight } from "lucide-react";
+import Autoplay from "embla-carousel-autoplay";
 
 const BlogSlider = () => {
   const dispatch = useDispatch();
   const { popularBlogs, loading } = useSelector((state) => state.blogs);
-  const [api, setApi] = React.useState();
 
   useEffect(() => {
     dispatch(fetchPopularBlogs());
   }, [dispatch]);
-
-  useEffect(() => {
-    if (!api) return;
-
-    const interval = setInterval(() => {
-      if (api.canScrollNext()) {
-        api.scrollNext();
-      } else {
-        api.scrollTo(0);
-      }
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, [api]);
 
   return (
     <section className="bg-secondary py-6">
@@ -75,11 +61,8 @@ const BlogSlider = () => {
           ) : (
             <div className="relative">
               <Carousel
-                opts={{
-                  align: "start",
-                  slidesToScroll: 1,
-                }}
-                setApi={setApi}
+                opts={{ align: "start", loop: true }}
+                plugins={[Autoplay({ delay: 3000, stopOnInteraction: false })]}
                 className="w-full"
               >
                 <CarouselContent>

@@ -1,4 +1,3 @@
-// src/components/Blogs/BlogDetails.jsx
 "use client";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
@@ -13,9 +12,12 @@ import {
   fetchBlogBySlug,
   fetchPopularBlogs,
 } from "@/redux/features/blogSlice";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
+import Image from "next/image";
+import { Separator } from "../ui/separator";
+import { Textarea } from "../ui/textarea";
 
 const BlogDetails = ({ slug }) => {
-  //   const { slug } = params;
   const dispatch = useDispatch();
   const router = useRouter();
   const { currentBlog, popularBlogs, allBlogs, loading } = useSelector(
@@ -23,15 +25,12 @@ const BlogDetails = ({ slug }) => {
   );
 
   useEffect(() => {
-    // Fetch all blogs first to ensure we have them for navigation
     dispatch(fetchAllBlogs()).then(() => {
-      // Then fetch the specific blog
       dispatch(fetchBlogBySlug(slug));
     });
     dispatch(fetchPopularBlogs());
   }, [slug, dispatch]);
 
-  // Find current index for next/prev navigation
   const currentIndex = allBlogs.findIndex((blog) => blog.slug === slug);
   const prevBlog = currentIndex > 0 ? allBlogs[currentIndex - 1] : null;
   const nextBlog =
@@ -73,19 +72,63 @@ const BlogDetails = ({ slug }) => {
   }
 
   return (
-    <div className="min-h-screen py-12 bg-gray-50">
+    <div className="min-h-screen py-6">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Main Content */}
           <div className="lg:w-2/3">
-            <article className="bg-white rounded-lg shadow-md overflow-hidden">
-              {/* Blog Image */}
-              <div className="relative h-96">
-                <img
+            <article className="rounded-lg shadow-md overflow-hidden">
+              {/* Category */}
+              <span className="text-xs uppercase bg-red-100 text-red-600 px-2 py-1 rounded mb-4 inline-block">
+                {currentBlog.category}
+              </span>
+
+              {/* Title */}
+              <h1 className="text-3xl font-bold mb-2">{currentBlog.title}</h1>
+
+              {/* Meta Info */}
+              <div className="flex items-center space-x-4 text-sm text-muted-foreground mb-6">
+                <Avatar className="w-6 h-6">
+                  <AvatarImage src="https://ui-avatars.com/api/?name=Vosure+Yoshda" />
+                  <AvatarFallback>VY</AvatarFallback>
+                </Avatar>
+                <span>By {currentBlog.author}</span>
+                <span>•</span>
+                <span>{currentBlog.date}</span>
+                <span>•</span>
+                <span>{currentBlog.readingTime}</span>
+              </div>
+
+              {/* Thumbnail */}
+              <div className="rounded overflow-hidden mb-8">
+                <Image
                   src={currentBlog.thumbnail}
                   alt={currentBlog.title}
-                  className="w-full h-full object-cover"
+                  width={800}
+                  height={400}
+                  className="w-full h-auto rounded-md"
                 />
+              </div>
+
+              <article
+                className="prose prose-neutral dark:prose-invert max-w-none"
+                dangerouslySetInnerHTML={{ __html: currentBlog.content }}
+              />
+
+              <Separator className="my-10" />
+
+              {/* Share Buttons */}
+              <div className="flex space-x-4 items-center mb-10">
+                <span className="text-sm font-medium">Share:</span>
+                <Button size="icon" variant="outline">
+                  <i className="fab fa-facebook-f" />
+                </Button>
+                <Button size="icon" variant="outline">
+                  <i className="fab fa-twitter" />
+                </Button>
+                <Button size="icon" variant="outline">
+                  <i className="fab fa-linkedin-in" />
+                </Button>
               </div>
 
               {/* Blog Content */}
@@ -148,6 +191,15 @@ const BlogDetails = ({ slug }) => {
               ) : (
                 <div />
               )}
+            </div>
+
+            {/* Comments */}
+            <div>
+              <h2 className="text-lg font-semibold mb-4">Leave a Reply</h2>
+              <form className="space-y-4">
+                <Textarea placeholder="Comment" required />
+                <Button type="submit">Post Comment</Button>
+              </form>
             </div>
           </div>
 
