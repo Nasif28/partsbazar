@@ -92,8 +92,8 @@ const BlogSlider = () => {
                   ))}
                 </CarouselContent>
 
-                <CarouselPrevious />
-                <CarouselNext />
+                <CarouselPrevious className="left-2 2xl:-left-12" />
+                <CarouselNext className="right-2 2xl:-right-12" />
               </Carousel>
             </div>
           )}
