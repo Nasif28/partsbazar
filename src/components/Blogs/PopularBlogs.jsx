@@ -15,20 +15,21 @@ const PopularBlogs = ({ blog }) => {
   return (
     <Link
       href={`/blogs/${blog.slug}`}
-      className="flex group hover:bg-gray-50 p-2 rounded-md transition"
+      className="flex group hover:bg-secondary p-2 rounded-md transition"
     >
-      <div className="relative w-16 h-16 flex-shrink-0 mr-4">
+      <div className="relative w-28 h-16 flex-shrink-0 mr-4">
         <Image
           src={blog.thumbnail}
           alt={blog.title}
           fill
-          className="object-cover rounded-md"
+          className="object-cover rounded-sm"
           sizes="64px"
         />
       </div>
+
       <div>
-        <div className="text-xs text-gray-500">{formatDate(blog.date)}</div>
-        <h4 className="font-medium group-hover:text-blue-600 transition-colors">
+        <div className="text-xs text-textLight">{formatDate(blog.date)}</div>
+        <h4 className="font-medium group-hover:text-primary transition-colors">
           {blog.title}
         </h4>
       </div>

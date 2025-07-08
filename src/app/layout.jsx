@@ -3,6 +3,7 @@ import { ThemeProvider } from "@/providers/theme-provider";
 import "../styles/globals.css";
 import { store } from "@/redux/store";
 import { Provider } from "react-redux";
+import { Toaster } from "@/components/ui/sonner";
 
 export default function RootLayout({ children }) {
   return (
@@ -15,7 +16,10 @@ export default function RootLayout({ children }) {
           disableTransitionOnChange
         >
           <Provider store={store}>
-            <div className="maxContainer">{children}</div>
+            <div className="maxContainer">
+              {children}
+              <Toaster position="top-right" richColors />
+            </div>
           </Provider>
         </ThemeProvider>
       </body>

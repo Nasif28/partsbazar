@@ -8,6 +8,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
+import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
 
 const BlogShare = ({ blog }) => {
   const shareUrl = typeof window !== "undefined" ? window.location.href : "";
@@ -107,65 +108,113 @@ const BlogShare = ({ blog }) => {
     <div className="flex flex-wrap gap-3 items-center mb-10">
       <span className="text-sm font-medium">Share:</span>
 
-      <Button
-        size="icon"
-        variant="outline"
-        onClick={shareOnFacebook}
-        aria-label="Share on Facebook"
-        className="cursor-pointer"
-      >
-        <Facebook className="h-4 w-4 text-primary" />
-      </Button>
+      <Tooltip>
+        <TooltipTrigger>
+          <Button
+            size="icon"
+            variant="outline"
+            onClick={shareOnFacebook}
+            aria-label="Share on Facebook"
+            className="cursor-pointer"
+          >
+            <Facebook className="h-4 w-4 text-primary" />
+          </Button>
+        </TooltipTrigger>
 
-      <Button
-        size="icon"
-        variant="outline"
-        onClick={shareOnTwitter}
-        aria-label="Share on Twitter"
-        className="cursor-pointer"
-      >
-        <Twitter className="h-4 w-4 text-primary" />
-      </Button>
+        <TooltipContent>
+          <p>Share on Facebook</p>
+        </TooltipContent>
+      </Tooltip>
 
-      <Button
-        size="icon"
-        variant="outline"
-        onClick={shareOnLinkedIn}
-        aria-label="Share on LinkedIn"
-        className="cursor-pointer"
-      >
-        <Linkedin className="h-4 w-4 text-primary" />
-      </Button>
+      <Tooltip>
+        <TooltipTrigger>
+          <Button
+            size="icon"
+            variant="outline"
+            onClick={shareOnTwitter}
+            aria-label="Share on Twitter"
+            className="cursor-pointer"
+          >
+            <Twitter className="h-4 w-4 text-primary" />
+          </Button>
+        </TooltipTrigger>
 
-      <Button
-        size="icon"
-        variant="outline"
-        onClick={shareViaEmail}
-        aria-label="Share via Email"
-        className="cursor-pointer"
-      >
-        <Mail className="h-4 w-4 text-primary" />
-      </Button>
+        <TooltipContent>
+          <p>Share on Twitter</p>
+        </TooltipContent>
+      </Tooltip>
 
-      <Button
-        size="icon"
-        variant="outline"
-        onClick={shareOnWhatsApp}
-        aria-label="Share on WhatsApp"
-        className="cursor-pointer"
-      >
-        <MessageCircle className="h-4 w-4 text-primary" />
-      </Button>
+      <Tooltip>
+        <TooltipTrigger>
+          <Button
+            size="icon"
+            variant="outline"
+            onClick={shareOnLinkedIn}
+            aria-label="Share on LinkedIn"
+            className="cursor-pointer"
+          >
+            <Linkedin className="h-4 w-4 text-primary" />
+          </Button>
+        </TooltipTrigger>
 
-      <Button
-        size="icon"
-        variant="outline"
-        onClick={copyToClipboard}
-        aria-label="Copy Clipboard"
-        className="cursor-pointer"
-      >
-        <Copy className="h-4 w-4 text-primary" />
-      </Button>
+        <TooltipContent>
+          <p>Share on LinkedIn</p>
+        </TooltipContent>
+      </Tooltip>
+
+      <Tooltip>
+        <TooltipTrigger>
+          <Button
+            size="icon"
+            variant="outline"
+            onClick={shareOnWhatsApp}
+            aria-label="Share on WhatsApp"
+            className="cursor-pointer"
+          >
+            <MessageCircle className="h-4 w-4 text-primary" />
+          </Button>
+        </TooltipTrigger>
+
+        <TooltipContent>
+          <p>Share on WhatsApp</p>
+        </TooltipContent>
+      </Tooltip>
+
+      <Tooltip>
+        <TooltipTrigger>
+          <Button
+            size="icon"
+            variant="outline"
+            onClick={shareViaEmail}
+            aria-label="Share via Email"
+            className="cursor-pointer"
+          >
+            <Mail className="h-4 w-4 text-primary" />
+          </Button>
+        </TooltipTrigger>
+
+        <TooltipContent>
+          <p>Send Email</p>
+        </TooltipContent>
+      </Tooltip>
+
+      <Tooltip>
+        <TooltipTrigger>
+          <Button
+            size="icon"
+            variant="outline"
+            onClick={copyToClipboard}
+            aria-label="Copy Clipboard"
+            className="cursor-pointer"
+          >
+            <Copy className="h-4 w-4 text-primary" />
+          </Button>
+        </TooltipTrigger>
+
+        <TooltipContent>
+          <p>Copy to Clipboard</p>
+        </TooltipContent>
+      </Tooltip>
     </div>
   );
 };
