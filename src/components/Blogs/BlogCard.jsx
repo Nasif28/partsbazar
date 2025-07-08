@@ -38,7 +38,7 @@ const BlogCard = ({ blog }) => {
 
       {/* Content overlay */}
       <div
-        className="absolute bottom-0 left-0 right-0 z-10 bg-gradient-to-t from-black to-transparent p-4 text-white
+        className="absolute rounded-b-lg bottom-0 left-0 right-0 z-10 bg-gradient-to-t from-black to-transparent p-4 text-white
   transform opacity-0 translate-y-6 group-hover:opacity-100 group-hover:translate-y-0
   transition-all duration-500 ease-in-out"
       >

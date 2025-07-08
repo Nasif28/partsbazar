@@ -1,0 +1,116 @@
+[
+    {
+        "id": "1",
+        "title": "Idemitsu 0W-20 Full Synthetic 4L",
+        "brand": "Idemitsu",
+        "description": "Premium full synthetic engine oil with advanced additives for superior engine protection and fuel efficiency. Suitable for both gasoline and diesel engines.",
+        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
+        "price": 55300,
+        "discountPrice": 14949,
+        "inStock": true,
+        "category": "Engine Oil",
+        "rating": 4.8,
+        "specifications": [
+            "Viscosity: 0W-20",
+            "Volume: 4 Liters",
+            "API SP, ILSAC GF-6",
+            "Synthetic Base Oil",
+            "Fuel Economy Improvement"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Castrol EDGE 5W-30 Advanced Full Synthetic",
+        "brand": "Castrol",
+        "description": "High performance full synthetic engine oil with Fluid Titanium Technology for superior strength under pressure and maximum engine performance.",
+        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
+        "price": 48200,
+        "discountPrice": 35999,
+        "inStock": true,
+        "category": "Engine Oil",
+        "rating": 4.7,
+        "specifications": [
+            "Viscosity: 5W-30",
+            "Volume: 5 Liters",
+            "API SN Plus, ACEA C3",
+            "Full Synthetic",
+            "Turbo Protection"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Mobil 1 Extended Performance 5W-30",
+        "brand": "Mobil",
+        "description": "Advanced full synthetic motor oil that provides excellent engine protection for up to 20,000 miles between oil changes.",
+        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
+        "price": 61200,
+        "discountPrice": 45900,
+        "inStock": false,
+        "category": "Engine Oil",
+        "rating": 4.9,
+        "specifications": [
+            "Viscosity: 5W-30",
+            "Volume: 5 Liters",
+            "Dexos1™ Gen 2 approved",
+            "Full Synthetic",
+            "20,000 mile protection"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Idemitsu 0W-20 Full Synthetic 4L",
+        "brand": "Idemitsu",
+        "description": "Premium full synthetic engine oil with advanced additives for superior engine protection and fuel efficiency. Suitable for both gasoline and diesel engines.",
+        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
+        "price": 55300,
+        "discountPrice": 14949,
+        "inStock": true,
+        "category": "Engine Oil",
+        "rating": 4.8,
+        "specifications": [
+            "Viscosity: 0W-20",
+            "Volume: 4 Liters",
+            "API SP, ILSAC GF-6",
+            "Synthetic Base Oil",
+            "Fuel Economy Improvement"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Castrol EDGE 5W-30 Advanced Full Synthetic",
+        "brand": "Castrol",
+        "description": "High performance full synthetic engine oil with Fluid Titanium Technology for superior strength under pressure and maximum engine performance.",
+        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
+        "price": 48200,
+        "discountPrice": 35999,
+        "inStock": true,
+        "category": "Engine Oil",
+        "rating": 4.7,
+        "specifications": [
+            "Viscosity: 5W-30",
+            "Volume: 5 Liters",
+            "API SN Plus, ACEA C3",
+            "Full Synthetic",
+            "Turbo Protection"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Mobil 1 Extended Performance 5W-30",
+        "brand": "Mobil",
+        "description": "Advanced full synthetic motor oil that provides excellent engine protection for up to 20,000 miles between oil changes.",
+        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
+        "price": 61200,
+        "discountPrice": 45900,
+        "inStock": false,
+        "category": "Engine Oil",
+        "rating": 4.9,
+        "specifications": [
+            "Viscosity: 5W-30",
+            "Volume: 5 Liters",
+            "Dexos1™ Gen 2 approved",
+            "Full Synthetic",
+            "20,000 mile protection"
+        ]
+    }
+]
