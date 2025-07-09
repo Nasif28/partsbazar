@@ -38,15 +38,15 @@ export default function ProductModal({ product, open, onOpenChange }) {
               {product.discountPrice ? (
                 <>
                   <span className="text-2xl font-bold text-gray-900">
-                    ${product.discountPrice.toLocaleString()}
+                    ৳{product.discountPrice.toLocaleString()}
                   </span>
                   <span className="ml-2 text-lg text-gray-500 line-through">
-                    ${product.price.toLocaleString()}
+                    ৳{product.price.toLocaleString()}
                   </span>
                 </>
               ) : (
                 <span className="text-2xl font-bold text-gray-900">
-                  ${product.price.toLocaleString()}
+                  ৳{product.price.toLocaleString()}
                 </span>
               )}
             </div>

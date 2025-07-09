@@ -1,7 +1,7 @@
-import React from "react";
-
-const UserLayout = () => {
-  return <div>UserLayout</div>;
-};
-
-export default UserLayout;
+export default function UserLayout({ children }) {
+  return (
+    <>
+      <main>{children}</main>
+    </>
+  );
+}

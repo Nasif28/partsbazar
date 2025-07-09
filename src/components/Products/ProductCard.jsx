@@ -1,6 +1,5 @@
 "use client";
-
-import { Heart, Eye, Scale } from "lucide-react";
+import { Heart, Eye, Scale, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import logo from "@/assets/logo.png";
@@ -8,12 +7,13 @@ import Image from "next/image";
 
 export default function ProductCard({
   product,
+  inWishlist,
   onAddToWishlist,
+  onAddToCart,
   onAddToCompare,
   onQuickView,
-  onAddToCart,
-  iconVisibility = "hover",
 }) {
+  // Calculate discount percentage
   const discountPercentage = product.discountPrice
     ? Math.round(
         ((product.price - product.discountPrice) / product.price) * 100
@@ -55,28 +55,26 @@ export default function ProductCard({
       </Link>
 
       {/* Action buttons */}
-      <div
-        className={`absolute right-3 top-10 flex flex-col gap-2 transition-opacity ${
-          iconVisibility === "always"
-            ? "opacity-100"
-            : "opacity-0 group-hover:opacity-100"
-        }`}
-      >
+      <div className="absolute right-3 top-10 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-opacity">
         <Button
           variant="outline"
           size="icon"
           className="h-8 w-8 rounded-full bg-white/80 backdrop-blur-sm hover:bg-white"
-          onClick={() => onAddToWishlist?.(product)}
-          aria-label="Add to wishlist"
+          onClick={onAddToWishlist}
+          aria-label={inWishlist ? "Remove from wishlist" : "Add to wishlist"}
         >
-          <Heart className="h-4 w-4" />
+          <Heart
+            className={`h-4 w-4 ${
+              inWishlist ? "fill-current text-red-500" : ""
+            }`}
+          />
         </Button>
 
         <Button
           variant="outline"
           size="icon"
           className="h-8 w-8 rounded-full bg-white/80 backdrop-blur-sm hover:bg-white"
-          onClick={() => onQuickView?.(product)}
+          onClick={onQuickView}
           aria-label="Quick view"
         >
           <Eye className="h-4 w-4" />
@@ -86,7 +84,7 @@ export default function ProductCard({
           variant="outline"
           size="icon"
           className="h-8 w-8 rounded-full bg-white/80 backdrop-blur-sm hover:bg-white"
-          onClick={() => onAddToCompare?.(product)}
+          onClick={onAddToCompare}
           aria-label="Add to compare"
         >
           <Scale className="h-4 w-4" />
@@ -118,20 +116,20 @@ export default function ProductCard({
           {product.discountPrice ? (
             <>
               <span className="text-lg font-bold text-gray-900">
-                ${product.discountPrice.toLocaleString()}
+                ৳{product.discountPrice.toLocaleString()}
               </span>
               <span className="ml-2 text-sm text-gray-500 line-through">
-                ${product.price.toLocaleString()}
+                ৳{product.price.toLocaleString()}
               </span>
             </>
           ) : (
             <span className="text-lg font-bold text-gray-900">
-              ${product.price.toLocaleString()}
+              ৳{product.price.toLocaleString()}
             </span>
           )}
         </div>
 
-        <Button className="mt-4 w-full" onClick={() => onAddToCart?.(product)}>
+        <Button className="mt-4 w-full" onClick={onAddToCart}>
           Add To Cart
         </Button>
       </div>
