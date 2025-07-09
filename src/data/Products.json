@@ -1,116 +1,1598 @@
 [
     {
         "id": "1",
-        "title": "Idemitsu 0W-20 Full Synthetic 4L",
-        "brand": "Idemitsu",
-        "description": "Premium full synthetic engine oil with advanced additives for superior engine protection and fuel efficiency. Suitable for both gasoline and diesel engines.",
-        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
-        "price": 55300,
-        "discountPrice": 14949,
+        "title": "Toyota Car Parts & Accessories Part 1",
+        "brand": "Bosch",
+        "description": "Toyota Car Parts & Accessories Part 1 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 32278,
+        "discountPrice": 22031,
         "inStock": true,
-        "category": "Engine Oil",
+        "category": "Car Parts & Accessories",
         "rating": 4.8,
         "specifications": [
-            "Viscosity: 0W-20",
-            "Volume: 4 Liters",
-            "API SP, ILSAC GF-6",
-            "Synthetic Base Oil",
-            "Fuel Economy Improvement"
+            "Efficient design",
+            "Rust resistant",
+            "ISO certified",
+            "Lightweight",
+            "Durable material"
         ]
     },
     {
         "id": "2",
-        "title": "Castrol EDGE 5W-30 Advanced Full Synthetic",
-        "brand": "Castrol",
-        "description": "High performance full synthetic engine oil with Fluid Titanium Technology for superior strength under pressure and maximum engine performance.",
-        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
-        "price": 48200,
-        "discountPrice": 35999,
-        "inStock": true,
-        "category": "Engine Oil",
-        "rating": 4.7,
+        "title": "Mobil Car Parts & Accessories Part 2",
+        "brand": "Mobil",
+        "description": "Mobil Car Parts & Accessories Part 2 - Efficient design for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 35527,
+        "discountPrice": 26706,
+        "inStock": false,
+        "category": "Car Parts & Accessories",
+        "rating": 4.2,
         "specifications": [
-            "Viscosity: 5W-30",
-            "Volume: 5 Liters",
-            "API SN Plus, ACEA C3",
-            "Full Synthetic",
-            "Turbo Protection"
+            "Long life",
+            "Durable material",
+            "Rust resistant",
+            "High performance",
+            "OEM certified"
         ]
     },
     {
         "id": "3",
-        "title": "Mobil 1 Extended Performance 5W-30",
+        "title": "Mobil Car Parts & Accessories Part 3",
         "brand": "Mobil",
-        "description": "Advanced full synthetic motor oil that provides excellent engine protection for up to 20,000 miles between oil changes.",
-        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
-        "price": 61200,
-        "discountPrice": 45900,
+        "description": "Mobil Car Parts & Accessories Part 3 - Long life for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 5720,
+        "discountPrice": 4233,
         "inStock": false,
-        "category": "Engine Oil",
-        "rating": 4.9,
+        "category": "Car Parts & Accessories",
+        "rating": 4.1,
         "specifications": [
-            "Viscosity: 5W-30",
-            "Volume: 5 Liters",
-            "Dexos1™ Gen 2 approved",
-            "Full Synthetic",
-            "20,000 mile protection"
+            "ISO certified",
+            "High performance",
+            "Durable material",
+            "Lightweight",
+            "OEM certified"
         ]
     },
     {
         "id": "4",
-        "title": "Idemitsu 0W-20 Full Synthetic 4L",
-        "brand": "Idemitsu",
-        "description": "Premium full synthetic engine oil with advanced additives for superior engine protection and fuel efficiency. Suitable for both gasoline and diesel engines.",
-        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
-        "price": 55300,
-        "discountPrice": 14949,
+        "title": "Honda Car Parts & Accessories Part 4",
+        "brand": "Mobil",
+        "description": "Honda Car Parts & Accessories Part 4 - Efficient design for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 30366,
+        "discountPrice": 15411,
         "inStock": true,
-        "category": "Engine Oil",
-        "rating": 4.8,
+        "category": "Car Parts & Accessories",
+        "rating": 4.3,
         "specifications": [
-            "Viscosity: 0W-20",
-            "Volume: 4 Liters",
-            "API SP, ILSAC GF-6",
-            "Synthetic Base Oil",
-            "Fuel Economy Improvement"
+            "Efficient design",
+            "Lightweight",
+            "ISO certified",
+            "Durable material",
+            "Rust resistant"
         ]
     },
     {
         "id": "5",
-        "title": "Castrol EDGE 5W-30 Advanced Full Synthetic",
-        "brand": "Castrol",
-        "description": "High performance full synthetic engine oil with Fluid Titanium Technology for superior strength under pressure and maximum engine performance.",
-        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
-        "price": 48200,
-        "discountPrice": 35999,
-        "inStock": true,
-        "category": "Engine Oil",
-        "rating": 4.7,
+        "title": "Denso Car Parts & Accessories Part 5",
+        "brand": "Honda",
+        "description": "Denso Car Parts & Accessories Part 5 - Long life for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 34403,
+        "discountPrice": 27010,
+        "inStock": false,
+        "category": "Car Parts & Accessories",
+        "rating": 4.6,
         "specifications": [
-            "Viscosity: 5W-30",
-            "Volume: 5 Liters",
-            "API SN Plus, ACEA C3",
-            "Full Synthetic",
-            "Turbo Protection"
+            "Durable material",
+            "ISO certified",
+            "Lightweight",
+            "Efficient design",
+            "Rust resistant"
         ]
     },
     {
         "id": "6",
-        "title": "Mobil 1 Extended Performance 5W-30",
-        "brand": "Mobil",
-        "description": "Advanced full synthetic motor oil that provides excellent engine protection for up to 20,000 miles between oil changes.",
-        "imageUrl": "https://japanparts.com.bd/cdn/shop/articles/Driving-in-the-Rain-Safety-The-Reyes-Firm-940x470.png",
-        "price": 61200,
-        "discountPrice": 45900,
+        "title": "NGK Car Parts & Accessories Part 6",
+        "brand": "Denso",
+        "description": "NGK Car Parts & Accessories Part 6 - ISO certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 63425,
+        "discountPrice": 42176,
         "inStock": false,
-        "category": "Engine Oil",
+        "category": "Car Parts & Accessories",
+        "rating": 4.7,
+        "specifications": [
+            "Durable material",
+            "OEM certified",
+            "Long life",
+            "ISO certified",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "Toyota Car Parts & Accessories Part 7",
+        "brand": "Toyota",
+        "description": "Toyota Car Parts & Accessories Part 7 - Lightweight for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 59916,
+        "discountPrice": 41160,
+        "inStock": false,
+        "category": "Car Parts & Accessories",
+        "rating": 3.9,
+        "specifications": [
+            "High performance",
+            "Durable material",
+            "OEM certified",
+            "Rust resistant",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "Castrol Bike Parts & Accessories Part 1",
+        "brand": "Bosch",
+        "description": "Castrol Bike Parts & Accessories Part 1 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 62829,
+        "discountPrice": 44361,
+        "inStock": false,
+        "category": "Bike Parts & Accessories",
+        "rating": 4.8,
+        "specifications": [
+            "Long life",
+            "Lightweight",
+            "Rust resistant",
+            "ISO certified",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "9",
+        "title": "Honda Bike Parts & Accessories Part 2",
+        "brand": "Honda",
+        "description": "Honda Bike Parts & Accessories Part 2 - Rust resistant for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 37627,
+        "discountPrice": 33757,
+        "inStock": true,
+        "category": "Bike Parts & Accessories",
+        "rating": 4.6,
+        "specifications": [
+            "ISO certified",
+            "Durable material",
+            "Long life",
+            "Efficient design",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "10",
+        "title": "Bosch Bike Parts & Accessories Part 3",
+        "brand": "Bosch",
+        "description": "Bosch Bike Parts & Accessories Part 3 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 35840,
+        "discountPrice": 25213,
+        "inStock": true,
+        "category": "Bike Parts & Accessories",
+        "rating": 4.5,
+        "specifications": [
+            "Efficient design",
+            "Long life",
+            "High performance",
+            "OEM certified",
+            "Durable material"
+        ]
+    },
+    {
+        "id": "11",
+        "title": "Honda Bike Parts & Accessories Part 4",
+        "brand": "NGK",
+        "description": "Honda Bike Parts & Accessories Part 4 - Long life for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 22070,
+        "discountPrice": 19625,
+        "inStock": false,
+        "category": "Bike Parts & Accessories",
+        "rating": 4.8,
+        "specifications": [
+            "Efficient design",
+            "Durable material",
+            "Lightweight",
+            "High performance",
+            "Long life"
+        ]
+    },
+    {
+        "id": "12",
+        "title": "Honda Bike Parts & Accessories Part 5",
+        "brand": "Shell",
+        "description": "Honda Bike Parts & Accessories Part 5 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 31593,
+        "discountPrice": 24675,
+        "inStock": false,
+        "category": "Bike Parts & Accessories",
+        "rating": 3.7,
+        "specifications": [
+            "Lightweight",
+            "High performance",
+            "Long life",
+            "OEM certified",
+            "Durable material"
+        ]
+    },
+    {
+        "id": "13",
+        "title": "Denso Bike Parts & Accessories Part 6",
+        "brand": "Honda",
+        "description": "Denso Bike Parts & Accessories Part 6 - Long life for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 17137,
+        "discountPrice": 8910,
+        "inStock": false,
+        "category": "Bike Parts & Accessories",
+        "rating": 4.2,
+        "specifications": [
+            "Efficient design",
+            "ISO certified",
+            "OEM certified",
+            "Lightweight",
+            "Rust resistant"
+        ]
+    },
+    {
+        "id": "14",
+        "title": "Castrol Bike Parts & Accessories Part 7",
+        "brand": "Denso",
+        "description": "Castrol Bike Parts & Accessories Part 7 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 54373,
+        "discountPrice": 29204,
+        "inStock": false,
+        "category": "Bike Parts & Accessories",
         "rating": 4.9,
         "specifications": [
-            "Viscosity: 5W-30",
-            "Volume: 5 Liters",
-            "Dexos1™ Gen 2 approved",
-            "Full Synthetic",
-            "20,000 mile protection"
+            "Durable material",
+            "Long life",
+            "OEM certified",
+            "ISO certified",
+            "Rust resistant"
+        ]
+    },
+    {
+        "id": "15",
+        "title": "Denso Electrical & Electronics Part 1",
+        "brand": "Mobil",
+        "description": "Denso Electrical & Electronics Part 1 - OEM certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 79515,
+        "discountPrice": 65872,
+        "inStock": false,
+        "category": "Electrical & Electronics",
+        "rating": 4.3,
+        "specifications": [
+            "Durable material",
+            "OEM certified",
+            "High performance",
+            "Lightweight",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "16",
+        "title": "Denso Electrical & Electronics Part 2",
+        "brand": "Bosch",
+        "description": "Denso Electrical & Electronics Part 2 - OEM certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 57279,
+        "discountPrice": 30693,
+        "inStock": false,
+        "category": "Electrical & Electronics",
+        "rating": 5.0,
+        "specifications": [
+            "Long life",
+            "OEM certified",
+            "ISO certified",
+            "Rust resistant",
+            "Lightweight"
+        ]
+    },
+    {
+        "id": "17",
+        "title": "Castrol Electrical & Electronics Part 3",
+        "brand": "Shell",
+        "description": "Castrol Electrical & Electronics Part 3 - OEM certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 76842,
+        "discountPrice": 49356,
+        "inStock": true,
+        "category": "Electrical & Electronics",
+        "rating": 4.0,
+        "specifications": [
+            "Durable material",
+            "Lightweight",
+            "Long life",
+            "Rust resistant",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "18",
+        "title": "Honda Electrical & Electronics Part 4",
+        "brand": "Honda",
+        "description": "Honda Electrical & Electronics Part 4 - Lightweight for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 9913,
+        "discountPrice": 6800,
+        "inStock": false,
+        "category": "Electrical & Electronics",
+        "rating": 4.4,
+        "specifications": [
+            "Rust resistant",
+            "Long life",
+            "Lightweight",
+            "OEM certified",
+            "Durable material"
+        ]
+    },
+    {
+        "id": "19",
+        "title": "Toyota Electrical & Electronics Part 5",
+        "brand": "Honda",
+        "description": "Toyota Electrical & Electronics Part 5 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 32334,
+        "discountPrice": 16660,
+        "inStock": true,
+        "category": "Electrical & Electronics",
+        "rating": 4.6,
+        "specifications": [
+            "Efficient design",
+            "ISO certified",
+            "Durable material",
+            "OEM certified",
+            "Rust resistant"
+        ]
+    },
+    {
+        "id": "20",
+        "title": "Castrol Electrical & Electronics Part 6",
+        "brand": "Bosch",
+        "description": "Castrol Electrical & Electronics Part 6 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 58281,
+        "discountPrice": 36238,
+        "inStock": false,
+        "category": "Electrical & Electronics",
+        "rating": 4.0,
+        "specifications": [
+            "Lightweight",
+            "Durable material",
+            "High performance",
+            "OEM certified",
+            "Rust resistant"
+        ]
+    },
+    {
+        "id": "21",
+        "title": "Shell Electrical & Electronics Part 7",
+        "brand": "Honda",
+        "description": "Shell Electrical & Electronics Part 7 - OEM certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 41019,
+        "discountPrice": 32693,
+        "inStock": false,
+        "category": "Electrical & Electronics",
+        "rating": 3.8,
+        "specifications": [
+            "Long life",
+            "Durable material",
+            "OEM certified",
+            "ISO certified",
+            "High performance"
+        ]
+    },
+    {
+        "id": "22",
+        "title": "Honda Industrial Equipment & Components Part 1",
+        "brand": "Honda",
+        "description": "Honda Industrial Equipment & Components Part 1 - ISO certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 68350,
+        "discountPrice": 49859,
+        "inStock": false,
+        "category": "Industrial Equipment & Components",
+        "rating": 4.6,
+        "specifications": [
+            "Rust resistant",
+            "OEM certified",
+            "High performance",
+            "ISO certified",
+            "Long life"
+        ]
+    },
+    {
+        "id": "23",
+        "title": "Shell Industrial Equipment & Components Part 2",
+        "brand": "NGK",
+        "description": "Shell Industrial Equipment & Components Part 2 - Rust resistant for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 27270,
+        "discountPrice": 15527,
+        "inStock": true,
+        "category": "Industrial Equipment & Components",
+        "rating": 3.5,
+        "specifications": [
+            "Rust resistant",
+            "OEM certified",
+            "Efficient design",
+            "Durable material",
+            "High performance"
+        ]
+    },
+    {
+        "id": "24",
+        "title": "Bosch Industrial Equipment & Components Part 3",
+        "brand": "Bosch",
+        "description": "Bosch Industrial Equipment & Components Part 3 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 47804,
+        "discountPrice": 28702,
+        "inStock": false,
+        "category": "Industrial Equipment & Components",
+        "rating": 4.6,
+        "specifications": [
+            "Durable material",
+            "Efficient design",
+            "OEM certified",
+            "High performance",
+            "Rust resistant"
+        ]
+    },
+    {
+        "id": "25",
+        "title": "Honda Industrial Equipment & Components Part 4",
+        "brand": "Castrol",
+        "description": "Honda Industrial Equipment & Components Part 4 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 19609,
+        "discountPrice": 14956,
+        "inStock": false,
+        "category": "Industrial Equipment & Components",
+        "rating": 3.7,
+        "specifications": [
+            "Rust resistant",
+            "Durable material",
+            "Efficient design",
+            "Lightweight",
+            "ISO certified"
+        ]
+    },
+    {
+        "id": "26",
+        "title": "Shell Industrial Equipment & Components Part 5",
+        "brand": "Denso",
+        "description": "Shell Industrial Equipment & Components Part 5 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 44713,
+        "discountPrice": 36690,
+        "inStock": true,
+        "category": "Industrial Equipment & Components",
+        "rating": 5.0,
+        "specifications": [
+            "Efficient design",
+            "Lightweight",
+            "High performance",
+            "Durable material",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "27",
+        "title": "Denso Industrial Equipment & Components Part 6",
+        "brand": "Honda",
+        "description": "Denso Industrial Equipment & Components Part 6 - Efficient design for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 70729,
+        "discountPrice": 37595,
+        "inStock": true,
+        "category": "Industrial Equipment & Components",
+        "rating": 3.9,
+        "specifications": [
+            "ISO certified",
+            "Durable material",
+            "High performance",
+            "Rust resistant",
+            "Long life"
+        ]
+    },
+    {
+        "id": "28",
+        "title": "Castrol Industrial Equipment & Components Part 7",
+        "brand": "Shell",
+        "description": "Castrol Industrial Equipment & Components Part 7 - ISO certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 74365,
+        "discountPrice": 47614,
+        "inStock": true,
+        "category": "Industrial Equipment & Components",
+        "rating": 4.6,
+        "specifications": [
+            "High performance",
+            "Lightweight",
+            "OEM certified",
+            "Rust resistant",
+            "Long life"
+        ]
+    },
+    {
+        "id": "29",
+        "title": "Mobil Heavy Vehicle Part 1",
+        "brand": "Denso",
+        "description": "Mobil Heavy Vehicle Part 1 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 41958,
+        "discountPrice": 30669,
+        "inStock": false,
+        "category": "Heavy Vehicle",
+        "rating": 3.9,
+        "specifications": [
+            "Rust resistant",
+            "ISO certified",
+            "OEM certified",
+            "Long life",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "30",
+        "title": "Bosch Heavy Vehicle Part 2",
+        "brand": "Denso",
+        "description": "Bosch Heavy Vehicle Part 2 - ISO certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 24605,
+        "discountPrice": 19742,
+        "inStock": true,
+        "category": "Heavy Vehicle",
+        "rating": 4.8,
+        "specifications": [
+            "Rust resistant",
+            "Lightweight",
+            "OEM certified",
+            "Durable material",
+            "High performance"
+        ]
+    },
+    {
+        "id": "31",
+        "title": "Toyota Heavy Vehicle Part 3",
+        "brand": "Toyota",
+        "description": "Toyota Heavy Vehicle Part 3 - OEM certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 53681,
+        "discountPrice": 47119,
+        "inStock": true,
+        "category": "Heavy Vehicle",
+        "rating": 3.5,
+        "specifications": [
+            "ISO certified",
+            "Long life",
+            "Durable material",
+            "Efficient design",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "32",
+        "title": "Toyota Heavy Vehicle Part 4",
+        "brand": "NGK",
+        "description": "Toyota Heavy Vehicle Part 4 - Long life for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 64093,
+        "discountPrice": 54503,
+        "inStock": true,
+        "category": "Heavy Vehicle",
+        "rating": 3.9,
+        "specifications": [
+            "Lightweight",
+            "ISO certified",
+            "Long life",
+            "High performance",
+            "Rust resistant"
+        ]
+    },
+    {
+        "id": "33",
+        "title": "Castrol Heavy Vehicle Part 5",
+        "brand": "Castrol",
+        "description": "Castrol Heavy Vehicle Part 5 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 36990,
+        "discountPrice": 29782,
+        "inStock": true,
+        "category": "Heavy Vehicle",
+        "rating": 3.9,
+        "specifications": [
+            "Durable material",
+            "Rust resistant",
+            "ISO certified",
+            "Efficient design",
+            "Lightweight"
+        ]
+    },
+    {
+        "id": "34",
+        "title": "Shell Heavy Vehicle Part 6",
+        "brand": "Honda",
+        "description": "Shell Heavy Vehicle Part 6 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 61792,
+        "discountPrice": 33662,
+        "inStock": false,
+        "category": "Heavy Vehicle",
+        "rating": 3.7,
+        "specifications": [
+            "Long life",
+            "Rust resistant",
+            "Lightweight",
+            "ISO certified",
+            "Durable material"
+        ]
+    },
+    {
+        "id": "35",
+        "title": "Mobil Heavy Vehicle Part 7",
+        "brand": "Bosch",
+        "description": "Mobil Heavy Vehicle Part 7 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 63451,
+        "discountPrice": 47572,
+        "inStock": true,
+        "category": "Heavy Vehicle",
+        "rating": 4.1,
+        "specifications": [
+            "OEM certified",
+            "Rust resistant",
+            "Durable material",
+            "ISO certified",
+            "High performance"
+        ]
+    },
+    {
+        "id": "36",
+        "title": "Bosch Hybrid Car Battery Part 1",
+        "brand": "Honda",
+        "description": "Bosch Hybrid Car Battery Part 1 - Efficient design for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 36227,
+        "discountPrice": 31531,
+        "inStock": false,
+        "category": "Hybrid Car Battery",
+        "rating": 4.4,
+        "specifications": [
+            "High performance",
+            "Long life",
+            "ISO certified",
+            "Rust resistant",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "37",
+        "title": "Bosch Hybrid Car Battery Part 2",
+        "brand": "Shell",
+        "description": "Bosch Hybrid Car Battery Part 2 - Lightweight for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 58416,
+        "discountPrice": 37781,
+        "inStock": true,
+        "category": "Hybrid Car Battery",
+        "rating": 3.6,
+        "specifications": [
+            "High performance",
+            "OEM certified",
+            "Long life",
+            "Lightweight",
+            "ISO certified"
+        ]
+    },
+    {
+        "id": "38",
+        "title": "NGK Hybrid Car Battery Part 3",
+        "brand": "NGK",
+        "description": "NGK Hybrid Car Battery Part 3 - ISO certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 19293,
+        "discountPrice": 16360,
+        "inStock": false,
+        "category": "Hybrid Car Battery",
+        "rating": 5.0,
+        "specifications": [
+            "High performance",
+            "ISO certified",
+            "Durable material",
+            "Long life",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "39",
+        "title": "Mobil Hybrid Car Battery Part 4",
+        "brand": "Bosch",
+        "description": "Mobil Hybrid Car Battery Part 4 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 23330,
+        "discountPrice": 11832,
+        "inStock": false,
+        "category": "Hybrid Car Battery",
+        "rating": 3.7,
+        "specifications": [
+            "Durable material",
+            "Rust resistant",
+            "ISO certified",
+            "Efficient design",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "40",
+        "title": "NGK Hybrid Car Battery Part 5",
+        "brand": "Honda",
+        "description": "NGK Hybrid Car Battery Part 5 - Rust resistant for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 19371,
+        "discountPrice": 15941,
+        "inStock": true,
+        "category": "Hybrid Car Battery",
+        "rating": 4.1,
+        "specifications": [
+            "OEM certified",
+            "ISO certified",
+            "Long life",
+            "Efficient design",
+            "Durable material"
+        ]
+    },
+    {
+        "id": "41",
+        "title": "Bosch Hybrid Car Battery Part 6",
+        "brand": "Denso",
+        "description": "Bosch Hybrid Car Battery Part 6 - Lightweight for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 3350,
+        "discountPrice": 2820,
+        "inStock": false,
+        "category": "Hybrid Car Battery",
+        "rating": 4.8,
+        "specifications": [
+            "Long life",
+            "Rust resistant",
+            "High performance",
+            "Efficient design",
+            "ISO certified"
+        ]
+    },
+    {
+        "id": "42",
+        "title": "Bosch Hybrid Car Battery Part 7",
+        "brand": "Toyota",
+        "description": "Bosch Hybrid Car Battery Part 7 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 55831,
+        "discountPrice": 48369,
+        "inStock": true,
+        "category": "Hybrid Car Battery",
+        "rating": 4.8,
+        "specifications": [
+            "OEM certified",
+            "Long life",
+            "Efficient design",
+            "High performance",
+            "ISO certified"
+        ]
+    },
+    {
+        "id": "43",
+        "title": "Denso Tools & Hardware Part 1",
+        "brand": "Honda",
+        "description": "Denso Tools & Hardware Part 1 - Lightweight for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 22767,
+        "discountPrice": 19128,
+        "inStock": false,
+        "category": "Tools & Hardware",
+        "rating": 3.6,
+        "specifications": [
+            "Lightweight",
+            "Efficient design",
+            "OEM certified",
+            "ISO certified",
+            "Long life"
+        ]
+    },
+    {
+        "id": "44",
+        "title": "Shell Tools & Hardware Part 2",
+        "brand": "Toyota",
+        "description": "Shell Tools & Hardware Part 2 - Rust resistant for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 13541,
+        "discountPrice": 8878,
+        "inStock": false,
+        "category": "Tools & Hardware",
+        "rating": 4.8,
+        "specifications": [
+            "Lightweight",
+            "Rust resistant",
+            "OEM certified",
+            "Long life",
+            "Durable material"
+        ]
+    },
+    {
+        "id": "45",
+        "title": "Honda Tools & Hardware Part 3",
+        "brand": "Honda",
+        "description": "Honda Tools & Hardware Part 3 - OEM certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 44457,
+        "discountPrice": 36288,
+        "inStock": true,
+        "category": "Tools & Hardware",
+        "rating": 4.3,
+        "specifications": [
+            "OEM certified",
+            "ISO certified",
+            "Efficient design",
+            "Lightweight",
+            "Rust resistant"
+        ]
+    },
+    {
+        "id": "46",
+        "title": "Toyota Tools & Hardware Part 4",
+        "brand": "Denso",
+        "description": "Toyota Tools & Hardware Part 4 - Lightweight for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 79159,
+        "discountPrice": 49294,
+        "inStock": true,
+        "category": "Tools & Hardware",
+        "rating": 3.5,
+        "specifications": [
+            "High performance",
+            "Efficient design",
+            "OEM certified",
+            "Rust resistant",
+            "Lightweight"
+        ]
+    },
+    {
+        "id": "47",
+        "title": "Shell Tools & Hardware Part 5",
+        "brand": "Denso",
+        "description": "Shell Tools & Hardware Part 5 - OEM certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 50901,
+        "discountPrice": 40391,
+        "inStock": true,
+        "category": "Tools & Hardware",
+        "rating": 4.2,
+        "specifications": [
+            "High performance",
+            "Long life",
+            "ISO certified",
+            "OEM certified",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "48",
+        "title": "Honda Tools & Hardware Part 6",
+        "brand": "Toyota",
+        "description": "Honda Tools & Hardware Part 6 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 4966,
+        "discountPrice": 3554,
+        "inStock": true,
+        "category": "Tools & Hardware",
+        "rating": 3.6,
+        "specifications": [
+            "Long life",
+            "Lightweight",
+            "Efficient design",
+            "ISO certified",
+            "Rust resistant"
+        ]
+    },
+    {
+        "id": "49",
+        "title": "Castrol Tools & Hardware Part 7",
+        "brand": "NGK",
+        "description": "Castrol Tools & Hardware Part 7 - Efficient design for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 51922,
+        "discountPrice": 33807,
+        "inStock": false,
+        "category": "Tools & Hardware",
+        "rating": 4.3,
+        "specifications": [
+            "ISO certified",
+            "Durable material",
+            "Lightweight",
+            "Long life",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "50",
+        "title": "Bosch Electronics Devices & Accessories Part 1",
+        "brand": "Bosch",
+        "description": "Bosch Electronics Devices & Accessories Part 1 - Efficient design for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 62172,
+        "discountPrice": 55341,
+        "inStock": false,
+        "category": "Electronics Devices & Accessories",
+        "rating": 3.7,
+        "specifications": [
+            "Rust resistant",
+            "High performance",
+            "OEM certified",
+            "Long life",
+            "Lightweight"
+        ]
+    },
+    {
+        "id": "51",
+        "title": "Toyota Electronics Devices & Accessories Part 2",
+        "brand": "Honda",
+        "description": "Toyota Electronics Devices & Accessories Part 2 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 19175,
+        "discountPrice": 10321,
+        "inStock": true,
+        "category": "Electronics Devices & Accessories",
+        "rating": 4.6,
+        "specifications": [
+            "ISO certified",
+            "High performance",
+            "OEM certified",
+            "Lightweight",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "52",
+        "title": "NGK Electronics Devices & Accessories Part 3",
+        "brand": "Denso",
+        "description": "NGK Electronics Devices & Accessories Part 3 - Efficient design for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 43819,
+        "discountPrice": 24562,
+        "inStock": false,
+        "category": "Electronics Devices & Accessories",
+        "rating": 4.7,
+        "specifications": [
+            "Long life",
+            "Lightweight",
+            "Durable material",
+            "ISO certified",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "53",
+        "title": "Denso Electronics Devices & Accessories Part 4",
+        "brand": "Honda",
+        "description": "Denso Electronics Devices & Accessories Part 4 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 75247,
+        "discountPrice": 50208,
+        "inStock": true,
+        "category": "Electronics Devices & Accessories",
+        "rating": 4.2,
+        "specifications": [
+            "Long life",
+            "High performance",
+            "Durable material",
+            "OEM certified",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "54",
+        "title": "Shell Electronics Devices & Accessories Part 5",
+        "brand": "Mobil",
+        "description": "Shell Electronics Devices & Accessories Part 5 - Lightweight for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 54780,
+        "discountPrice": 27720,
+        "inStock": true,
+        "category": "Electronics Devices & Accessories",
+        "rating": 4.6,
+        "specifications": [
+            "Rust resistant",
+            "Long life",
+            "High performance",
+            "Efficient design",
+            "Lightweight"
+        ]
+    },
+    {
+        "id": "55",
+        "title": "Bosch Electronics Devices & Accessories Part 6",
+        "brand": "Denso",
+        "description": "Bosch Electronics Devices & Accessories Part 6 - OEM certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 63096,
+        "discountPrice": 43654,
+        "inStock": true,
+        "category": "Electronics Devices & Accessories",
+        "rating": 4.9,
+        "specifications": [
+            "Lightweight",
+            "Long life",
+            "Durable material",
+            "ISO certified",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "56",
+        "title": "NGK Electronics Devices & Accessories Part 7",
+        "brand": "Honda",
+        "description": "NGK Electronics Devices & Accessories Part 7 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 70362,
+        "discountPrice": 41198,
+        "inStock": true,
+        "category": "Electronics Devices & Accessories",
+        "rating": 4.2,
+        "specifications": [
+            "OEM certified",
+            "Rust resistant",
+            "Long life",
+            "High performance",
+            "Durable material"
+        ]
+    },
+    {
+        "id": "57",
+        "title": "Shell Health & Medicine Part 1",
+        "brand": "NGK",
+        "description": "Shell Health & Medicine Part 1 - Long life for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 27026,
+        "discountPrice": 21096,
+        "inStock": false,
+        "category": "Health & Medicine",
+        "rating": 4.7,
+        "specifications": [
+            "Long life",
+            "OEM certified",
+            "High performance",
+            "Lightweight",
+            "ISO certified"
+        ]
+    },
+    {
+        "id": "58",
+        "title": "Castrol Health & Medicine Part 2",
+        "brand": "Mobil",
+        "description": "Castrol Health & Medicine Part 2 - Efficient design for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 6111,
+        "discountPrice": 3850,
+        "inStock": true,
+        "category": "Health & Medicine",
+        "rating": 4.4,
+        "specifications": [
+            "ISO certified",
+            "High performance",
+            "Long life",
+            "OEM certified",
+            "Lightweight"
+        ]
+    },
+    {
+        "id": "59",
+        "title": "Toyota Health & Medicine Part 3",
+        "brand": "Shell",
+        "description": "Toyota Health & Medicine Part 3 - OEM certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 35784,
+        "discountPrice": 18903,
+        "inStock": true,
+        "category": "Health & Medicine",
+        "rating": 4.9,
+        "specifications": [
+            "OEM certified",
+            "Lightweight",
+            "Efficient design",
+            "Rust resistant",
+            "High performance"
+        ]
+    },
+    {
+        "id": "60",
+        "title": "Mobil Health & Medicine Part 4",
+        "brand": "Denso",
+        "description": "Mobil Health & Medicine Part 4 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 8916,
+        "discountPrice": 6440,
+        "inStock": true,
+        "category": "Health & Medicine",
+        "rating": 4.8,
+        "specifications": [
+            "High performance",
+            "Lightweight",
+            "ISO certified",
+            "Efficient design",
+            "Long life"
+        ]
+    },
+    {
+        "id": "61",
+        "title": "Honda Health & Medicine Part 5",
+        "brand": "NGK",
+        "description": "Honda Health & Medicine Part 5 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 61751,
+        "discountPrice": 50196,
+        "inStock": false,
+        "category": "Health & Medicine",
+        "rating": 4.8,
+        "specifications": [
+            "Rust resistant",
+            "Durable material",
+            "Long life",
+            "Efficient design",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "62",
+        "title": "Honda Health & Medicine Part 6",
+        "brand": "Honda",
+        "description": "Honda Health & Medicine Part 6 - Long life for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 10781,
+        "discountPrice": 8608,
+        "inStock": false,
+        "category": "Health & Medicine",
+        "rating": 4.3,
+        "specifications": [
+            "OEM certified",
+            "High performance",
+            "Efficient design",
+            "Rust resistant",
+            "Durable material"
+        ]
+    },
+    {
+        "id": "63",
+        "title": "Bosch Health & Medicine Part 7",
+        "brand": "Bosch",
+        "description": "Bosch Health & Medicine Part 7 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 17572,
+        "discountPrice": 9907,
+        "inStock": true,
+        "category": "Health & Medicine",
+        "rating": 4.4,
+        "specifications": [
+            "Durable material",
+            "Lightweight",
+            "OEM certified",
+            "Long life",
+            "High performance"
+        ]
+    },
+    {
+        "id": "64",
+        "title": "Castrol Agriculture & Food Part 1",
+        "brand": "Shell",
+        "description": "Castrol Agriculture & Food Part 1 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 13951,
+        "discountPrice": 9358,
+        "inStock": true,
+        "category": "Agriculture & Food",
+        "rating": 4.6,
+        "specifications": [
+            "Rust resistant",
+            "Long life",
+            "Lightweight",
+            "Efficient design",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "65",
+        "title": "Castrol Agriculture & Food Part 2",
+        "brand": "Honda",
+        "description": "Castrol Agriculture & Food Part 2 - Lightweight for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 46280,
+        "discountPrice": 31596,
+        "inStock": false,
+        "category": "Agriculture & Food",
+        "rating": 3.6,
+        "specifications": [
+            "Lightweight",
+            "High performance",
+            "ISO certified",
+            "Durable material",
+            "Long life"
+        ]
+    },
+    {
+        "id": "66",
+        "title": "Toyota Agriculture & Food Part 3",
+        "brand": "Bosch",
+        "description": "Toyota Agriculture & Food Part 3 - Lightweight for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 21174,
+        "discountPrice": 18828,
+        "inStock": false,
+        "category": "Agriculture & Food",
+        "rating": 4.2,
+        "specifications": [
+            "High performance",
+            "Durable material",
+            "Efficient design",
+            "Lightweight",
+            "ISO certified"
+        ]
+    },
+    {
+        "id": "67",
+        "title": "Mobil Agriculture & Food Part 4",
+        "brand": "NGK",
+        "description": "Mobil Agriculture & Food Part 4 - ISO certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 23382,
+        "discountPrice": 16983,
+        "inStock": false,
+        "category": "Agriculture & Food",
+        "rating": 4.8,
+        "specifications": [
+            "High performance",
+            "ISO certified",
+            "Long life",
+            "Durable material",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "68",
+        "title": "Denso Agriculture & Food Part 5",
+        "brand": "Toyota",
+        "description": "Denso Agriculture & Food Part 5 - Long life for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 33012,
+        "discountPrice": 28948,
+        "inStock": true,
+        "category": "Agriculture & Food",
+        "rating": 4.7,
+        "specifications": [
+            "OEM certified",
+            "High performance",
+            "Lightweight",
+            "Rust resistant",
+            "Durable material"
+        ]
+    },
+    {
+        "id": "69",
+        "title": "Honda Agriculture & Food Part 6",
+        "brand": "Bosch",
+        "description": "Honda Agriculture & Food Part 6 - Long life for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 61982,
+        "discountPrice": 35104,
+        "inStock": false,
+        "category": "Agriculture & Food",
+        "rating": 3.7,
+        "specifications": [
+            "Durable material",
+            "Lightweight",
+            "OEM certified",
+            "Efficient design",
+            "Long life"
+        ]
+    },
+    {
+        "id": "70",
+        "title": "Mobil Agriculture & Food Part 7",
+        "brand": "Bosch",
+        "description": "Mobil Agriculture & Food Part 7 - ISO certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 4929,
+        "discountPrice": 4205,
+        "inStock": true,
+        "category": "Agriculture & Food",
+        "rating": 3.9,
+        "specifications": [
+            "Long life",
+            "High performance",
+            "Efficient design",
+            "OEM certified",
+            "Rust resistant"
+        ]
+    },
+    {
+        "id": "71",
+        "title": "Mobil Agricultural Machinery Part 1",
+        "brand": "Castrol",
+        "description": "Mobil Agricultural Machinery Part 1 - ISO certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 44857,
+        "discountPrice": 39978,
+        "inStock": false,
+        "category": "Agricultural Machinery",
+        "rating": 4.7,
+        "specifications": [
+            "Long life",
+            "High performance",
+            "Rust resistant",
+            "Lightweight",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "72",
+        "title": "Honda Agricultural Machinery Part 2",
+        "brand": "Denso",
+        "description": "Honda Agricultural Machinery Part 2 - Efficient design for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 17212,
+        "discountPrice": 9528,
+        "inStock": true,
+        "category": "Agricultural Machinery",
+        "rating": 4.4,
+        "specifications": [
+            "Efficient design",
+            "High performance",
+            "Rust resistant",
+            "OEM certified",
+            "Lightweight"
+        ]
+    },
+    {
+        "id": "73",
+        "title": "Bosch Agricultural Machinery Part 3",
+        "brand": "NGK",
+        "description": "Bosch Agricultural Machinery Part 3 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 76206,
+        "discountPrice": 61543,
+        "inStock": true,
+        "category": "Agricultural Machinery",
+        "rating": 5.0,
+        "specifications": [
+            "Durable material",
+            "Lightweight",
+            "Long life",
+            "ISO certified",
+            "Rust resistant"
+        ]
+    },
+    {
+        "id": "74",
+        "title": "Honda Agricultural Machinery Part 4",
+        "brand": "Mobil",
+        "description": "Honda Agricultural Machinery Part 4 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 26437,
+        "discountPrice": 21534,
+        "inStock": false,
+        "category": "Agricultural Machinery",
+        "rating": 4.5,
+        "specifications": [
+            "Rust resistant",
+            "Lightweight",
+            "High performance",
+            "Efficient design",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "75",
+        "title": "Honda Agricultural Machinery Part 5",
+        "brand": "Castrol",
+        "description": "Honda Agricultural Machinery Part 5 - Rust resistant for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 28252,
+        "discountPrice": 20885,
+        "inStock": false,
+        "category": "Agricultural Machinery",
+        "rating": 3.5,
+        "specifications": [
+            "OEM certified",
+            "Durable material",
+            "ISO certified",
+            "Rust resistant",
+            "Lightweight"
+        ]
+    },
+    {
+        "id": "76",
+        "title": "Shell Agricultural Machinery Part 6",
+        "brand": "NGK",
+        "description": "Shell Agricultural Machinery Part 6 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 21814,
+        "discountPrice": 19568,
+        "inStock": true,
+        "category": "Agricultural Machinery",
+        "rating": 3.7,
+        "specifications": [
+            "Long life",
+            "Durable material",
+            "Lightweight",
+            "High performance",
+            "OEM certified"
+        ]
+    },
+    {
+        "id": "77",
+        "title": "NGK Agricultural Machinery Part 7",
+        "brand": "Toyota",
+        "description": "NGK Agricultural Machinery Part 7 - Long life for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 33797,
+        "discountPrice": 20177,
+        "inStock": true,
+        "category": "Agricultural Machinery",
+        "rating": 4.8,
+        "specifications": [
+            "Rust resistant",
+            "Durable material",
+            "OEM certified",
+            "Efficient design",
+            "High performance"
+        ]
+    },
+    {
+        "id": "78",
+        "title": "NGK Wholesale Products Part 1",
+        "brand": "Castrol",
+        "description": "NGK Wholesale Products Part 1 - Efficient design for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 10329,
+        "discountPrice": 9000,
+        "inStock": false,
+        "category": "Wholesale Products",
+        "rating": 4.3,
+        "specifications": [
+            "Long life",
+            "OEM certified",
+            "Efficient design",
+            "ISO certified",
+            "Lightweight"
+        ]
+    },
+    {
+        "id": "79",
+        "title": "Honda Wholesale Products Part 2",
+        "brand": "Bosch",
+        "description": "Honda Wholesale Products Part 2 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 51599,
+        "discountPrice": 33554,
+        "inStock": true,
+        "category": "Wholesale Products",
+        "rating": 3.9,
+        "specifications": [
+            "ISO certified",
+            "OEM certified",
+            "Long life",
+            "Efficient design",
+            "Lightweight"
+        ]
+    },
+    {
+        "id": "80",
+        "title": "Honda Wholesale Products Part 3",
+        "brand": "Bosch",
+        "description": "Honda Wholesale Products Part 3 - Lightweight for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 61719,
+        "discountPrice": 45845,
+        "inStock": false,
+        "category": "Wholesale Products",
+        "rating": 4.9,
+        "specifications": [
+            "Long life",
+            "Durable material",
+            "Lightweight",
+            "High performance",
+            "ISO certified"
+        ]
+    },
+    {
+        "id": "81",
+        "title": "Toyota Wholesale Products Part 4",
+        "brand": "NGK",
+        "description": "Toyota Wholesale Products Part 4 - ISO certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 73564,
+        "discountPrice": 55416,
+        "inStock": true,
+        "category": "Wholesale Products",
+        "rating": 4.6,
+        "specifications": [
+            "ISO certified",
+            "Durable material",
+            "High performance",
+            "Efficient design",
+            "Lightweight"
+        ]
+    },
+    {
+        "id": "82",
+        "title": "Honda Wholesale Products Part 5",
+        "brand": "Shell",
+        "description": "Honda Wholesale Products Part 5 - Durable material for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 30215,
+        "discountPrice": 17009,
+        "inStock": false,
+        "category": "Wholesale Products",
+        "rating": 4.9,
+        "specifications": [
+            "Durable material",
+            "Rust resistant",
+            "OEM certified",
+            "Long life",
+            "Efficient design"
+        ]
+    },
+    {
+        "id": "83",
+        "title": "Bosch Wholesale Products Part 6",
+        "brand": "Castrol",
+        "description": "Bosch Wholesale Products Part 6 - High performance for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 31313,
+        "discountPrice": 20466,
+        "inStock": true,
+        "category": "Wholesale Products",
+        "rating": 4.5,
+        "specifications": [
+            "Durable material",
+            "Rust resistant",
+            "Efficient design",
+            "Long life",
+            "High performance"
+        ]
+    },
+    {
+        "id": "84",
+        "title": "Bosch Wholesale Products Part 7",
+        "brand": "Honda",
+        "description": "Bosch Wholesale Products Part 7 - ISO certified for enhanced performance and reliability.",
+        "imageUrl": "https://m.media-amazon.com/images/I/61M2ldtwO0L._AC_SL1200_.jpg",
+        "price": 31570,
+        "discountPrice": 16949,
+        "inStock": false,
+        "category": "Wholesale Products",
+        "rating": 3.9,
+        "specifications": [
+            "High performance",
+            "Efficient design",
+            "OEM certified",
+            "ISO certified",
+            "Long life"
         ]
     }
 ]
