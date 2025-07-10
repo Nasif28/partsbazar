@@ -9,7 +9,7 @@ import { categories } from "../Home/CategorizedProducts/Categories";
 import ProductGrid from "../Global/GlobalProduct/ProductGrid";
 import ProductCardContainer from "../Global/GlobalProduct/ProductCardContainer";
 
-export default function ProductsPage() {
+export default function Prod() {
   const searchParams = useSearchParams();
   const categoryParam = searchParams.get("category");
   const [selectedCategory, setSelectedCategory] = useState(
