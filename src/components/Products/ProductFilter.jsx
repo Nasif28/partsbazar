@@ -1,9 +1,16 @@
-// app/products/page.jsx
 "use client";
 import React, { useState } from "react";
-import ProductGrid from "@/components/product/ProductGrid";
-import { fetchAllProducts } from "@/redux/slices/productSlice";
 import { useDispatch, useSelector } from "react-redux";
+import ProductGrid from "../Global/GlobalProduct/ProductGrid";
+import { fetchProducts } from "@/redux/features/productSlice";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "../ui/select";
+import { categories } from "../Home/CategorizedProducts/Categories";
 
 const ProductFilter = () => {
   const dispatch = useDispatch();
@@ -11,7 +18,7 @@ const ProductFilter = () => {
   const [category, setCategory] = useState("all");
 
   React.useEffect(() => {
-    dispatch(fetchAllProducts());
+    dispatch(fetchProducts());
   }, [dispatch]);
 
   // Filter products by category
@@ -25,17 +32,21 @@ const ProductFilter = () => {
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">All Products</h1>
 
-        <select
-          value={category}
-          onChange={(e) => setCategory(e.target.value)}
-          className="border rounded-md px-4 py-2"
-        >
-          <option value="all">All Categories</option>
-          <option value="Engine Oil">Engine Oil</option>
-          <option value="Brake Pads">Brake Pads</option>
-          <option value="Filters">Filters</option>
-          <option value="Batteries">Batteries</option>
-        </select>
+        <Select value={category} onValueChange={(value) => setCategory(value)}>
+          <SelectTrigger className="w-xs">
+            <SelectValue placeholder="Select a category" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem key="all" value="all">
+              All Categories
+            </SelectItem>
+            {categories.map((cat) => (
+              <SelectItem key={cat} value={cat}>
+                {cat}
+              </SelectItem>
+            ))}
+          </SelectContent>
+        </Select>
       </div>
 
       {loading ? (
@@ -48,7 +59,7 @@ const ProductFilter = () => {
           ))}
         </div>
       ) : (
-        <ProductGrid products={filteredProducts} />
+        <ProductGrid products={filteredProducts.slice(0, 5)} />
       )}
     </div>
   );

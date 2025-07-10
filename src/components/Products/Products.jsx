@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
-import ProductGrid from "@/components/Products/ProductGrid";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchProducts } from "@/redux/features/productSlice";
+import ProductGrid from "../Global/GlobalProduct/ProductGrid";
 
 const HomePage = () => {
   const dispatch = useDispatch();
@@ -26,7 +26,7 @@ const HomePage = () => {
           ))}
         </div>
       ) : (
-        <ProductGrid products={allProducts} />
+        <ProductGrid products={allProducts.slice(0, 5)} />
       )}
     </div>
   );

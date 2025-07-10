@@ -1,11 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
-import ProductCard from "@/components/Products/ProductCard";
+import ProductCard from "@/components/Global/GlobalProduct/ProductCard";
 import SectionHeader from "@/components/Global/SectionHeader";
 import { fetchProducts } from "@/redux/features/productSlice";
 import { useDispatch, useSelector } from "react-redux";
-import { categories } from "./Categories";
+import { categories } from "../Home/CategorizedProducts/Categories";
+import ProductGrid from "../Global/GlobalProduct/ProductGrid";
+import ProductCardContainer from "../Global/GlobalProduct/ProductCardContainer";
 
 export default function ProductsPage() {
   const searchParams = useSearchParams();
@@ -71,8 +73,8 @@ export default function ProductsPage() {
           </div>
         ) : filteredProducts.length > 0 ? (
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            {filteredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+            {filteredProducts.slice(0, 5).map((product) => (
+              <ProductCardContainer key={product.id} product={product} />
             ))}
           </div>
         ) : (

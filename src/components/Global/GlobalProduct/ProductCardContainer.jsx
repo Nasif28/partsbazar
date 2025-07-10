@@ -4,35 +4,32 @@ import { useDispatch, useSelector } from "react-redux";
 import { toast } from "sonner";
 import ProductCard from "./ProductCard";
 import ProductModal from "./ProductModal";
-import { addToWishlist, removeFromWishlist } from "@/redux/features/wishlistSlice";
+import {
+  addToWishlist,
+  removeFromWishlist,
+} from "@/redux/features/wishlistSlice";
 import { addToCart } from "@/redux/features/cartSlice";
 import { addToCompare } from "@/redux/features/compareSlice";
 
-const ProductGrid = ({
-  products,
-  gridClasses = "grid-cols-2 md:grid-cols-4 lg:grid-cols-5",
-}) => {
+const ProductCardContainer = ({ product }) => {
   const [quickViewProduct, setQuickViewProduct] = useState(null);
   const dispatch = useDispatch();
 
   // Get state from Redux
   const { items } = useSelector((state) => state.wishlist);
-  //   const { isAuthenticated } = useSelector((state) => state.auth);
-  const isAuthenticated = true;
+  const isAuthenticated = true; // Replace with actual auth check
 
   // Check if product is in wishlist
-  const isInWishlist = (productId) => {
-    return items.some((item) => item.id === productId);
-  };
+  const isInWishlist = items.some((item) => item.id === product.id);
 
   // Handle wishlist action with login check
-  const handleWishlist = (product) => {
+  const handleWishlist = () => {
     if (!isAuthenticated) {
       toast.warning("Please login to add items to your wishlist");
       return;
     }
 
-    if (isInWishlist(product.id)) {
+    if (isInWishlist) {
       dispatch(removeFromWishlist(product.id));
       toast.info("Removed from wishlist");
     } else {
@@ -42,32 +39,32 @@ const ProductGrid = ({
   };
 
   // Handle add to cart
-  const handleAddToCart = (product) => {
+  const handleAddToCart = () => {
     dispatch(addToCart({ ...product, quantity: 1 }));
     toast.success("Added to cart");
   };
 
   // Handle add to compare
-  const handleAddToCompare = (product) => {
+  const handleAddToCompare = () => {
     dispatch(addToCompare(product));
     toast.info("Added to compare");
   };
 
+  // Handle quick view
+  const handleQuickView = () => {
+    setQuickViewProduct(product);
+  };
+
   return (
     <>
-      <div className={`grid gap-4 ${gridClasses}`}>
-        {products.map((product) => (
-          <ProductCard
-            key={product.id}
-            product={product}
-            inWishlist={isInWishlist(product.id)}
-            onAddToWishlist={() => handleWishlist(product)}
-            onAddToCart={() => handleAddToCart(product)}
-            onAddToCompare={() => handleAddToCompare(product)}
-            onQuickView={() => setQuickViewProduct(product)}
-          />
-        ))}
-      </div>
+      <ProductCard
+        product={product}
+        inWishlist={isInWishlist}
+        onAddToWishlist={handleWishlist}
+        onAddToCart={handleAddToCart}
+        onAddToCompare={handleAddToCompare}
+        onQuickView={handleQuickView}
+      />
 
       <ProductModal
         product={quickViewProduct}
@@ -80,4 +77,4 @@ const ProductGrid = ({
   );
 };
 
-export default ProductGrid;
+export default ProductCardContainer;

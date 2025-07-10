@@ -2,7 +2,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import Link from "next/link";
-import ProductGrid from "./ProductGrid";
+import ProductGrid from "../Global/GlobalProduct/ProductGrid";
 
 const Wishlist = () => {
   const { items } = useSelector((state) => state.wishlist);

@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import ProductCard from "@/components/Products/ProductCard";
+import ProductCard from "@/components/Global/GlobalProduct/ProductCard";
 import SectionSlider from "@/components/Global/SectionSlider";
 import { fetchProducts } from "@/redux/features/productSlice";
 import { categories, categoryIcons } from "./Categories";

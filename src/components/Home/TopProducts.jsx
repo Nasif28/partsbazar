@@ -1,10 +1,10 @@
 "use client";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import ProductCard from "@/components/Products/ProductCard";
 import SectionHeader from "../Global/SectionHeader";
 import SectionSlider from "../Global/SectionSlider";
 import { fetchProducts } from "@/redux/features/productSlice";
+import ProductCardContainer from "../Global/GlobalProduct/ProductCardContainer";
 
 const TopProducts = () => {
   const dispatch = useDispatch();
@@ -27,7 +27,7 @@ const TopProducts = () => {
           items={allProducts}
           loading={loading}
           itemClassName="md:basis-1/5"
-          renderItem={(product) => <ProductCard product={product} />}
+          renderItem={(product) => <ProductCardContainer product={product} />}
         />
       </div>
     </section>

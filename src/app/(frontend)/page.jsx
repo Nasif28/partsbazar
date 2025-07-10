@@ -1,6 +1,6 @@
 import BlogSlider from "@/components/Home/BlogSlider";
 import CategorizedProducts from "@/components/Home/CategorizedProducts/CategorizedProducts";
-import Prod from "@/components/Home/CategorizedProducts/Prod";
+import Prod from "@/components/Products/Prod";
 import CategoryTab from "@/components/Home/CategorizedProducts/CategoryTab";
 import Features from "@/components/Home/Features";
 import HeroBanner from "@/components/Home/Hero/HeroBanner";
@@ -17,7 +17,7 @@ export default function HomePage() {
       <BlogSlider />
       {/* <Products /> */}
       <TopProducts />
-      <CategorizedProducts />
+      {/* <CategorizedProducts /> */}
       <CategoryTab />
       <Prod />
     </div>
