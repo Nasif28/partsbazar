@@ -1,11 +1,12 @@
 import BlogSlider from "@/components/Home/BlogSlider";
 // import CategorizedProducts from "@/components/Home/CategorizedProducts/CategorizedProducts";
-import Prod from "@/components/Products/Prod";
+// import Prod from "@/components/Products/Prod";
 import CategoryTab from "@/components/Home/CategorizedProducts/CategoryTab";
 import Features from "@/components/Home/Features";
 import HeroBanner from "@/components/Home/Hero/HeroBanner";
 import TopBrands from "@/components/Home/TopBrands";
 import TopProducts from "@/components/Home/TopProducts";
+import Prod from "@/components/Products/Prod";
 import { Suspense } from "react";
 // import Products from "@/components/Products/Products";
 
