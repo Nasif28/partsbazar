@@ -1,14 +1,16 @@
 import ProductFilter from "@/components/Products/ProductFilter";
 import Products from "@/components/Products/Products";
-import React from "react";
+import React, { Suspense } from "react";
 import ProdTab from "@/components/Products/ProdTab";
 
 const ProductsPage = () => {
   return (
     <div>
-      <ProdTab />
-      <ProductFilter />
-      <Products />
+      <Suspense fallback={<div>Loading...</div>}>
+        <ProdTab />
+        <ProductFilter />
+        <Products />
+      </Suspense>
     </div>
   );
 };
