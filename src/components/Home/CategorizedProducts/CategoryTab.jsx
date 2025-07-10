@@ -23,45 +23,47 @@ const CategoryTab = () => {
   const activeProducts = getProductsByCategory(activeCategory);
 
   return (
-    <div className="py-12 bg-gray-50">
-      <div className="container mx-auto px-4">
-        {/* Category Tabs */}
-        <div className="flex flex-wrap gap-2 mb-8 justify-center">
-          {categories.map((category) => (
-            <button
-              key={category}
-              onClick={() => setActiveCategory(category)}
-              className={`px-4 py-2 rounded-full flex items-center gap-2 transition-all ${
-                activeCategory === category
-                  ? "bg-primary text-white"
-                  : "bg-gray-200 hover:bg-gray-300"
-              }`}
-            >
-              <span>{categoryIcons[category]}</span>
-              <span className="whitespace-nowrap">
-                {category.split(" ")[0]}
-              </span>
-            </button>
-          ))}
-        </div>
+    <section className="py-6 ">
+      <div className="myContainer">
+        <div className="container mx-auto">
+          {/* Category Tabs */}
+          <div className="flex flex-wrap gap-2 mb-8 justify-center">
+            {categories.map((category) => (
+              <button
+                key={category}
+                onClick={() => setActiveCategory(category)}
+                className={`px-4 py-2 rounded-lg flex text-sm items-center gap-1 transition-all ${
+                  activeCategory === category
+                    ? "bg-primary text-white"
+                    : "bg-secondary hover:bg-gray-500"
+                }`}
+              >
+                <span>{categoryIcons[category]}</span>
+                <span className="whitespace-nowrap">
+                  {category.split(" ")[0]}
+                </span>
+              </button>
+            ))}
+          </div>
 
-        {/* Active Category Section */}
-        <div className="mb-6 text-center">
-          <h2 className="text-3xl font-bold">
-            {categoryIcons[activeCategory]} {activeCategory}
-          </h2>
-        </div>
+          {/* Active Category Section */}
+          <div className="mb-6 text-center">
+            <h2 className="text-2xl font-bold">
+              {categoryIcons[activeCategory]} {activeCategory}
+            </h2>
+          </div>
 
-        {/* Products Slider */}
-        <SectionSlider
-          items={activeProducts}
-          loading={loading}
-          itemClassName="md:basis-1/5"
-          renderItem={(product) => <ProductCard product={product} />}
-          emptyMessage={`No products found in ${activeCategory}`}
-        />
+          {/* Products Slider */}
+          <SectionSlider
+            items={activeProducts}
+            loading={loading}
+            itemClassName="md:basis-1/5"
+            renderItem={(product) => <ProductCard product={product} />}
+            emptyMessage={`No products found in ${activeCategory}`}
+          />
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

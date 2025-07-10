@@ -15,11 +15,11 @@ const TopProducts = () => {
   }, [dispatch]);
 
   return (
-    <section className="py-12 bg-gray-50">
-      <div className="container mx-auto px-4">
+    <section className="myContainer">
+      <div className="container mx-auto py-6">
         <SectionHeader
           title="Top Products"
-          href="/products?top=true"
+          href="/products"
           linkText="All Top Products"
         />
 
