@@ -9,6 +9,7 @@ const nextConfig = {
       "japanparts.com.bd",
       "m.media-amazon.com",
       "cdn.pixabay.com",
+      "i.ytimg.com",
     ],
   },
   experimental: {
