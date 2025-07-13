@@ -1,6 +1,6 @@
 "use client";
 
-import VideoCarousel from "@/components/videos/VideoCarousel";
+import VideoCarousel from "@/components/Videos/VideoCarousel";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
