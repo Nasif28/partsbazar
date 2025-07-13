@@ -1,5 +1,5 @@
 import { use } from 'react';
-import VideoPlayer from '@/components/videos/VideoPlayer';
+import VideoPlayer from '@/components/Videos/VideoPlayer';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';

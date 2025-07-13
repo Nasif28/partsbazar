@@ -1,7 +1,7 @@
 "use client";
 
 import { useDispatch, useSelector } from "react-redux";
-import VideoCard from "@/components/videos/VideoCard";
+import VideoCard from "@/components/Videos/VideoCard";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Search, Filter } from "lucide-react";
