@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import CategoriesMenu from "../Home/Hero/CategoriesMenu";
 import clsx from "clsx";
 import Image from "next/image";
-import logo from "./../../assets/logo.png";
+import { PBLogo } from "@/assets/Import";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -98,7 +98,12 @@ const Navbar = () => {
         >
           <div className="flex items-center justify-between p-4 border-b">
             <div className="flex items-center">
-              <Image src={logo} alt="Parts Bazar Logo" width={80} height={80} />
+              <Image
+                src={PBLogo}
+                alt="Parts Bazar Logo"
+                width={80}
+                height={80}
+              />
             </div>
             <Button
               variant="ghost"

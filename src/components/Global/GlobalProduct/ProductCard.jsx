@@ -2,8 +2,8 @@
 import { Heart, Eye, Scale, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import logo from "@/assets/logo.png";
 import Image from "next/image";
+import { PBLogo } from "@/assets/Import";
 
 export default function ProductCard({
   product,
@@ -35,7 +35,7 @@ export default function ProductCard({
           {/* Background Logo */}
           <div className="absolute inset-0 z-0">
             <Image
-              src={logo}
+              src={PBLogo}
               alt="Background Logo"
               fill
               className="object-contain opacity-10"

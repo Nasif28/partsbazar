@@ -9,7 +9,6 @@ import {
   PhoneCall,
   Mails,
 } from "lucide-react";
-import logo from "./../../assets/logo.png";
 import Image from "next/image";
 import RedX from "./../SVG/RedX.svg";
 import SteedFast from "./../SVG/SteadFast.svg";
@@ -20,6 +19,7 @@ import VISA from "./../SVG/VISA.svg";
 import Rocket from "./../SVG/Rocket.svg";
 import PlayStore from "./../SVG/PlayStore.svg";
 import AppStore from "./../SVG/AppStore.svg";
+import { PBLogo } from "@/assets/Import";
 
 const footerData = {
   quickLinks: [
@@ -64,7 +64,7 @@ const Footer = () => {
             <div className="space-y-1">
               <div className="flex items-center">
                 <Image
-                  src={logo}
+                  src={PBLogo}
                   alt="Parts Bazar Logo"
                   width={120}
                   height={120}

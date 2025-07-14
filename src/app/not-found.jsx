@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import Image from "next/image";
-// import logo from "@/assets/logo.png";
 import { Button } from "@/components/ui/button";
 import FrontendLayout from "./(frontend)/layout";
 
@@ -40,21 +39,6 @@ const NotFoundPage = () => {
           color: "var(--foreground)",
         }}
       >
-        {/* Logo at top left */}
-        {/* <div className="absolute top-6 left-6 z-10 flex items-center gap-3">
-          <div className="w-30 h-30 relative">
-            <Image
-              src={logo}
-              alt="Parts Bazar Logo"
-              fill
-              className="object-contain"
-            />
-          </div>
-          <h1 className="text-xl font-bold" style={{ color: "var(--primary)" }}>
-          Parts Bazar
-        </h1>
-        </div> */}
-
         <div className="max-w-3xl w-full text-center relative z-20">
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}

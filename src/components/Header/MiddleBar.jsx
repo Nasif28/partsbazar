@@ -7,8 +7,8 @@ import { useTheme } from "next-themes";
 import SearchBar from "./SearchBar";
 import CartDropdown from "./CartDropdown";
 import UserAuth from "./UserAuth";
-import logo from "./../../assets/logo.png";
 import { useEffect, useState } from "react";
+import { PBLogo } from "@/assets/Import";
 
 const MiddleBar = () => {
   const { theme, setTheme } = useTheme();
@@ -45,7 +45,7 @@ const MiddleBar = () => {
             <div className="flex items-center">
               <Link href="/" aria-label="Parts Bazar Home">
                 <Image
-                  src={logo}
+                  src={PBLogo}
                   alt="Parts Bazar Logo"
                   width={80}
                   height={80}
