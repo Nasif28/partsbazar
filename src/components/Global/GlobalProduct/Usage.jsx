@@ -13,5 +13,5 @@ import ProductGrid from "./ProductGrid";
 <ProductGrid products={products} />;
 
 // Using Standalone Product Card
-import ProductCardContainer from "@/components/Products/ProductCardContainer";
+import ProductCardContainer from "./ProductCardContainer";
 <ProductCardContainer product={product} />;

@@ -20,16 +20,19 @@ const VideoCard = ({ video }) => {
         />
         <div className="absolute inset-0 bg-black/30 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
           <Button size="icon" className="rounded-full w-14 h-14">
-            <Play className="w-6 h-6 ml-1" />
+            <Play className="w-6 h-6" />
           </Button>
         </div>
       </Link>
+
       <div className="p-4">
-        <h3 className="font-semibold line-clamp-2 h-14">{video.title}</h3>
+        <h3 className="font-semibold line-clamp-2">{video.title}</h3>
+
         <div className="flex items-center justify-between mt-2 text-sm text-muted-foreground">
           <span>{video.author}</span>
           <span>{video.viewCount} views</span>
         </div>
+
         <Button asChild className="w-full mt-4">
           <Link href={`/videos/${video.id}`}>Watch Video</Link>
         </Button>

@@ -198,6 +198,14 @@ body {
   color: var(--textLight);
 }
 
+.secP {
+  padding: 24px 0;
+}
+
+.pageP {
+  padding: 40px 0;
+}
+
 /* Animations */
 @keyframes float {
   0% {
