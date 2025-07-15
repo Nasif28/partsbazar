@@ -17,7 +17,9 @@ export default function ClientRootLayout({ children }) {
     >
       <Provider store={store}>
         <div className="maxContainer">
-          <StoreProvider>{children}</StoreProvider>
+          <StoreProvider>
+            <main className="min-h-screen">{children}</main>
+          </StoreProvider>
           <Toaster position="top-right" richColors />
         </div>
       </Provider>

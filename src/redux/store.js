@@ -8,6 +8,7 @@ import videoReducer from "./features/videoSlice";
 import wishlistReducer from "./features/wishlistSlice";
 import compareReducer from "./features/compareSlice";
 import productReducer from "./features/productSlice";
+import faqReducer from "./features/faqSlice";
 
 export const store = configureStore({
   reducer: {
@@ -20,5 +21,6 @@ export const store = configureStore({
     wishlist: wishlistReducer,
     compare: compareReducer,
     products: productReducer,
+    faqs: faqReducer,
   },
 });

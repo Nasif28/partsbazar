@@ -1,0 +1,213 @@
+[
+  {
+    "id": "faq-001",
+    "question": "What courier do you use?",
+    "answer": "We use our own mail, Pathao, and Paperfly to deliver orders inside Dhaka. For outside Dhaka metro areas, we use Pathao.",
+    "category": "Delivery",
+    "rank": 5,
+    "top": true,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "courier",
+      "pathao",
+      "delivery company",
+      "shipping"
+    ]
+  },
+  {
+    "id": "faq-002",
+    "question": "How long does it take for home delivery?",
+    "answer": "Inside Dhaka, delivery usually takes 1-3 working days. Outside Dhaka may take 3-5 working days.",
+    "category": "Delivery",
+    "rank": 4,
+    "top": true,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "home delivery",
+      "shipping time",
+      "how long"
+    ]
+  },
+  {
+    "id": "faq-003",
+    "question": "It\u2019s been 3 days, why have I not received my order inside Dhaka city?",
+    "answer": "Delivery delays can happen due to location, weather, or courier issues. Please contact our support for updates.",
+    "category": "Delivery",
+    "rank": 3,
+    "top": false,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "late",
+      "not received",
+      "order delay"
+    ]
+  },
+  {
+    "id": "faq-004",
+    "question": "Why haven\u2019t I received any order confirmation email or text?",
+    "answer": "Check your spam or promotion folders. If still missing, contact our support with your order details.",
+    "category": "Order",
+    "rank": 3,
+    "top": false,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "confirmation",
+      "email",
+      "text"
+    ]
+  },
+  {
+    "id": "faq-005",
+    "question": "Can I collect from your office?",
+    "answer": "Yes, you can collect your order directly from our office. Please call ahead to confirm availability.",
+    "category": "Pickup",
+    "rank": 2,
+    "top": false,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "pickup",
+      "office",
+      "collect"
+    ]
+  },
+  {
+    "id": "faq-006",
+    "question": "Do you deliver on weekend?",
+    "answer": "Yes, we deliver on weekends inside Dhaka. For outside Dhaka, deliveries are made on working days.",
+    "category": "Delivery",
+    "rank": 3,
+    "top": false,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "weekend",
+      "saturday",
+      "sunday"
+    ]
+  },
+  {
+    "id": "faq-007",
+    "question": "Can I track my order?",
+    "answer": "Yes, once your order is shipped, you'll receive a tracking link via SMS or email.",
+    "category": "Order",
+    "rank": 5,
+    "top": true,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "tracking",
+      "order status",
+      "track order"
+    ]
+  },
+  {
+    "id": "faq-008",
+    "question": "Do your prices include VAT?",
+    "answer": "Yes, all prices displayed on our website include VAT.",
+    "category": "Pricing",
+    "rank": 3,
+    "top": false,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "vat",
+      "price",
+      "tax included"
+    ]
+  },
+  {
+    "id": "faq-009",
+    "question": "Can I make an order over phone?",
+    "answer": "Yes, you can place orders via phone by calling our customer service hotline.",
+    "category": "Ordering",
+    "rank": 3,
+    "top": false,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "phone",
+      "call",
+      "order by phone"
+    ]
+  },
+  {
+    "id": "faq-010",
+    "question": "How can I make a complaint?",
+    "answer": "You can lodge a complaint through our contact form, email, or call our support team.",
+    "category": "Support",
+    "rank": 3,
+    "top": false,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "complain",
+      "issue",
+      "feedback"
+    ]
+  },
+  {
+    "id": "faq-011",
+    "question": "How can I return an item?",
+    "answer": "You can return an item within 7 days if it's unused and in original condition. Please contact support for return instructions.",
+    "category": "Returns",
+    "rank": 5,
+    "top": true,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "return",
+      "refund",
+      "exchange"
+    ]
+  },
+  {
+    "id": "faq-012",
+    "question": "What is the payment method?",
+    "answer": "We accept online payment via cards, bKash, Nagad, and Cash on Delivery (COD).",
+    "category": "Payment",
+    "rank": 3,
+    "top": false,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "payment",
+      "bKash",
+      "COD"
+    ]
+  },
+  {
+    "id": "faq-013",
+    "question": "Do you have cash on delivery available?",
+    "answer": "Yes, we offer cash on delivery inside Dhaka and selected areas outside.",
+    "category": "Payment",
+    "rank": 4,
+    "top": true,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "cod",
+      "cash",
+      "payment"
+    ]
+  },
+  {
+    "id": "faq-014",
+    "question": "What if I received a damaged item?",
+    "answer": "Please inform us within 24 hours of receiving the damaged item with photos. We\u2019ll assist with return or replacement.",
+    "category": "Returns",
+    "rank": 5,
+    "top": true,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "damaged",
+      "broken",
+      "replacement"
+    ]
+  },
+  {
+    "id": "faq-015",
+    "question": "Do you provide installation service?",
+    "answer": "Yes, we offer installation service for selected parts. Contact our team to check availability.",
+    "category": "Services",
+    "rank": 3,
+    "top": false,
+    "updatedAt": "2025-07-15T09:07:11.494611",
+    "keywords": [
+      "installation",
+      "fitting",
+      "service"
+    ]
+  }
+]

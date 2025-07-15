@@ -146,6 +146,7 @@ const VideoDetailsPage = () => {
                         <Play className="w-6 h-6 text-white" />
                       </div>
                     </div>
+
                     <div>
                       <h1 className="font-semibold line-clamp-2 group-hover:text-primary">
                         {video.title}

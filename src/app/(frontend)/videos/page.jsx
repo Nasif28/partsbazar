@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import VideoCard from "@/components/Videos/VideoCard";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
-import { Search, Filter, ChevronDown } from "lucide-react";
+import { Search, Filter, ChevronDown, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { fetchVideos } from "@/redux/features/videoSlice";
 import { useEffect, useState } from "react";
@@ -73,6 +73,16 @@ export default function VideosPage() {
               value={searchTerm}
               onChange={handleSearchChange}
             />
+            {/* {searchTerm && (
+              <Button
+                variant="ghost"
+                size="icon"
+                className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-500 hover:bg-transparent"
+                onClick={() => dispatch(setSearchTerm(""))}
+              >
+                <X size={16} />
+              </Button>
+            )} */}
           </div>
 
           <DropdownMenu>
