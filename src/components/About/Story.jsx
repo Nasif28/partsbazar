@@ -1,7 +1,7 @@
 import { Settings } from "lucide-react";
 
 export const Story = () => (
-  <section className="py-10">
+  <section className="pb-10">
     <div className="flex flex-col lg:flex-row items-center gap-12">
       <div className="lg:w-1/2">
         <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-80 md:h-[420px] relative overflow-hidden">
