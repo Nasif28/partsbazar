@@ -1,7 +1,7 @@
 import React from "react";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import Map from "@/components/contact/Map";
-import ContactForm from "@/components/contact/ContactForm";
+import Map from "@/components/Contact/Map";
+import ContactForm from "@/components/Contact/ContactForm";
 import { contactInfo, socialLinks } from "@/lib/constants";
 import {
   FacebookIcon,
