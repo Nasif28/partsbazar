@@ -10,7 +10,6 @@ import {
   Phone,
   User,
   MessageSquare,
-  Notebook,
   NotebookText,
 } from "lucide-react";
 import { toast } from "sonner";

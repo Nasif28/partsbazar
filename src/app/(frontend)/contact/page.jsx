@@ -1,7 +1,11 @@
 import React from "react";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import Map from "@/components/Contact/Map";
-import ContactForm from "@/components/Contact/ContactForm";
+// import Map from "@/components/Contact/Map";
+// import ContactForm from "@/components/Contact/ContactForm";
+const Map = dynamic(() => import("@/components/Contact/Map"), { ssr: false });
+const ContactForm = dynamic(() => import("@/components/Contact/ContactForm"), {
+  ssr: false,
+});
 import { contactInfo, socialLinks } from "@/lib/constants";
 import {
   FacebookIcon,

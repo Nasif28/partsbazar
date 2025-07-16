@@ -10,7 +10,6 @@ import {
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 
-// Leaflet icon fix
 delete L.Icon.Default.prototype._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl:
