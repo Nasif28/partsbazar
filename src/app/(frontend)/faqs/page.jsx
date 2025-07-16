@@ -59,7 +59,7 @@ export default function FAQPage() {
         )}
         {status === "succeeded" && (
           <>
-            {(searchTerm || selectedCategory !== "All FAQs") &&
+            {/* {(searchTerm || selectedCategory !== "All FAQs") &&
               faqs.length > 0 && (
                 <div className="mb-6 text-gray-600 dark:text-gray-400">
                   Showing {faqs.length} result{faqs.length !== 1 ? "s" : ""}
@@ -67,7 +67,7 @@ export default function FAQPage() {
                   {selectedCategory !== "All FAQs" &&
                     ` in "${selectedCategory}"`}
                 </div>
-              )}
+              )} */}
 
             {faqs.length === 0 ? (
               <div className="rounded-xl shadow-sm border  p-8 text-center">
@@ -90,7 +90,7 @@ export default function FAQPage() {
                 </Button>
               </div>
             ) : (
-              <div className=" rounded-lg shadow-sm border overflow-hidden">
+              <div className="overflow-hidden">
                 <FAQAccordion faqs={faqs} />
               </div>
             )}

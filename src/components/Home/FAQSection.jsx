@@ -24,8 +24,8 @@ export default function FAQSection() {
 
   if (status === "loading") {
     return (
-      <section className="secP bg-gray-50 dark:bg-gray-900">
-        <div className="container mx-auto px-4">
+      <section className="myContainer">
+        <div className="container mx-auto">
           <SectionHeader
             title="Frequently Asked Questions"
             href="/faqs"
@@ -60,14 +60,14 @@ export default function FAQSection() {
 
   return (
     <section className="myContainer">
-      <div className="container mx-auto py-6">
+      <div className="container mx-auto secP">
         <SectionHeader
           title="Frequently Asked Questions"
           href="/faqs"
           linkText="View All FAQs"
         />
 
-        <div className="rounded-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <div className="overflow-hidden">
           <FAQAccordion faqs={topFAQs.slice(0, 5)} />
         </div>
       </div>
