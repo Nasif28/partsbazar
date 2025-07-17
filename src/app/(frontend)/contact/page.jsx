@@ -1,7 +1,10 @@
 "use client";
 import React from "react";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
-import Map from "@/components/Contact/Map";
+// import Map from "@/components/Contact/Map";
+const Map = dynamic(() => import("@/components/Contact/Map"), {
+  ssr: false,
+});
 import ContactForm from "@/components/Contact/ContactForm";
 import { contactInfo, socialLinks } from "@/lib/constants";
 import {
@@ -11,6 +14,7 @@ import {
   TwitterIcon,
   YouTubeIcon,
 } from "@/assets/Import";
+import dynamic from "next/dynamic";
 
 // Social icon components
 const SocialIcon = ({ icon, url, name }) => {

@@ -25,19 +25,19 @@ const LocationMarker = () => {
   const map = useMap();
 
   useEffect(() => {
-    if (!navigator.geolocation) return;
-
-    navigator.geolocation.getCurrentPosition(
-      (pos) => {
-        const { latitude, longitude } = pos.coords;
-        const userPos = [latitude, longitude];
-        setPosition(userPos);
-        map.flyTo(userPos, 15);
-      },
-      () => {
-        console.warn("Location access denied.");
-      }
-    );
+    if (typeof navigator !== "undefined" && navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (pos) => {
+          const { latitude, longitude } = pos.coords;
+          const userPos = [latitude, longitude];
+          setPosition(userPos);
+          map.flyTo(userPos, 15);
+        },
+        () => {
+          console.warn("Location access denied.");
+        }
+      );
+    }
   }, [map]);
 
   return position ? (
