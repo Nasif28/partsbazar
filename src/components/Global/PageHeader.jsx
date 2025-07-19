@@ -14,7 +14,7 @@ const PageHeader = ({
 }) => {
   return (
     <div
-      className="relative w-full text-center mx-auto py-4 overflow-hidden"
+      className="relative w-full text-center mx-auto pt-2 pb-6 overflow-hidden"
       style={
         backgroundImage
           ? {

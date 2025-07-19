@@ -25,7 +25,7 @@ const Breadcrumbs = () => {
   ];
 
   return (
-    <nav className="flex" aria-label="Breadcrumb">
+    <nav className="flex mx-auto items-center" aria-label="Breadcrumb">
       <ol className="flex items-center space-x-2">
         {breadcrumbItems.map((item, index) => (
           <Fragment key={item.href}>
