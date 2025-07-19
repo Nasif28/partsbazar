@@ -27,7 +27,7 @@ const TopBar = () => {
 
           {/* Responsive Links */}
           <div className="hidden sm:flex items-center space-x-6">
-            <Link href="/track-order" className="hover:text-primary">
+            <Link href="/track" className="hover:text-primary">
               Track Order
             </Link>
             <Link href="/support" className="hover:text-primary">

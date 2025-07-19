@@ -4,9 +4,9 @@ import { useDispatch, useSelector } from "react-redux";
 import ProductCard from "@/components/Global/GlobalProduct/ProductCard";
 import SectionSlider from "@/components/Global/SectionSlider";
 import { fetchProducts } from "@/redux/features/productSlice";
-import { categories, categoryIcons } from "./Categories";
+import { categories, categoryIcons } from "../../assets/Categories";
 
-const CategoryTab = () => {
+const ProductTab = () => {
   const dispatch = useDispatch();
   const [activeCategory, setActiveCategory] = useState(categories[0]);
   const { allProducts, loading } = useSelector((state) => state.products);
@@ -57,6 +57,7 @@ const CategoryTab = () => {
           <SectionSlider
             items={activeProducts}
             loading={loading}
+            autoplayOptions={false}
             itemClassName="md:basis-1/5"
             renderItem={(product) => <ProductCard product={product} />}
             emptyMessage={`No products found in ${activeCategory}`}
@@ -67,4 +68,4 @@ const CategoryTab = () => {
   );
 };
 
-export default CategoryTab;
+export default ProductTab;

@@ -267,17 +267,17 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border-t border-gray-800 my-6"></div>
+      <div className="border-t border-gray-800 my-5"></div>
 
       {/* Copyright */}
       <div className="myContainer">
-        <div className="container mx-auto pb-6">
+        <div className="container mx-auto pb-5">
           <div className="text-center text-textLight text-sm">
             <p>
               partsbazar.com.bd is a registered trademark of its respective
               owners.
             </p>
-            <p className="mt-2">
+            <p>
               © {new Date().getFullYear()} Parts Bazar. All rights reserved.
             </p>
           </div>

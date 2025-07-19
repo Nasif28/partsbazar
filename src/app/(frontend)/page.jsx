@@ -1,9 +1,8 @@
 import BlogSlider from "@/components/Home/BlogSlider";
-import CategorizedProducts from "@/components/Home/CategorizedProducts/CategorizedProducts";
-import CategoryTab from "@/components/Home/CategorizedProducts/CategoryTab";
 import FAQSection from "@/components/Home/FAQSection";
 import Features from "@/components/Home/Features";
 import HeroBanner from "@/components/Home/Hero/HeroBanner";
+import ProductTab from "@/components/Home/ProductTab";
 import TopBrands from "@/components/Home/TopBrands";
 import TopProducts from "@/components/Home/TopProducts";
 import VideoSlider from "@/components/Home/VideoSlider";
@@ -19,8 +18,8 @@ export default function HomePage() {
         <BlogSlider />
         <VideoSlider />
         <TopProducts />
-        {/* <CategorizedProducts /> */}
-        <CategoryTab />
+        {/* <ProductCategorized /> */}
+        <ProductTab />
         <FAQSection />
       </Suspense>
     </div>

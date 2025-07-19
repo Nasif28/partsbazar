@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   categories,
   categoryIcons,
-} from "../Home/CategorizedProducts/Categories";
+} from "../../assets/Categories";
 import ProductCardContainer from "../Global/GlobalProduct/ProductCardContainer";
 
 export default function ProdTab() {

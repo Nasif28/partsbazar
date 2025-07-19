@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ProductGrid from "../Global/GlobalProduct/ProductGrid";
 import { fetchProducts } from "@/redux/features/productSlice";
-import { categories } from "../Home/CategorizedProducts/Categories";
+import { categories } from "../../assets/Categories";
 import {
   Select,
   SelectContent,

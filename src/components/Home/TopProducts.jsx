@@ -26,6 +26,7 @@ const TopProducts = () => {
         <SectionSlider
           items={allProducts}
           loading={loading}
+          autoplayOptions={false}
           itemClassName="md:basis-1/5"
           renderItem={(product) => <ProductCardContainer product={product} />}
         />

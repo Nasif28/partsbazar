@@ -4,10 +4,14 @@ import { useDispatch, useSelector } from "react-redux";
 import SectionHeader from "@/components/Global/SectionHeader";
 import SectionSlider from "@/components/Global/SectionSlider";
 import { fetchProducts } from "@/redux/features/productSlice";
-import { categories, categoryIcons, getCategorySlug } from "./Categories";
+import {
+  categories,
+  categoryIcons,
+  getCategorySlug,
+} from "../../assets/Categories";
 import ProductCardContainer from "@/components/Global/GlobalProduct/ProductCardContainer";
 
-const CategorizedProducts = () => {
+const ProductCategorized = () => {
   const dispatch = useDispatch();
   const { allProducts, loading } = useSelector((state) => state.products);
 
@@ -70,6 +74,7 @@ const CategorizedProducts = () => {
                 <SectionSlider
                   items={categoryProducts}
                   loading={loading}
+                  autoplayOptions={false}
                   itemClassName="md:basis-1/5"
                   renderItem={(product) => (
                     <ProductCardContainer product={product} />
@@ -84,4 +89,4 @@ const CategorizedProducts = () => {
   );
 };
 
-export default CategorizedProducts;
+export default ProductCategorized;
