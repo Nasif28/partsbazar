@@ -1,31 +1,35 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const MAX_COMPARE_ITEMS = 4;
-
 const compareSlice = createSlice({
   name: "compare",
   initialState: {
-    items: [],
+    products: [],
   },
   reducers: {
     addToCompare: (state, action) => {
-      if (state.items.length >= MAX_COMPARE_ITEMS) {
-        // Remove the first item if we've reached the max
-        state.items.shift();
+      const product = action.payload;
+
+      // Check if product is already in compare
+      const existingIndex = state.products.findIndex(
+        (p) => p.id === product.id
+      );
+      if (existingIndex !== -1) {
+        return;
       }
 
-      const existingItem = state.items.find(
-        (item) => item.id === action.payload.id
-      );
-      if (!existingItem) {
-        state.items.push(action.payload);
+      // Limit to 4 products
+      if (state.products.length >= 4) {
+        return;
       }
+
+      state.products.push(product);
     },
     removeFromCompare: (state, action) => {
-      state.items = state.items.filter((item) => item.id !== action.payload);
+      const productId = action.payload;
+      state.products = state.products.filter((p) => p.id !== productId);
     },
     clearCompare: (state) => {
-      state.items = [];
+      state.products = [];
     },
   },
 });

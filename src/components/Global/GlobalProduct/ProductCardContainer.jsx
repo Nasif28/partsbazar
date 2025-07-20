@@ -9,7 +9,7 @@ import {
   removeFromWishlist,
 } from "@/redux/features/wishlistSlice";
 import { addToCart } from "@/redux/features/cartSlice";
-import { addToCompare } from "@/redux/features/compareSlice";
+import { addToCompare, removeFromCompare } from "@/redux/features/compareSlice";
 
 const ProductCardContainer = ({ product }) => {
   const [quickViewProduct, setQuickViewProduct] = useState(null);
@@ -17,10 +17,15 @@ const ProductCardContainer = ({ product }) => {
 
   // Get state from Redux
   const { items } = useSelector((state) => state.wishlist);
+  const { products: compareProducts } = useSelector((state) => state.compare);
+
   const isAuthenticated = true; // Replace with actual auth check
 
   // Check if product is in wishlist
   const isInWishlist = items.some((item) => item.id === product.id);
+
+  // Check if product is in compare
+  const isInCompare = compareProducts.some((p) => p.id === product.id);
 
   // Handle wishlist action with login check
   const handleWishlist = () => {
@@ -46,8 +51,19 @@ const ProductCardContainer = ({ product }) => {
 
   // Handle add to compare
   const handleAddToCompare = () => {
-    dispatch(addToCompare(product));
-    toast.info("Added to compare");
+    if (isInCompare) {
+      dispatch(removeFromCompare(product.id));
+      toast.info("Removed from compare");
+    } else {
+      // Check if we can add more products
+      if (compareProducts.length >= 4) {
+        toast.warning("You can compare up to 4 products at a time");
+        return;
+      }
+
+      dispatch(addToCompare(product));
+      toast.info("Added to compare");
+    }
   };
 
   // Handle quick view
@@ -62,6 +78,7 @@ const ProductCardContainer = ({ product }) => {
         inWishlist={isInWishlist}
         onAddToWishlist={handleWishlist}
         onAddToCart={handleAddToCart}
+        inCompare={isInCompare}
         onAddToCompare={handleAddToCompare}
         onQuickView={handleQuickView}
       />
@@ -70,8 +87,11 @@ const ProductCardContainer = ({ product }) => {
         product={quickViewProduct}
         open={!!quickViewProduct}
         onOpenChange={(open) => !open && setQuickViewProduct(null)}
+        inWishlist={isInWishlist}
         onAddToWishlist={handleWishlist}
         onAddToCart={handleAddToCart}
+        onAddToCompare={handleAddToCompare}
+        inCompare={isInCompare}
       />
     </>
   );

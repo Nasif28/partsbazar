@@ -10,6 +10,7 @@ export default function ProductCard({
   inWishlist,
   onAddToWishlist,
   onAddToCart,
+  inCompare,
   onAddToCompare,
   onQuickView,
 }) {
@@ -87,7 +88,7 @@ export default function ProductCard({
           onClick={onAddToCompare}
           aria-label="Add to compare"
         >
-          <Scale className="h-4 w-4" />
+          <Scale className={`h-4 w-4 ${inCompare ? "text-primary" : ""}`} />
         </Button>
       </div>
 

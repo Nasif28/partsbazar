@@ -9,11 +9,15 @@ import CartDropdown from "./CartDropdown";
 import UserAuth from "./UserAuth";
 import { useEffect, useState } from "react";
 import { PBLogo } from "@/assets/Import";
+import { useSelector } from "react-redux";
 
 const MiddleBar = () => {
   const { theme, setTheme } = useTheme();
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
+
+  // Get compare count from Redux
+  const compareCount = useSelector((state) => state.compare.products.length);
 
   useEffect(() => {
     setMounted(true);
@@ -88,11 +92,16 @@ const MiddleBar = () => {
                 <Button
                   variant="ghost"
                   size="sm"
-                  className="flex flex-col items-center h-auto py-2 px-1 sm:px-2 gap-0.5"
+                  className="flex flex-col items-center h-auto py-2 px-1 sm:px-2 gap-0.5 relative"
                   aria-label="Compare products"
                 >
                   <BarChart2 className="h-6 w-6" />
                   <span className="text-xs">Compare</span>
+                  {compareCount > 0 && (
+                    <span className="absolute top-1 right-1 sm:top-0 sm:right-2 bg-primary text-primary-foreground rounded-full w-4 h-4 flex items-center justify-center text-xs">
+                      {compareCount}
+                    </span>
+                  )}
                 </Button>
               </Link>
 

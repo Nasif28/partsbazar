@@ -5,6 +5,7 @@ import ProductCard from "@/components/Global/GlobalProduct/ProductCard";
 import SectionSlider from "@/components/Global/SectionSlider";
 import { fetchProducts } from "@/redux/features/productSlice";
 import { categories, categoryIcons } from "../../assets/Categories";
+import ProductCardContainer from "../Global/GlobalProduct/ProductCardContainer";
 
 const ProductTab = () => {
   const dispatch = useDispatch();
@@ -59,7 +60,7 @@ const ProductTab = () => {
             loading={loading}
             autoplayOptions={false}
             itemClassName="md:basis-1/5"
-            renderItem={(product) => <ProductCard product={product} />}
+            renderItem={(product) => <ProductCardContainer product={product} />}
             emptyMessage={`No products found in ${activeCategory}`}
           />
         </div>

@@ -8,12 +8,17 @@ import {
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
+import { Heart, Scale } from "lucide-react";
 
 export default function ProductModal({
   onAddToCart,
   product,
   open,
   onOpenChange,
+  inWishlist,
+  onAddToWishlist,
+  inCompare,
+  onAddToCompare,
 }) {
   if (!product) return null;
 
@@ -38,7 +43,25 @@ export default function ProductModal({
             <h2 className="text-xl font-bold">{product.title}</h2>
             <p className="mt-1 text-sm text-textLight">{product.brand}</p>
 
-            <div className="mt-4 flex items-center">
+            <div className="flex items-center gap-4 my-2">
+              {product.discountPrice > 0 && (
+                <span className="bg-primary/10 text-primary px-2 py-1 rounded-md text-xs font-medium">
+                  {product.discountPrice}% OFF
+                </span>
+              )}
+
+              {product.inStock ? (
+                <span className="bg-green-100 text-green-800 px-2 py-1 rounded-md text-xs">
+                  In Stock
+                </span>
+              ) : (
+                <span className="bg-red-100 text-red-800 px-2 py-1 rounded-md text-sm">
+                  Out of Stock
+                </span>
+              )}
+            </div>
+
+            <div className="flex items-center">
               {product.discountPrice ? (
                 <>
                   <span className="text-2xl font-bold text-textLight">
@@ -55,11 +78,11 @@ export default function ProductModal({
               )}
             </div>
 
-            <div className="mt-4">
+            <div className="my-4">
               <p className="text-textLight">{product.description}</p>
             </div>
 
-            <div className="mt-6">
+            <div>
               <h3 className="font-medium">Specifications</h3>
               <ul className="mt-2 list-disc pl-5 text-sm text-textLight">
                 {product.specifications.map((spec, index) => (
@@ -68,7 +91,33 @@ export default function ProductModal({
               </ul>
             </div>
 
-            <div className="mt-6 flex space-x-4">
+            <div className="flex gap-3 py-4">
+              <Button
+                variant="outline"
+                // className="flex-1"
+                onClick={onAddToWishlist}
+              >
+                <Heart
+                  className={`h-4 w-4 ${
+                    inWishlist ? "fill-current text-red-500" : ""
+                  }`}
+                />
+                {/* Wishlist */}
+              </Button>
+
+              <Button
+                variant="outline"
+                // className="flex-1"
+                onClick={onAddToCompare}
+              >
+                <Scale
+                  className={`h-4 w-4 ${inCompare ? "text-primary" : ""}`}
+                />
+                {/* {inCompare ? "Remove Compare" : "Compare"} */}
+              </Button>
+            </div>
+
+            <div className="flex space-x-4">
               <Button onClick={onAddToCart} className="flex-1">
                 Add To Cart
               </Button>
