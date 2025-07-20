@@ -1,6 +1,6 @@
 # Parts Bazar - Automotive Parts E-commerce Platform
 
-![Parts Bazar Banner](https://prnt.sc/7NAg4Fnifil2)
+![Parts Bazar Banner](https://awesomescreenshot.s3.amazonaws.com/image/6590449/55544273-cedd439b735fd693a0c0a761de060081.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20250720%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250720T050058Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=d0e4b7a9f5fcb16af2a7446bd3b5b3c5ea90a038999d8d44803d681c7d94c3a3)
 
 ## Overview
 
@@ -114,25 +114,49 @@ graph TD
 ## Project Structure
 
 ```
-parts-bazar/
-├── app/
-│   ├── (auth)/               # Authentication routes
-│   ├── admin/                # Admin dashboard
-│   ├── cart/                 # Shopping cart
-│   ├── products/             # Product listings
-│   └── layout.jsx            # Main layout
-├── components/
-│   ├── auth/                 # Auth components
-│   ├── cart/                 # Cart components
-│   ├── products/             # Product components
-│   └── ui/                   # Shadcn UI components
-├── lib/                      # Utility functions
-├── public/                   # Static assets
-├── redux/                    # Redux store
-├── styles/                   # Global styles
-├── .env.example              # Environment template
-├── next.config.js            # Next.js config
-└── package.json
+partsbazar/
+├── public/                     # Static assets (images, etc.)
+├── src/                        # Source files
+│   ├── app/                    # App directory (Next.js routing)
+│   │   ├── (frontend)/         # Dynamic route group
+│   │   ├── admin/              # Admin pages
+│   │   ├── user/               # User-specific pages
+│   │   ├── client-layout.js    # Client-side layout
+│   │   ├── layout.jsx          # Root layout file
+│   │   ├── metadata.js         # SEO metadata
+│   │   └── not-found.jsx       # Custom 404 page
+│   ├── assets/                 # Static or reusable media assets
+│   ├── components/             # Reusable React components
+│   │   ├── About/
+│   │   ├── Auth/
+│   │   ├── Blogs/
+│   │   ├── Brands/
+│   │   ├── Contact/
+│   │   ├── FAQ/
+│   │   ├── Footer/
+│   │   ├── Global/
+│   │   ├── Header/
+│   │   ├── Home/
+│   │   ├── Products/
+│   │   ├── SVG/
+│   │   ├── UI/
+│   │   ├── User/
+│   │   ├── Videos/
+│   │   └── ProtectedRoute.jsx  # Route protection wrapper
+│   ├── data/                   # Static or mock data files
+│   ├── lib/                    # Utility functions & helpers
+│   ├── providers/              # Context and providers (e.g., theme, auth)
+│   ├── redux/                  # Redux store and slices
+│   └── styles/                 # Global & modular styles (CSS/SCSS)
+├── .env                        # Environment variables
+├── .gitignore                  # Git ignored files
+├── components.json             # Custom component definitions (optional)
+├── eslint.config.mjs           # ESLint flat config
+├── jsconfig.json               # JS path aliases and IntelliSense
+├── next.config.mjs             # Next.js configuration
+├── package.json                # Project dependencies and scripts
+├── package-lock.json           # Lock file for package versions
+└── postcss.config.mjs          # PostCSS config (usually for Tailwind CSS)
 ```
 
 ## Configuration
@@ -152,9 +176,6 @@ parts-bazar/
 ## Deployment
 
 Parts Bazar is optimized for deployment on Render:
-
-[![Deploy with Render](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fyour-username%2Fparts-bazar)
-[![Deploy with Render](https://vercel.com/button)](https://partsbazar.onrender.com)
 
 ### Deployment Steps:
 
@@ -182,10 +203,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 **Project Maintainer:** [Parts Bazar]  
 **Email:** [nasifzeehan1@gmail.com]  
-**Website:** [https://partsbazar.onrender.com](https://partsbazar.onrender.com)
+**Website:** [https://nasifjihan.onrender.com](https://nasifjihan.onrender.com)
 
-[![GitHub Issues](https://img.shields.io/github/issues/your-username/parts-bazar)](https://github.com/your-username/parts-bazar/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/parts-bazar)](https://github.com/your-username/parts-bazar/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/nasif28/partsbazar)](https://github.com/nasif28/partsbazar/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/nasif28/partsbazar)](https://github.com/nasif28/partsbazar/stargazers)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Roadmap
@@ -208,4 +229,4 @@ gantt
 
 ## Support
 
-For support, please email support@parts-bazar.com or join our [Discord server](https://discord.gg/your-invite-link).
+For support, please email support@partsbazar.com or join our [Discord server](https://discord.gg/partsbazar).
