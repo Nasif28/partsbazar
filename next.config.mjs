@@ -3,34 +3,13 @@
 const nextConfig = {
   images: {
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "res.cloudinary.com",
-      },
-      {
-        protocol: "https",
-        hostname: "example.com",
-      },
-      {
-        protocol: "https",
-        hostname: "partschai.com",
-      },
-      {
-        protocol: "https",
-        hostname: "japanparts.com.bd",
-      },
-      {
-        protocol: "https",
-        hostname: "m.media-amazon.com",
-      },
-      {
-        protocol: "https",
-        hostname: "cdn.pixabay.com",
-      },
-      {
-        protocol: "https",
-        hostname: "i.ytimg.com",
-      },
+      { protocol: "https", hostname: "res.cloudinary.com" },
+      { protocol: "https", hostname: "example.com" },
+      { protocol: "https", hostname: "partschai.com" },
+      { protocol: "https", hostname: "japanparts.com.bd" },
+      { protocol: "https", hostname: "m.media-amazon.com" },
+      { protocol: "https", hostname: "cdn.pixabay.com" },
+      { protocol: "https", hostname: "i.ytimg.com" },
     ],
 
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
@@ -38,10 +17,11 @@ const nextConfig = {
     formats: ["image/webp"],
     minimumCacheTTL: 60,
   },
+
   experimental: {
-    // serverActions: true,
     serverActions: {},
   },
+
   webpack(config) {
     config.module.rules.push({
       test: /\.json$/,
