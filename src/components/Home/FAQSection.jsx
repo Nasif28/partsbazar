@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {
   fetchFAQs,
@@ -12,7 +12,10 @@ import SectionHeader from "../Global/SectionHeader";
 
 export default function FAQSection() {
   const dispatch = useDispatch();
-  const topFAQs = useSelector(selectTopFAQs);
+  const allFAQs = useSelector((state) => state.faqs.items);
+  const topFAQs = useMemo(() => {
+    return allFAQs.filter((faq) => faq.top);
+  }, [allFAQs]);
   const status = useSelector(selectFAQStatus);
   const error = useSelector(selectFAQError);
 
