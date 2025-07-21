@@ -105,7 +105,7 @@ const MiddleBar = () => {
                 </Button>
               </Link>
 
-              <Link href="/wishlist">
+              <Link href="/user/wishlist">
                 <Button
                   variant="ghost"
                   size="sm"

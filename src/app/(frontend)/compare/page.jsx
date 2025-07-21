@@ -149,7 +149,7 @@ const ComparePage = () => {
               </div>
 
               {/* Specifications */}
-              <div className="border-t border-border pt-6">
+              <div className="">
                 <h2 className="text-xl font-bold mb-4">Specifications</h2>
 
                 {allSpecifications.map((spec, index) => (

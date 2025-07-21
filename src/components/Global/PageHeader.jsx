@@ -37,7 +37,7 @@ const PageHeader = ({
 
           <div className="text-center">
             <motion.h1
-              className="text-4xl md:text-5xl lg:text-6xl font-bold text-white"
+              className="text-3xl md:text-4xl lg:text-5xl font-bold text-white"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
@@ -47,7 +47,7 @@ const PageHeader = ({
 
             {description && (
               <motion.p
-                className="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-white/90"
+                className="mt-2 max-w-3xl mx-auto text-md md:text-lg text-white/90"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.1 }}
