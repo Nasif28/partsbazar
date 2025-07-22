@@ -147,7 +147,9 @@
 }
 
 * {
-  transition: background-color 0.2s ease, color 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 ::-webkit-scrollbar {
@@ -227,4 +229,8 @@ body {
 
 .animate-float {
   animation: float 4s ease-in-out infinite;
+}
+
+.DeleteGit {
+  text-align: center;
 }
