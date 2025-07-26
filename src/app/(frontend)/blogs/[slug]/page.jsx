@@ -1,11 +1,12 @@
 import BlogDetails from "@/components/Blogs/BlogDetails";
-import React from "react";
+import { Suspense } from "react";
+import Loading from "@/app/loading";
 
 const BlogDetailsPage = ({ params }) => {
   return (
-    <div>
+    <Suspense fallback={<Loading />}>
       <BlogDetails slug={params.slug} />
-    </div>
+    </Suspense>
   );
 };
 
