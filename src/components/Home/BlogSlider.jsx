@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/carousel";
 import { ChevronRight } from "lucide-react";
 import Autoplay from "embla-carousel-autoplay";
+import SectionHeader from "../Global/SectionHeader";
 
 const BlogSlider = () => {
   const dispatch = useDispatch();
@@ -26,21 +27,11 @@ const BlogSlider = () => {
     <section className="bg-secondary py-6">
       <div className="myContainer">
         <div className="container mx-auto">
-          <div className="flex items-center mb-8 gap-2">
-            <h2 className="text-2xl font-bold whitespace-nowrap">
-              Latest Blogs
-            </h2>
-
-            <div className="w-full border-t border-primary mx-4"></div>
-
-            <Link
-              href="/blogs"
-              className="bg-primary hover:bg-primary-dark rounded-3xl px-3 py-1.5 text-white text-xs font-bold flex items-center gap-1 whitespace-nowrap"
-            >
-              All Blogs
-              <ChevronRight className="w-4 h-4" />
-            </Link>
-          </div>
+          <SectionHeader
+            title=" Latest Blogs"
+            href="/blogs"
+            linkText="All Blogs"
+          />
 
           {loading ? (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

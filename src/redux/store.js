@@ -3,6 +3,7 @@ import cartReducer from "./features/cartSlice";
 import authReducer from "./features/authSlice";
 import preferencesReducer from "./features/preferencesSlice";
 import brandReducer from "./features/brandsSlice";
+import categoriesReducer from "./features/categoriesSlice";
 import blogReducer from "./features/blogSlice";
 import videoReducer from "./features/videoSlice";
 import wishlistReducer from "./features/wishlistSlice";
@@ -16,6 +17,7 @@ export const store = configureStore({
     cart: cartReducer,
     preferences: preferencesReducer,
     brands: brandReducer,
+    categories: categoriesReducer,
     blogs: blogReducer,
     videos: videoReducer,
     wishlist: wishlistReducer,

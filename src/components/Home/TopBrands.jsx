@@ -6,6 +6,7 @@ import BrandCard from "@/components/Brands/BrandCard";
 import { Skeleton } from "@/components/ui/skeleton";
 import { fetchTopBrands } from "@/redux/features/brandsSlice";
 import { ArrowRight, ChevronRight } from "lucide-react";
+import SectionHeader from "../Global/SectionHeader";
 
 const TopBrands = () => {
   const dispatch = useDispatch();
@@ -37,19 +38,11 @@ const TopBrands = () => {
   return (
     <section className="myContainer">
       <div className="container mx-auto py-6">
-        <div className="flex items-center mb-8 gap-2">
-          <h2 className="text-2xl font-bold whitespace-nowrap">Top Brands</h2>
-
-          <div className="w-full border-t border-primary mx-4"></div>
-
-          <Link
-            href="/brands"
-            className="bg-primary hover:bg-primary-dark rounded-3xl px-3 py-1.5 text-white text-xs font-bold flex items-center gap-1 whitespace-nowrap"
-          >
-            All Brands
-            <ChevronRight className="w-4 h-4" />
-          </Link>
-        </div>
+        <SectionHeader
+          title="Top Brands"
+          href="/brands"
+          linkText="All Brands"
+        />
 
         {loading && topBrands.length === 0 ? (
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">

@@ -1,0 +1,201 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Car Parts & Accessories",
+            "slug": "car-parts-accessories",
+            "isTop": true,
+            "image": "https://japanparts.com.bd/cdn/shop/files/10._car-body-part_400x.png",
+            "description": "Premium automotive components and accessories for all vehicle types",
+            "subcategories": [
+                {
+                    "id": 101,
+                    "name": "Engine Parts",
+                    "slug": "engine-parts",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/8._Spark-plug_400x.png",
+                    "description": "Internal combustion components and performance parts"
+                },
+                {
+                    "id": 102,
+                    "name": "Brakes",
+                    "slug": "brakes",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/2._Brakes_400x.png",
+                    "description": "Braking systems and components for all vehicles"
+                },
+                {
+                    "id": 103,
+                    "name": "Suspension",
+                    "slug": "suspension",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/9._shock-absorber_400x.png",
+                    "description": "Shock absorbers, springs and suspension kits"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Bike Parts & Accessories",
+            "slug": "bike-parts-accessories",
+            "isTop": true,
+            "image": "https://japanparts.com.bd/cdn/shop/files/6._car-care-product_400x.png",
+            "description": "Components and upgrades for bicycles and motorcycles",
+            "subcategories": [
+                {
+                    "id": 201,
+                    "name": "Handlebars",
+                    "slug": "handlebars",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/4._car-horn_400x.png",
+                    "description": "Steering controls for all bike types"
+                },
+                {
+                    "id": 202,
+                    "name": "Seats",
+                    "slug": "seats",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/3._Filters_400x.png",
+                    "description": "Comfort and racing seats for bicycles and motorcycles"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Electrical & Electronics",
+            "slug": "electrical-electronics",
+            "isTop": true,
+            "image": "https://japanparts.com.bd/cdn/shop/files/electrcal-parts_400x.png",
+            "description": "Wiring systems and electronic components for vehicles",
+            "subcategories": [
+                {
+                    "id": 301,
+                    "name": "Batteries",
+                    "slug": "batteries",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/11._Battery_400x.png",
+                    "description": "Automotive power solutions and rechargeable systems"
+                },
+                {
+                    "id": 302,
+                    "name": "Wiring",
+                    "slug": "wiring",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/4._wiper_400x.png",
+                    "description": "Harnesses, cables and electrical connectors"
+                },
+                {
+                    "id": 303,
+                    "name": "Lighting",
+                    "slug": "lighting",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/5._BULB-and-LED_400x.png",
+                    "description": "Interior and exterior illumination systems"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Industrial Equipment & Components",
+            "slug": "industrial-equipment-components",
+            "isTop": false,
+            "image": "https://japanparts.com.bd/cdn/shop/files/6._car-care-product_400x.png",
+            "description": "Machinery parts for manufacturing and processing",
+            "subcategories": []
+        },
+        {
+            "id": 5,
+            "name": "Heavy Vehicle",
+            "slug": "heavy-vehicle",
+            "isTop": true,
+            "image": "https://japanparts.com.bd/cdn/shop/files/Tools_400x.png",
+            "description": "Components for commercial trucks and buses",
+            "subcategories": [
+                {
+                    "id": 501,
+                    "name": "Truck Parts",
+                    "slug": "truck-parts",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/7._Tyre_400x.png",
+                    "description": "Commercial vehicle components and replacements"
+                },
+                {
+                    "id": 502,
+                    "name": "Bus Parts",
+                    "slug": "bus-parts",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/10._car-body-part_400x.png",
+                    "description": "Transit vehicle systems and maintenance parts"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Hybrid Car Battery",
+            "slug": "hybrid-car-battery",
+            "isTop": false,
+            "image": "https://japanparts.com.bd/cdn/shop/files/11._Battery_400x.png",
+            "description": "Power solutions for electric and hybrid vehicles",
+            "subcategories": []
+        },
+        {
+            "id": 7,
+            "name": "Tools & Hardware",
+            "slug": "tools-hardware",
+            "isTop": true,
+            "image": "https://japanparts.com.bd/cdn/shop/files/electrcal-parts_400x.png",
+            "description": "Professional equipment for maintenance and repair",
+            "subcategories": [
+                {
+                    "id": 701,
+                    "name": "Hand Tools",
+                    "slug": "hand-tools",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/4._wiper_400x.png",
+                    "description": "Manual tools for mechanical work"
+                },
+                {
+                    "id": 702,
+                    "name": "Power Tools",
+                    "slug": "power-tools",
+                    "image": "https://japanparts.com.bd/cdn/shop/files/8._Spark-plug_400x.png",
+                    "description": "Electric and pneumatic equipment"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Electronics Devices & Accessories",
+            "slug": "electronics-devices-accessories",
+            "isTop": false,
+            "image": "https://japanparts.com.bd/cdn/shop/files/4._car-horn_400x.png",
+            "description": "Gadgets and electronic accessories for vehicles",
+            "subcategories": []
+        },
+        {
+            "id": 9,
+            "name": "Health & Medicine",
+            "slug": "health-medicine",
+            "isTop": false,
+            "image": "https://japanparts.com.bd/cdn/shop/files/9._shock-absorber_400x.png",
+            "description": "Medical equipment and supplies",
+            "subcategories": []
+        },
+        {
+            "id": 10,
+            "name": "Agriculture & Food",
+            "slug": "agriculture-food",
+            "isTop": false,
+            "image": "https://japanparts.com.bd/cdn/shop/files/5._BULB-and-LED_400x.png",
+            "description": "Farming equipment and food processing parts",
+            "subcategories": []
+        },
+        {
+            "id": 11,
+            "name": "Agricultural Machinery",
+            "slug": "agricultural-machinery",
+            "isTop": false,
+            "image": "https://japanparts.com.bd/cdn/shop/files/Tools_400x.png",
+            "description": "Farm equipment components and attachments",
+            "subcategories": []
+        },
+        {
+            "id": 12,
+            "name": "Wholesale Products",
+            "slug": "wholesale-products",
+            "isTop": false,
+            "image": "https://japanparts.com.bd/cdn/shop/files/1._Lubricants_6fbf6cae-c062-482b-9837-096e10ccf74b_400x.png",
+            "description": "Bulk industrial components and supplies",
+            "subcategories": []
+        }
+    ]
+}
