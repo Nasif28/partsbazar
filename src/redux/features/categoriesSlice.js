@@ -5,7 +5,7 @@ const fetchCategories = async () => {
   // In a real app, this would be an API call
   return new Promise((resolve) => {
     setTimeout(() => {
-      const data = require("@/data/categories.json");
+      const data = require("@/data/Categories.json");
       resolve(data.categories);
     }, 500);
   });

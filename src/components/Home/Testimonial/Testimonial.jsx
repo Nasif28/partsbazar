@@ -54,12 +54,13 @@ const Testimonial = () => {
         backgroundImage: `url(/Testimonial.jpg)`,
         backgroundSize: "cover",
         backgroundPosition: "center",
+        transform: "scaleX(-1)",
       }}
     >
       {/* Overlay for better readability */}
       <div className="absolute inset-0 bg-black opacity-70"></div>
 
-      <div className="myContainer">
+      <div className="myContainer" style={{ transform: "scaleX(-1)" }}>
         <div className="container mx-auto relative">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
             {/* Left Column: Heading and Button */}
