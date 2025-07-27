@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import TestimonialCard from "./TestimonialCard";
 import ReviewForm from "./ReviewForm";
-import testimonialsData from "@/data/testimonials.json";
+import testimonialsData from "@/data/Testimonials.json";
 import {
   Carousel,
   CarouselContent,
