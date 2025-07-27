@@ -20,6 +20,7 @@ const Navbar = () => {
     { name: "Gift Cards", href: "/gift-cards" },
     { name: "Complete Service Package", href: "/service-package" },
     { name: "Combo Packages", href: "/combo-packages" },
+    { name: "Request Parts", href: "/request_parts" },
   ];
 
   useEffect(() => {
