@@ -44,7 +44,7 @@ const Brands = () => {
                 value="top"
                 className={`${
                   activeTab === "top" ? "text-primary" : ""
-                } font-semibold`}
+                } font-semibold cursor-pointer`}
                 onClick={() => setActiveTab("top")}
               >
                 Top Brands
@@ -53,7 +53,7 @@ const Brands = () => {
                 value="all"
                 className={`${
                   activeTab === "all" ? "text-primary" : ""
-                } font-semibold`}
+                } font-semibold cursor-pointer`}
                 onClick={() => setActiveTab("all")}
               >
                 All Brands

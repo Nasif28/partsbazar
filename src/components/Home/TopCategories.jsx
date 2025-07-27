@@ -1,11 +1,9 @@
 "use client";
 import React, { useEffect } from "react";
-import Link from "next/link";
 import { useDispatch, useSelector } from "react-redux";
 import CategoryCard from "@/components/Categories/CategoryCard";
 import { Skeleton } from "@/components/ui/skeleton";
 import { fetchTopCategories } from "@/redux/features/categoriesSlice";
-import { ChevronRight } from "lucide-react";
 import SectionHeader from "../Global/SectionHeader";
 
 const TopCategories = () => {
