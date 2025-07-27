@@ -3,6 +3,7 @@ import FAQSection from "@/components/Home/FAQSection";
 import Features from "@/components/Home/Features";
 import HeroBanner from "@/components/Home/Hero/HeroBanner";
 import ProductTab from "@/components/Home/ProductTab";
+import Testimonial from "@/components/Home/Testimonial/Testimonial";
 import TopBrands from "@/components/Home/TopBrands";
 import TopCategories from "@/components/Home/TopCategories";
 import TopProducts from "@/components/Home/TopProducts";
@@ -23,6 +24,7 @@ export default function HomePage() {
         {/* <ProductCategorized /> */}
         <ProductTab />
         <FAQSection />
+        <Testimonial />
       </Suspense>
     </div>
   );
