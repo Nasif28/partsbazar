@@ -27,7 +27,7 @@ const ForgotPasswordForm = () => {
         <div className="text-primary text-lg font-medium">
           Password reset email sent!
         </div>
-        <p className="text-muted-foreground">
+        <p className="text-white/70">
           We've sent a password reset OTP to {resetEmail}. Please check your
           inbox.
         </p>
@@ -39,7 +39,7 @@ const ForgotPasswordForm = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
+    <form onSubmit={handleSubmit} className="space-y-6 text-white">
       <div className="space-y-4">
         <div>
           <Label htmlFor="email">Email</Label>

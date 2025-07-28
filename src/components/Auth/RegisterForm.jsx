@@ -37,7 +37,7 @@ const RegisterForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
-      <div className="space-y-4">
+      <div className="space-y-4 text-white">
         <div>
           <Label htmlFor="fullName">Full Name</Label>
           <Input
@@ -70,7 +70,7 @@ const RegisterForm = () => {
             required
             className="mt-2"
           />
-          <p className="text-xs text-muted-foreground mt-1">
+          <p className="text-xs text-white/60 mt-1">
             Password must contain at least 6 characters
           </p>
         </div>
@@ -87,7 +87,7 @@ const RegisterForm = () => {
         </div>
       </div>
 
-      <div className="flex items-center space-x-2 text-muted-foreground">
+      <div className="flex items-center space-x-2 text-white/70">
         <input
           type="checkbox"
           id="terms"
@@ -109,7 +109,7 @@ const RegisterForm = () => {
         )}
       </Button>
 
-      <div className="mt-4 text-center text-sm">
+      <div className="mt-4 text-center text-sm text-white">
         Already have an account?{" "}
         <Link href="/login" className="text-primary hover:underline">
           Log in

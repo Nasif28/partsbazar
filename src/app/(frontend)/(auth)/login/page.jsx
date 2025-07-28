@@ -5,12 +5,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const LoginPage = () => {
   return (
     <section className="myContainer">
-      <div className="container py-16 flex items-center justify-center bg-background">
-        <Card className="w-full max-w-md">
+      <div className="container py-16 flex items-center justify-center">
+        <Card className="w-full max-w-md backdrop-blur-sm bg-white/20">
           <CardHeader className="text-center">
-            <CardTitle className="text-2xl">WELCOME BACK!</CardTitle>
-            <p className="text-muted-foreground">Login to your account</p>
+            <CardTitle className="text-2xl text-white">WELCOME BACK!</CardTitle>
+            <p className="text-white/70">Login to your account</p>
           </CardHeader>
+
           <CardContent>
             <LoginForm />
           </CardContent>
@@ -21,3 +22,4 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
+//  <div className="bg-white/20 backdrop-blur-sm rounded-xl shadow-lg p-6 h-full flex flex-col border border-white/30"></div>

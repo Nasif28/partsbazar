@@ -41,7 +41,7 @@ const OTPForm = () => {
         <div className="text-primary text-lg font-medium">
           Password reset successful!
         </div>
-        <p className="text-muted-foreground">
+        <p className="text-white/70">
           Your password has been updated successfully.
         </p>
         <Button asChild className="w-full mt-4">
@@ -52,7 +52,7 @@ const OTPForm = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
+    <form onSubmit={handleSubmit} className="space-y-6 text-white">
       <div className="space-y-4">
         <div>
           <Label htmlFor="otp">Reset Code</Label>
@@ -64,7 +64,7 @@ const OTPForm = () => {
             required
             className="mt-2"
           />
-          <p className="text-xs text-muted-foreground mt-1">
+          <p className="text-xs text-white/60 mt-1">
             Enter the OTP sent to {resetEmail}
           </p>
         </div>

@@ -5,11 +5,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const ForgotPasswordPage = () => {
   return (
     <section className="myContainer">
-      <div className="flex items-center justify-center bg-background py-16">
-        <Card className="w-full max-w-md">
+      <div className="container flex items-center justify-center py-16">
+        <Card className="w-full max-w-md backdrop-blur-sm bg-white/20">
           <CardHeader className="text-center">
-            <CardTitle className="text-2xl">FORGOT PASSWORD?</CardTitle>
-            <p className="text-muted-foreground">
+            <CardTitle className="text-2xl text-white">
+              FORGOT PASSWORD?
+            </CardTitle>
+            <p className="text-white/70">
               Enter your email address to recover your password
             </p>
           </CardHeader>
