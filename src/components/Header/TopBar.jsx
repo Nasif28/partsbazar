@@ -39,7 +39,7 @@ const TopBar = () => {
             <Link href="/about" className="hover:text-primary">
               About Us
             </Link>
-            <Link href="/faq" className="hover:text-primary">
+            <Link href="/faqs" className="hover:text-primary">
               FAQs
             </Link>
             <Link href="/helpline" className="hover:text-primary">
