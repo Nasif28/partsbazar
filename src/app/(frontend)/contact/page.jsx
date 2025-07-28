@@ -15,6 +15,7 @@ import {
   YouTubeIcon,
 } from "@/assets/Import";
 import dynamic from "next/dynamic";
+import PageHeader from "@/components/Global/PageHeader";
 
 // Social icon components
 const SocialIcon = ({ icon, url, name }) => {
@@ -51,103 +52,103 @@ const ContactCard = ({ icon, title, content }) => (
 
 const ContactPage = () => {
   return (
-    <main className="myContainer">
-      <div className="min-h-screen py-10 container mx-auto">
-        <div className="text-center">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4">Contact Us</h1>
-          <p className="text-lg max-w-2xl mx-auto">
-            We're here to help with any questions about our automotive parts and
-            services.
-          </p>
-        </div>
+    <main className="min-h-screen">
+      <PageHeader
+        title="Contact Us"
+        description="We're here to help with any questions about our automotive parts
+              and services."
+      />
 
-        {/* Main Content */}
-        <div className="py-6">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Left Column - Contact Info */}
-            <div className="lg:col-span-1 space-y-8">
-              <div className="bg-card p-6 rounded-xl shadow-sm border border-border">
-                <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
+      <section className="myContainer">
+        <div className="container mx-auto">
+          {/* Main Content */}
+          <div className="py-6">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              {/* Left Column - Contact Info */}
+              <div className="lg:col-span-1 space-y-8">
+                <div className="bg-card p-6 rounded-xl shadow-sm border border-border">
+                  <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
 
-                <div className="space-y-4">
-                  <ContactCard
-                    icon={<MapPin size={24} />}
-                    title="Our Location"
-                    content={contactInfo.address}
-                  />
+                  <div className="space-y-4">
+                    <ContactCard
+                      icon={<MapPin size={24} />}
+                      title="Our Location"
+                      content={contactInfo.address}
+                    />
 
-                  <ContactCard
-                    icon={<Phone size={24} />}
-                    title="Call Us"
-                    content={contactInfo.phone}
-                  />
+                    <ContactCard
+                      icon={<Phone size={24} />}
+                      title="Call Us"
+                      content={contactInfo.phone}
+                    />
 
-                  <ContactCard
-                    icon={<Mail size={24} />}
-                    title="Email Us"
-                    content={contactInfo.email}
-                  />
+                    <ContactCard
+                      icon={<Mail size={24} />}
+                      title="Email Us"
+                      content={contactInfo.email}
+                    />
 
-                  <ContactCard
-                    icon={<Clock size={24} />}
-                    title="Working Hours"
-                    content={contactInfo.hours}
-                  />
-                </div>
+                    <ContactCard
+                      icon={<Clock size={24} />}
+                      title="Working Hours"
+                      content={contactInfo.hours}
+                    />
+                  </div>
 
-                {/* Social Media */}
-                <div className="mt-6">
-                  <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
-                  <div className="flex gap-3">
-                    {socialLinks.map((social) => (
-                      <SocialIcon
-                        key={social.name}
-                        icon={social.icon}
-                        url={social.url}
-                        name={social.name}
-                      />
-                    ))}
+                  {/* Social Media */}
+                  <div className="mt-6">
+                    <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
+                    <div className="flex gap-3">
+                      {socialLinks.map((social) => (
+                        <SocialIcon
+                          key={social.name}
+                          icon={social.icon}
+                          url={social.url}
+                          name={social.name}
+                        />
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            {/* Right Column - Contact Form */}
-            <div className="lg:col-span-2">
-              <div className="bg-card p-6 rounded-xl shadow-sm border border-border h-full">
-                <ContactForm />
+              {/* Right Column - Contact Form */}
+              <div className="lg:col-span-2">
+                <div className="bg-card p-6 rounded-xl shadow-sm border border-border h-full">
+                  <ContactForm />
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        {/* Google Map */}
-        <section className="pb-6">
-          <div className="bg-card p-6 rounded-xl shadow-sm border border-border">
-            <h2 className="text-2xl font-bold mb-4">Find Us on Map</h2>
-            <Map />
-          </div>
-        </section>
+          {/* Google Map */}
+          <section className="pb-6">
+            <div className="bg-card p-6 rounded-xl shadow-sm border border-border">
+              <h2 className="text-2xl font-bold mb-4">Find Us on Map</h2>
+              <Map />
+            </div>
+          </section>
 
-        {/* FAQ CTA */}
-        <div className="pb-6">
-          <div className="bg-primary/5 border border-primary/20 rounded-xl p-8 text-center">
-            <h2 className="text-2xl font-bold mb-4">
-              Frequently Asked Questions
-            </h2>
-            <p className="text-textLight max-w-2xl mx-auto mb-6">
-              Check out our FAQ section for quick answers to common questions
-              about orders, shipping, returns, and more.
-            </p>
-            <a
-              href="/faqs"
-              className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-full font-medium hover:bg-primary/90 transition-colors"
-            >
-              Visit FAQ Section
-            </a>
+          {/* FAQ CTA */}
+          <div className="pb-6">
+            <div className="bg-primary/5 border border-primary/20 rounded-xl p-8 text-center">
+              <h2 className="text-2xl font-bold mb-4">
+                Frequently Asked Questions
+              </h2>
+              <p className="text-textLight max-w-2xl mx-auto mb-6">
+                Check out our FAQ section for quick answers to common questions
+                about orders, shipping, returns, and more.
+              </p>
+              <a
+                href="/faqs"
+                className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-full font-medium hover:bg-primary/90 transition-colors"
+              >
+                Visit FAQ Section
+              </a>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </main>
   );
 };
