@@ -16,14 +16,6 @@ const AllBlogs = () => {
     <div className="min-h-screen py-10">
       <div className="myContainer">
         <div className="container mx-auto">
-          <div className="text-center mb-6">
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">All Blogs</h1>
-            <p className="max-w-2xl mx-auto">
-              Explore our collection of automotive tips, guides, and insights to
-              keep your vehicle in top condition.
-            </p>
-          </div>
-
           {loading ? (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[...Array(6)].map((_, i) => (

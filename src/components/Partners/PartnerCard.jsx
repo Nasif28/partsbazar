@@ -14,7 +14,7 @@ const PartnerCard = ({ partner }) => {
               alt={partner.name}
               width={120}
               height={80}
-              className="object-contain max-h-24"
+              className="object-contain max-h-28"
             />
           </div>
         </div>

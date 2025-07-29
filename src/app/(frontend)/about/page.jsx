@@ -19,6 +19,7 @@ const AboutUsPage = () => {
         buttonLink="/products"
         backgroundImage={PBLogo}
       />
+      
       <div className="myContainer">
         <div className="container pageP">
           <div className="space-y-8">

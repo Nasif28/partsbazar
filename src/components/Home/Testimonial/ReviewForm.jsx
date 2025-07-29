@@ -65,7 +65,7 @@ const ReviewForm = ({ isOpen, onClose, onSubmit }) => {
         <form onSubmit={handleSubmit} className="space-y-6 pt-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-sm font-medium mb-1">
                 Your Name <span className="text-red-500">*</span>
               </label>
               <Input
@@ -79,7 +79,7 @@ const ReviewForm = ({ isOpen, onClose, onSubmit }) => {
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-sm font-medium mb-1">
                 Your Role <span className="text-red-500">*</span>
               </label>
               <Input
@@ -94,7 +94,7 @@ const ReviewForm = ({ isOpen, onClose, onSubmit }) => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium mb-1">
               Company (Optional)
             </label>
             <Input
@@ -107,7 +107,7 @@ const ReviewForm = ({ isOpen, onClose, onSubmit }) => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium mb-1">
               Profile Image URL <span className="text-red-500">*</span>
             </label>
             <Input
@@ -121,9 +121,7 @@ const ReviewForm = ({ isOpen, onClose, onSubmit }) => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Address
-            </label>
+            <label className="block text-sm font-medium mb-1">Address</label>
             <Input
               type="text"
               name="address"
@@ -134,9 +132,7 @@ const ReviewForm = ({ isOpen, onClose, onSubmit }) => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
-              Rating
-            </label>
+            <label className="block text-sm font-medium mb-1">Rating</label>
             <div className="flex">
               {[1, 2, 3, 4, 5].map((star) => (
                 <button
@@ -154,7 +150,7 @@ const ReviewForm = ({ isOpen, onClose, onSubmit }) => {
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium mb-1">
               Your Review
             </label>
             <Textarea

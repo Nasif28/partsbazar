@@ -64,9 +64,6 @@ const ComparePage = () => {
       <PageHeader
         title="Compare Products"
         description="Add products to compare and see their features side-by-side here"
-        // buttonText="Add More Products"
-        // buttonLink="/products"
-        // backgroundImage={PBLogo}
       />
 
       <section className="myContainer">
