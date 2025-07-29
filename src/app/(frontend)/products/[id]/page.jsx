@@ -145,7 +145,7 @@ const ProductDetailsPage = () => {
           <div className="flex justify-between items-center mb-6">
             <h2 className="text-2xl font-bold">Related Products</h2>
             <button className="text-primary hover:text-primary-dark font-medium flex items-center">
-              View Al <ArrowRight className="h-4 w-4 ml-2" />
+              View All <ArrowRight className="h-4 w-4 ml-2" />
             </button>
           </div>
           <ProductGrid products={relatedProducts} />

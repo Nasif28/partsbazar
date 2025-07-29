@@ -11,6 +11,11 @@ const nextConfig = {
       { protocol: "https", hostname: "cdn.pixabay.com" },
       { protocol: "https", hostname: "i.ytimg.com" },
       { protocol: "https", hostname: "www.partsbazar.com.bd" },
+      {
+        protocol: "https",
+        hostname:
+          "parts-generation-attachments.s3.ap-southeast-1.amazonaws.com",
+      },
     ],
 
     deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],

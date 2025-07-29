@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Oilco Bangladesh",
+        "contactPerson": "Tasmir Riyam",
+        "designation": "Sales Director",
+        "phone": "+8801733909209",
+        "address": "32/1 Green Road, Dhaka",
+        "location": "https://maps.google.com/?q=23.7509,90.3928",
+        "thumbnail": "https://parts-generation-attachments.s3.ap-southeast-1.amazonaws.com/ef138454-1d7e-4502-bc0b-66949f0ab5bb/Oilco-thumbnail.png"
+    },
+    {
+        "id": 2,
+        "name": "Hotshoot Automotive",
+        "contactPerson": "Maruf",
+        "designation": "Operations Manager",
+        "phone": "+8801787299928",
+        "address": "25 Tejgaon Industrial Area, Dhaka",
+        "location": "https://maps.google.com/?q=23.7665,90.4000",
+        "thumbnail": "https://parts-generation-attachments.s3.ap-southeast-1.amazonaws.com/d621c2b2-f969-4613-8d32-fc80115f209c/Hotshot.png"
+    },
+    {
+        "id": 3,
+        "name": "Parts Station",
+        "contactPerson": "Tanzim Hasan",
+        "designation": "Founder & CEO",
+        "phone": "+8801640637760",
+        "address": "Bashundhara R/A, Block B, Dhaka",
+        "location": "https://maps.google.com/?q=23.8151,90.4289",
+        "thumbnail": "https://parts-generation-attachments.s3.ap-southeast-1.amazonaws.com/a1446936-503c-4232-9d20-3357415c46bc/images (15)-thumbnail.png"
+    },
+    {
+        "id": 4,
+        "name": "Multibrand Workshop",
+        "contactPerson": "Fahim",
+        "designation": "Service Supervisor",
+        "phone": "+8801618047217",
+        "address": "Uttara Sector 7, Dhaka",
+        "location": "https://maps.google.com/?q=23.8743,90.3984",
+        "thumbnail": "https://parts-generation-attachments.s3.ap-southeast-1.amazonaws.com/7b51f5b2-03f6-4374-bdac-bce4d83c9a5a/multibrand -thumbnail.png"
+    },
+    {
+        "id": 5,
+        "name": "Car Monkey",
+        "contactPerson": "Mahir Anjum",
+        "designation": "Technical Lead",
+        "phone": "+8801710255804",
+        "address": "Banani 11, Dhaka",
+        "location": "https://maps.google.com/?q=23.7933,90.4075",
+        "thumbnail": "https://parts-generation-attachments.s3.ap-southeast-1.amazonaws.com/e46c59f2-0ce6-4313-8987-829cfff0b350/Car monkey -thumbnail.png"
+    },
+    {
+        "id": 6,
+        "name": "RR Imports",
+        "contactPerson": "Mahbub Azad",
+        "designation": "Supply Chain Manager",
+        "phone": "+8801719287909",
+        "address": "Motijheel, Dhaka",
+        "location": "https://maps.google.com/?q=23.7333,90.4178",
+        "thumbnail": "https://parts-generation-attachments.s3.ap-southeast-1.amazonaws.com/1c67defb-081e-42ff-9511-b42255a19c3d/rr iomport-thumbnail.png"
+    },
+    {
+        "id": 7,
+        "name": "Elite Motors",
+        "contactPerson": "Syed Rifat",
+        "designation": "Marketing Manager",
+        "phone": "+8801742952069",
+        "address": "Dhanmondi 27, Dhaka",
+        "location": "https://maps.google.com/?q=23.7465,90.3745",
+        "thumbnail": "https://parts-generation-attachments.s3.ap-southeast-1.amazonaws.com/33091921-5165-4397-9c17-48254a991935/em-thumbnail.png"
+    },
+    {
+        "id": 8,
+        "name": "Ideal Auto One",
+        "contactPerson": "Nitto",
+        "designation": "Regional Coordinator",
+        "phone": "+8801919344101",
+        "address": "Gulshan 2, Dhaka",
+        "location": "https://maps.google.com/?q=23.7938,90.4169",
+        "thumbnail": "https://parts-generation-attachments.s3.ap-southeast-1.amazonaws.com/d36fc0e7-7d7b-4640-9add-2205652899bd/ieadl auto-thumbnail.png"
+    },
+    {
+        "id": 9,
+        "name": "Grand Shop BD",
+        "contactPerson": "Zaman",
+        "designation": "Managing Director",
+        "phone": "+8801714098093",
+        "address": "Mirpur 10, Dhaka",
+        "location": "https://maps.google.com/?q=23.8041,90.3667",
+        "thumbnail": "https://parts-generation-attachments.s3.ap-southeast-1.amazonaws.com/45f824af-f6c2-48ef-8718-40ef4699b8cd/Grand-thumbnail.png"
+    },
+    {
+        "id": 10,
+        "name": "PARTS CHOICE",
+        "contactPerson": "AZAD",
+        "designation": "Country Manager",
+        "phone": "+88001719287909",
+        "address": "Khilgaon, Dhaka",
+        "location": "https://maps.google.com/?q=23.7412,90.4328",
+        "thumbnail": "https://parts-generation-attachments.s3.ap-southeast-1.amazonaws.com/bf997aae-a4c2-4434-8d1e-4a41e1701fd9/parts choice -thumbnail.png"
+    }
+]

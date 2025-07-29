@@ -50,13 +50,13 @@ const SectionSlider = ({
   }
 
   return (
-    <div className="relative">
+    <div className="relative w-full">
       <Carousel
         opts={opts}
         plugins={autoplayOptions ? [Autoplay(autoplayOptions)] : []}
         className={className}
       >
-        <CarouselContent>
+        <CarouselContent className="w-full">
           {items.map((item, index) => (
             <CarouselItem key={index} className={itemClassName}>
               {renderItem(item)}
