@@ -16,7 +16,32 @@
             "ISO certified",
             "Lightweight",
             "Durable material"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "2",
@@ -35,7 +60,32 @@
             "Rust resistant",
             "High performance",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "3",
@@ -54,7 +104,32 @@
             "Durable material",
             "Lightweight",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "4",
@@ -73,7 +148,32 @@
             "ISO certified",
             "Durable material",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "5",
@@ -92,7 +192,32 @@
             "Lightweight",
             "Efficient design",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "6",
@@ -111,7 +236,32 @@
             "Long life",
             "ISO certified",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "7",
@@ -130,7 +280,32 @@
             "OEM certified",
             "Rust resistant",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "8",
@@ -149,7 +324,32 @@
             "Rust resistant",
             "ISO certified",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "9",
@@ -168,7 +368,32 @@
             "Long life",
             "Efficient design",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "10",
@@ -187,7 +412,32 @@
             "High performance",
             "OEM certified",
             "Durable material"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "11",
@@ -206,7 +456,32 @@
             "Lightweight",
             "High performance",
             "Long life"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "12",
@@ -225,7 +500,32 @@
             "Long life",
             "OEM certified",
             "Durable material"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "13",
@@ -244,7 +544,32 @@
             "OEM certified",
             "Lightweight",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "14",
@@ -263,7 +588,32 @@
             "OEM certified",
             "ISO certified",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "15",
@@ -282,7 +632,32 @@
             "High performance",
             "Lightweight",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "16",
@@ -301,7 +676,32 @@
             "ISO certified",
             "Rust resistant",
             "Lightweight"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "17",
@@ -320,7 +720,32 @@
             "Long life",
             "Rust resistant",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "18",
@@ -339,7 +764,32 @@
             "Lightweight",
             "OEM certified",
             "Durable material"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "19",
@@ -358,7 +808,32 @@
             "Durable material",
             "OEM certified",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "20",
@@ -377,7 +852,32 @@
             "High performance",
             "OEM certified",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "21",
@@ -396,7 +896,32 @@
             "OEM certified",
             "ISO certified",
             "High performance"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "22",
@@ -415,7 +940,32 @@
             "High performance",
             "ISO certified",
             "Long life"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "23",
@@ -434,7 +984,32 @@
             "Efficient design",
             "Durable material",
             "High performance"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "24",
@@ -453,7 +1028,32 @@
             "OEM certified",
             "High performance",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "25",
@@ -472,7 +1072,32 @@
             "Efficient design",
             "Lightweight",
             "ISO certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "26",
@@ -491,7 +1116,32 @@
             "High performance",
             "Durable material",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "27",
@@ -510,7 +1160,32 @@
             "High performance",
             "Rust resistant",
             "Long life"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "28",
@@ -529,7 +1204,32 @@
             "OEM certified",
             "Rust resistant",
             "Long life"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "29",
@@ -548,7 +1248,32 @@
             "OEM certified",
             "Long life",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "30",
@@ -567,7 +1292,32 @@
             "OEM certified",
             "Durable material",
             "High performance"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "31",
@@ -586,7 +1336,32 @@
             "Durable material",
             "Efficient design",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "32",
@@ -605,7 +1380,32 @@
             "Long life",
             "High performance",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "33",
@@ -624,7 +1424,32 @@
             "ISO certified",
             "Efficient design",
             "Lightweight"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "34",
@@ -643,7 +1468,32 @@
             "Lightweight",
             "ISO certified",
             "Durable material"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "35",
@@ -662,7 +1512,32 @@
             "Durable material",
             "ISO certified",
             "High performance"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "36",
@@ -681,7 +1556,32 @@
             "ISO certified",
             "Rust resistant",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "37",
@@ -700,7 +1600,32 @@
             "Long life",
             "Lightweight",
             "ISO certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "38",
@@ -719,7 +1644,32 @@
             "Durable material",
             "Long life",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "39",
@@ -738,7 +1688,32 @@
             "ISO certified",
             "Efficient design",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "40",
@@ -757,7 +1732,32 @@
             "Long life",
             "Efficient design",
             "Durable material"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "41",
@@ -776,7 +1776,32 @@
             "High performance",
             "Efficient design",
             "ISO certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "42",
@@ -795,7 +1820,32 @@
             "Efficient design",
             "High performance",
             "ISO certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "43",
@@ -814,7 +1864,32 @@
             "OEM certified",
             "ISO certified",
             "Long life"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "44",
@@ -833,7 +1908,32 @@
             "OEM certified",
             "Long life",
             "Durable material"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "45",
@@ -852,7 +1952,32 @@
             "Efficient design",
             "Lightweight",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "46",
@@ -871,7 +1996,32 @@
             "OEM certified",
             "Rust resistant",
             "Lightweight"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "47",
@@ -890,7 +2040,32 @@
             "ISO certified",
             "OEM certified",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "48",
@@ -909,7 +2084,32 @@
             "Efficient design",
             "ISO certified",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "49",
@@ -928,7 +2128,32 @@
             "Lightweight",
             "Long life",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "50",
@@ -947,7 +2172,32 @@
             "OEM certified",
             "Long life",
             "Lightweight"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "51",
@@ -966,7 +2216,32 @@
             "OEM certified",
             "Lightweight",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "52",
@@ -985,7 +2260,32 @@
             "Durable material",
             "ISO certified",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "53",
@@ -1004,7 +2304,32 @@
             "Durable material",
             "OEM certified",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "54",
@@ -1023,7 +2348,32 @@
             "High performance",
             "Efficient design",
             "Lightweight"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "55",
@@ -1042,7 +2392,32 @@
             "Durable material",
             "ISO certified",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "56",
@@ -1061,7 +2436,32 @@
             "Long life",
             "High performance",
             "Durable material"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "57",
@@ -1080,7 +2480,32 @@
             "High performance",
             "Lightweight",
             "ISO certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "58",
@@ -1099,7 +2524,32 @@
             "Long life",
             "OEM certified",
             "Lightweight"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "59",
@@ -1118,7 +2568,32 @@
             "Efficient design",
             "Rust resistant",
             "High performance"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "60",
@@ -1137,7 +2612,32 @@
             "ISO certified",
             "Efficient design",
             "Long life"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "61",
@@ -1156,7 +2656,32 @@
             "Long life",
             "Efficient design",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "62",
@@ -1175,7 +2700,32 @@
             "Efficient design",
             "Rust resistant",
             "Durable material"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "63",
@@ -1194,7 +2744,32 @@
             "OEM certified",
             "Long life",
             "High performance"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "64",
@@ -1213,7 +2788,32 @@
             "Lightweight",
             "Efficient design",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "65",
@@ -1232,7 +2832,32 @@
             "ISO certified",
             "Durable material",
             "Long life"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "66",
@@ -1251,7 +2876,32 @@
             "Efficient design",
             "Lightweight",
             "ISO certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "67",
@@ -1270,7 +2920,32 @@
             "Long life",
             "Durable material",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "68",
@@ -1289,7 +2964,32 @@
             "Lightweight",
             "Rust resistant",
             "Durable material"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "69",
@@ -1308,7 +3008,32 @@
             "OEM certified",
             "Efficient design",
             "Long life"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "70",
@@ -1327,7 +3052,32 @@
             "Efficient design",
             "OEM certified",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "71",
@@ -1346,7 +3096,32 @@
             "Rust resistant",
             "Lightweight",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "72",
@@ -1365,7 +3140,32 @@
             "Rust resistant",
             "OEM certified",
             "Lightweight"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "73",
@@ -1384,7 +3184,32 @@
             "Long life",
             "ISO certified",
             "Rust resistant"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "74",
@@ -1403,7 +3228,32 @@
             "High performance",
             "Efficient design",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "75",
@@ -1422,7 +3272,32 @@
             "ISO certified",
             "Rust resistant",
             "Lightweight"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "76",
@@ -1441,7 +3316,32 @@
             "Lightweight",
             "High performance",
             "OEM certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "77",
@@ -1460,7 +3360,32 @@
             "OEM certified",
             "Efficient design",
             "High performance"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "78",
@@ -1479,7 +3404,32 @@
             "Efficient design",
             "ISO certified",
             "Lightweight"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "79",
@@ -1498,7 +3448,32 @@
             "Long life",
             "Efficient design",
             "Lightweight"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "80",
@@ -1517,7 +3492,32 @@
             "Lightweight",
             "High performance",
             "ISO certified"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "81",
@@ -1536,7 +3536,32 @@
             "High performance",
             "Efficient design",
             "Lightweight"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "82",
@@ -1555,7 +3580,32 @@
             "OEM certified",
             "Long life",
             "Efficient design"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "83",
@@ -1574,7 +3624,32 @@
             "Efficient design",
             "Long life",
             "High performance"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     },
     {
         "id": "84",
@@ -1593,6 +3668,31 @@
             "OEM certified",
             "ISO certified",
             "Long life"
-        ]
+        ],
+        "reviews": [
+            {
+                "id": 1001,
+                "user": "John Doe",
+                "userId": 1,
+                "rating": 5,
+                "comment": "Perfect fit and great performance.",
+                "date": "2025-07-20T10:23:00Z"
+            },
+            {
+                "id": 1002,
+                "user": "Jane Smith",
+                "userId": 2,
+                "rating": 5,
+                "comment": "Highly recommended for anyone looking for quality.",
+                "date": "2025-06-15T14:30:00Z"
+            }
+        ],
+        "orderCount": 428,
+        "partsNo": "874592",
+        "tag": "popular",
+        "weight": 3.7,
+        "slug": "toyota-car-parts-accessories-part-1",
+        "warranty": "2 years",
+        "importedBy": "Global Imports"
     }
 ]

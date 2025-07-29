@@ -131,7 +131,7 @@ export default function ProductCard({
         </div>
 
         <Button className="mt-4 w-full" onClick={onAddToCart}>
-          Add To Cart
+          <ShoppingCart className="mr-2 h-4 w-4" /> Add To Cart
         </Button>
       </div>
     </div>

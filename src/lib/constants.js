@@ -32,3 +32,31 @@ export const socialLinks = [
     url: "https://youtube.com/partsbazar",
   },
 ];
+
+export const shippingInfo = [
+  {
+    location: "Inside Dhaka",
+    deliveryTime: "1-2 working days",
+    cost: "৳80",
+  },
+  {
+    location: "Outside Dhaka (District Headquarters)",
+    deliveryTime: "2-4 working days",
+    cost: "৳120",
+  },
+  {
+    location: "Outside Dhaka (Other Areas)",
+    deliveryTime: "3-5 working days",
+    cost: "৳150",
+  },
+  {
+    location: "Chittagong City",
+    deliveryTime: "2-3 working days",
+    cost: "৳100",
+  },
+  {
+    location: "Sylhet City",
+    deliveryTime: "2-3 working days",
+    cost: "৳100",
+  },
+];

@@ -22,4 +22,3 @@ const LoginPage = () => {
 };
 
 export default LoginPage;
-//  <div className="bg-white/20 backdrop-blur-sm rounded-xl shadow-lg p-6 h-full flex flex-col border border-white/30"></div>
