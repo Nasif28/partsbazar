@@ -21,6 +21,7 @@ const Navbar = () => {
     { name: "Complete Service Package", href: "/service-package" },
     { name: "Combo Packages", href: "/combo-packages" },
     { name: "Request Parts", href: "/request_parts" },
+    { name: "Dashboard", href: "/user/dashboard" },
   ];
 
   useEffect(() => {
