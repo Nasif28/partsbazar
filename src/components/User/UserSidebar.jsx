@@ -49,7 +49,7 @@ const sidebarItems = [
     icon: MessageSquareCode,
   },
   { title: "Manage Profile", url: "/user/profile", icon: UserPen },
-  { title: "My Addresses", url: "/user/addresses", icon: MapPinPlus },
+  { title: "My Address", url: "/user/address", icon: MapPinPlus },
   { title: "Change Password", url: "/user/change-password", icon: Lock },
   { title: "Delete Account", url: "/user/delete-account", icon: Trash },
 ];

@@ -5,6 +5,9 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function ManageProfilePage() {
+  const user = {
+    logo: "logo.png",
+  };
   return (
     <div className="">
       <Card className="border-[var(--border)]">
@@ -36,7 +39,7 @@ export default function ManageProfilePage() {
               <div className="flex items-center mt-1 space-x-4">
                 <div className="relative w-16 h-16 rounded-full bg-gray-200 border-2 border-dashed border-[var(--input)] flex items-center justify-center overflow-hidden">
                   <Image
-                    src="/logo.png"
+                    src={`/${user.logo ? user.logo : "/logo.png"}`}
                     alt="Profile"
                     width={64}
                     height={64}

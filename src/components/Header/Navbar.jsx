@@ -15,11 +15,9 @@ const Navbar = () => {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "Shop", href: "/shop" },
-    { name: "Blog", href: "/blog" },
-    { name: "Gift Cards", href: "/gift-cards" },
-    { name: "Complete Service Package", href: "/service-package" },
-    { name: "Combo Packages", href: "/combo-packages" },
+    { name: "Products", href: "/products" },
+    { name: "Blog", href: "/blogs" },
+    { name: "Videos", href: "/videos" },
     { name: "Request Parts", href: "/request_parts" },
     { name: "Dashboard", href: "/user/dashboard" },
   ];
