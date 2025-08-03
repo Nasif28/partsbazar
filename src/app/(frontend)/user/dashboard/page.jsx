@@ -26,6 +26,7 @@ import {
   Heart,
   Edit,
   Trash,
+  Trash2,
 } from "lucide-react";
 import {
   DropdownMenu,
@@ -125,7 +126,7 @@ export default function DashboardPage() {
               className="h-8"
               onClick={() => console.log("Editing:")}
             >
-              <Trash />
+              <Trash2 />
             </Button>
           </div>
         ),

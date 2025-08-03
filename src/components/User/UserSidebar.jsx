@@ -16,6 +16,7 @@ import {
   MapPinPlus,
   Trash,
   MessageSquareCode,
+  Gift,
 } from "lucide-react";
 import {
   Sidebar,
@@ -29,6 +30,7 @@ import {
 } from "../ui/sidebar";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { Separator } from "../ui/separator";
+import { cn } from "@/lib/utils";
 
 const sidebarItems = [
   {
@@ -40,6 +42,7 @@ const sidebarItems = [
   { title: "My Orders", url: "/user/orders", icon: ShoppingBag },
   { title: "Transactions", url: "/user/transactions", icon: CircleDollarSign },
   { title: "Cart", url: "/user/cart", icon: ShoppingCart },
+  { title: "Reward Points", url: "/user/reward", icon: Gift },
   { title: "My Wishlist", url: "/user/wishlist", icon: Heart },
   { title: "Compare", url: "/user/compare", icon: BarChart2 },
   { title: "My Reviews", url: "/user/reviews", icon: Star },
@@ -62,10 +65,10 @@ export function UserSidebar() {
       <SidebarHeader className="flex items-center">
         <Avatar className="rounded-lg h-10 w-10">
           <AvatarImage src="https://github.com/shadcn.png" />
-          <AvatarFallback>CN</AvatarFallback>
+          <AvatarFallback>NZ</AvatarFallback>
         </Avatar>
-        <div className="flex flex-col items-center justify-center">
-          <span> Nasif jihan</span>
+        <div className="flex flex-col items-center justify-center group-data-[collapsible=icon]:hidden">
+          <span> Nasif Jihan</span>
           <span className="text-muted-foreground text-xs">
             nasif@example.com
           </span>
@@ -82,7 +85,7 @@ export function UserSidebar() {
                 <Link
                   key={item.url}
                   href={item.url}
-                  className={`justify-start group-data-[collapsible=icon]:mx-2 px-4 py-5 rounded-none  ${pathname === item.url ? "bg-sidebar-accent text-sidebar-accent-foreground" : "hover:bg-sidebar-accent"}`}
+                  className={cn`justify-start font-semibold group-data-[collapsible=icon]:mx-2 px-4 py-5 rounded-none hover:bg-primary/10 ${pathname === item.url ? "bg-primary/10 text-primary" : "hover:bg-primary/10"}`}
                 >
                   <item.icon />
                   <span>{item.title}</span>

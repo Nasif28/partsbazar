@@ -1,7 +1,7 @@
 "use client";
 import { useMemo } from "react";
 import { GlobalTable } from "@/components/Global/GlobalTable";
-import { Edit, Trash } from "lucide-react";
+import { Edit, Trash, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function OrdersPage() {
@@ -85,7 +85,7 @@ export default function OrdersPage() {
               className="h-8"
               onClick={() => console.log("Editing:")}
             >
-              <Trash />
+              <Trash2 />
             </Button>
           </div>
         ),
