@@ -42,7 +42,7 @@ export default function ManageProfilePage() {
                   <Button variant="outline" className="">
                     Browse
                   </Button>
-                  <Button variant="secondary">Choose file</Button>
+                  <Button variant="outline">Choose file</Button>
                 </div>
               </div>
             </div>
