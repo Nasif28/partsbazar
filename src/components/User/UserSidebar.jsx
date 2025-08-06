@@ -85,7 +85,7 @@ export function UserSidebar() {
                 <Link
                   key={item.url}
                   href={item.url}
-                  className={cn`justify-start font-semibold group-data-[collapsible=icon]:mx-2 px-4 py-5 rounded-none hover:bg-primary/10 ${pathname === item.url ? "bg-primary/10 text-primary" : "hover:bg-primary/10"}`}
+                  className={cn`justify-start font-extrabold group-data-[collapsible=icon]:mx-2 px-4 py-5 rounded-none hover:bg-primary/10 ${pathname === item.url ? "bg-primary/10 text-primary" : "hover:bg-primary/10"}`}
                 >
                   <item.icon />
                   <span>{item.title}</span>
