@@ -1,0 +1,190 @@
+"use client";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Button } from "@/components/ui/button";
+import {
+  UserIcon,
+  LayoutDashboardIcon,
+  PackageIcon,
+  TagsIcon,
+  SlidersIcon,
+  ClipboardListIcon,
+  UsersIcon,
+  CreditCardIcon,
+  LayoutIcon,
+  MegaphoneIcon,
+  MessageSquareIcon,
+  ChevronRight,
+  LogOut,
+  Settings,
+} from "lucide-react";
+
+import {
+  Sidebar,
+  SidebarContent,
+  SidebarFooter,
+  SidebarGroup,
+  SidebarGroupLabel,
+  SidebarHeader,
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
+  SidebarMenuSub,
+  SidebarMenuSubButton,
+  SidebarMenuSubItem,
+  SidebarRail,
+} from "../ui/sidebar";
+import { Separator } from "../ui/separator";
+import { cn } from "@/lib/utils";
+import { PBLogo } from "@/assets/Import";
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from "../ui/collapsible";
+import Image from "next/image";
+
+export const adminSidebarItems = {
+  navMain: [
+    {
+      title: "Admin Dashboard",
+      url: "#",
+      icon: LayoutDashboardIcon,
+      isActive: true,
+      items: [
+        { title: "Dashboard", url: "#" },
+        { title: "Staffs", url: "#" },
+        { title: "Roles", url: "#" },
+      ],
+    },
+    {
+      title: "Product Management",
+      url: "#",
+      icon: PackageIcon,
+      items: [
+        { title: "Product List", url: "#" },
+        { title: "Order List", url: "#" },
+        { title: "Brand", url: "#" },
+        { title: "Category", url: "#" },
+        { title: "Attribute", url: "#" },
+      ],
+    },
+    {
+      title: "User Management",
+      url: "#",
+      icon: UsersIcon,
+      items: [
+        { title: "Customers", url: "#" },
+        { title: "Transactions", url: "#" },
+      ],
+    },
+    {
+      title: "Appearance",
+      url: "#",
+      icon: LayoutIcon,
+      items: [
+        { title: "Frontend Section", url: "#" },
+        { title: "Menus", url: "#" },
+        { title: "Contacts", url: "#" },
+        { title: "Testimonials", url: "#" },
+        { title: "Videos", url: "#" },
+        { title: "Blogs", url: "#" },
+        { title: "FAQs", url: "#" },
+        { title: "Categories", url: "#" },
+      ],
+    },
+    {
+      title: "Marketing",
+      url: "#",
+      icon: MegaphoneIcon,
+      items: [
+        { title: "Promotional Banner", url: "#" },
+        { title: "Hero Banner", url: "#" },
+        { title: "Coupon", url: "#" },
+        { title: "Campaign", url: "#" },
+        { title: "Flash Deal List", url: "#" },
+      ],
+    },
+    {
+      title: "System Setting",
+      url: "#",
+      icon: Settings,
+      items: [
+        { title: "Send Mail", url: "#" },
+        { title: "View Visitor", url: "#" },
+        { title: "SEO", url: "#" },
+        { title: "Language", url: "#" },
+        { title: "Payment Methods", url: "#" },
+        { title: "Email Configuration", url: "#" },
+        { title: "SMS Configuration", url: "#" },
+      ],
+    },
+  ],
+};
+
+export function AdminSidebar() {
+  const pathname = usePathname();
+
+  return (
+    <Sidebar collapsible="icon">
+      <SidebarHeader className="flex items-center justify-center min-h-16">
+        <Image src={PBLogo} alt="Logo" width={100} height={100} />
+      </SidebarHeader>
+
+      <Separator className="mb-2" />
+
+      <SidebarContent>
+        <SidebarGroup>
+          <SidebarGroupLabel>Platform</SidebarGroupLabel>
+          <SidebarMenu>
+            {adminSidebarItems.navMain.map((item) => (
+              <Collapsible
+                key={item.title}
+                asChild
+                defaultOpen={item.isActive}
+                className="group/collapsible"
+              >
+                <SidebarMenuItem>
+                  <CollapsibleTrigger asChild>
+                    <SidebarMenuButton tooltip={item.title}>
+                      {item.icon && <item.icon />}
+                      <span>{item.title}</span>
+                      <ChevronRight className="ml-auto transition-transform duration-200 group-data-[state=open]/collapsible:rotate-90" />
+                    </SidebarMenuButton>
+                  </CollapsibleTrigger>
+                  <CollapsibleContent>
+                    <SidebarMenuSub>
+                      {item.items?.map((subItem) => (
+                        <SidebarMenuSubItem key={subItem.title}>
+                          <SidebarMenuSubButton asChild>
+                            <a href={subItem.url}>
+                              <span>{subItem.title}</span>
+                            </a>
+                          </SidebarMenuSubButton>
+                        </SidebarMenuSubItem>
+                      ))}
+                    </SidebarMenuSub>
+                  </CollapsibleContent>
+                </SidebarMenuItem>
+              </Collapsible>
+            ))}
+          </SidebarMenu>
+        </SidebarGroup>
+      </SidebarContent>
+
+      <Separator className="my-2" />
+
+      <SidebarFooter>
+        <SidebarMenuButton asChild>
+          <Button className="w-full py-5 cursor-pointer" size="lg">
+            <LogOut />
+            <span className="group-data-[collapsible=icon]:hidden">
+              Sign Out
+            </span>
+          </Button>
+        </SidebarMenuButton>
+      </SidebarFooter>
+      <SidebarRail />
+    </Sidebar>
+  );
+}

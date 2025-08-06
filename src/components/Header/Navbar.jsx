@@ -20,6 +20,7 @@ const Navbar = () => {
     { name: "Videos", href: "/videos" },
     { name: "Request Parts", href: "/request_parts" },
     { name: "Dashboard", href: "/user/dashboard" },
+    { name: "Admin", href: "/admin" },
   ];
 
   useEffect(() => {

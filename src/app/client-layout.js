@@ -16,7 +16,7 @@ export default function ClientRootLayout({ children }) {
       disableTransitionOnChange
     >
       <Provider store={store}>
-        <div className="maxContainer">
+        <div className="">
           <StoreProvider>
             <main className="min-h-screen">{children}</main>
           </StoreProvider>

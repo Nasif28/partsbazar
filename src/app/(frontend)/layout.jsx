@@ -5,12 +5,12 @@ import TopBar from "@/components/Header/TopBar";
 
 export default function FrontendLayout({ children }) {
   return (
-    <>
+    <div className="maxContainer">
       <TopBar />
       <Header />
       <main>{children}</main>
       <Footer />
       <ScrollToTop />
-    </>
+    </div>
   );
 }
