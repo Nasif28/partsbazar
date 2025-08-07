@@ -1,0 +1,169 @@
+"use client";
+
+import { useEffect, useMemo, useState } from "react";
+import { Button } from "@/components/ui/button";
+import { Edit, Plus, Trash2 } from "lucide-react";
+import categoriesData from "@/data/categories.json";
+import { Input } from "@/components/ui/input";
+import { GlobalTable } from "@/components/Global/GlobalTable";
+import { DeleteModal } from "@/components/Global/DeleteModal";
+import CategoryModal from "@/components/Admin/Product/CategoryModal";
+
+const AdminCategoriesPage = () => {
+  const [categories, setCategories] = useState([]);
+  const [search, setSearch] = useState("");
+  const [filteredCategories, setFilteredCategories] = useState([]);
+  const [showModal, setShowModal] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [showDelete, setShowDelete] = useState(false);
+  const [categoryToDelete, setCategoryToDelete] = useState(null);
+  console.log(categoriesData);
+  useEffect(() => {
+    setCategories(categoriesData.categories);
+  }, []);
+  console.log(categories);
+  useEffect(() => {
+    setFilteredCategories(
+      categories.filter((category) =>
+        category.name.toLowerCase().includes(search.toLowerCase())
+      )
+    );
+  }, [categories, search]);
+
+  const handleAddOrUpdate = (data) => {
+    if (selectedCategory) {
+      setCategories((prev) =>
+        prev.map((c) => (c.id === selectedCategory.id ? { ...c, ...data } : c))
+      );
+    } else {
+      const newCategory = {
+        ...data,
+        id: Date.now(),
+      };
+      setCategories((prev) => [...prev, newCategory]);
+    }
+    setSelectedCategory(null);
+  };
+
+  const handleDelete = () => {
+    setCategories((prev) => prev.filter((c) => c.id !== categoryToDelete.id));
+    setCategoryToDelete(null);
+    setShowDelete(false);
+  };
+
+  const columns = useMemo(
+    () => [
+      {
+        header: "#",
+        accessorKey: "sn",
+        cell: (_, row) => filteredCategories.indexOf(row) + 1,
+      },
+      {
+        header: "Image",
+        accessorKey: "image",
+        cell: (value) => (
+          <img
+            src={value}
+            alt="Category Image"
+            className="h-12 w-12 rounded object-contain"
+          />
+        ),
+      },
+      {
+        header: "Category Name",
+        accessorKey: "name",
+      },
+      {
+        header: "Top Category",
+        accessorKey: "isTop",
+        cell: (value) => (value ? "Yes" : "No"),
+      },
+      {
+        header: "Status",
+        accessorKey: "status",
+        cell: (value) =>
+          value.toLowerCase() === "active" ? "Active" : "Inactive",
+      },
+      {
+        header: "Actions",
+        accessorKey: "actions",
+        cell: (_, row) => (
+          <div className="flex items-center gap-2">
+            <Button
+              variant="outline"
+              size="icon"
+              className="h-8"
+              onClick={() => {
+                setSelectedCategory(row);
+                setShowModal(true);
+              }}
+            >
+              <Edit className="w-4 h-4" />
+            </Button>
+            <Button
+              variant="outline"
+              size="icon"
+              className="h-8"
+              onClick={() => {
+                setCategoryToDelete(row);
+                setShowDelete(true);
+              }}
+            >
+              <Trash2 className="w-4 h-4" />
+            </Button>
+          </div>
+        ),
+      },
+    ],
+    [filteredCategories]
+  );
+
+  return (
+    <div>
+      <div className="flex items-center justify-between mb-4">
+        <h1 className="text-xl font-bold">Manage Categories</h1>
+        <Button
+          onClick={() => {
+            setSelectedCategory(null);
+            setShowModal(true);
+          }}
+        >
+          Add Category
+          <Plus className="w-4 h-4 ml-2" />
+        </Button>
+      </div>
+
+      <Input
+        type="text"
+        placeholder="Search by category name"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+        className="mb-4 w-full border rounded px-4 py-2"
+      />
+
+      <GlobalTable
+        data={filteredCategories}
+        columns={columns}
+        itemsPerPage={10}
+        className="w-full"
+      />
+
+      <CategoryModal
+        open={showModal}
+        onClose={() => setShowModal(false)}
+        onSubmit={handleAddOrUpdate}
+        initialData={selectedCategory}
+      />
+
+      <DeleteModal
+        open={showDelete}
+        onClose={() => setShowDelete(false)}
+        onConfirm={handleDelete}
+        title="Delete Category"
+        message={`Are you sure you want to delete ${categoryToDelete?.name}?`}
+      />
+    </div>
+  );
+};
+
+export default AdminCategoriesPage;
