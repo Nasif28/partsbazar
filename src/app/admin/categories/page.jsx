@@ -92,7 +92,6 @@ const AdminCategoriesPage = () => {
             <Button
               variant="outline"
               size="icon"
-              className="h-8"
               onClick={() => {
                 setSelectedCategory(row);
                 setShowModal(true);
@@ -103,7 +102,6 @@ const AdminCategoriesPage = () => {
             <Button
               variant="outline"
               size="icon"
-              className="h-8"
               onClick={() => {
                 setCategoryToDelete(row);
                 setShowDelete(true);

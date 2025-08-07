@@ -80,7 +80,6 @@ const AdminRolesPage = () => {
             <Button
               variant="outline"
               size="icon"
-              className="h-8"
               onClick={() => {
                 setSelectedRole(row);
                 setShowModal(true);
@@ -91,7 +90,6 @@ const AdminRolesPage = () => {
             <Button
               variant="outline"
               size="icon"
-              className="h-8"
               onClick={() => {
                 setRoleToDelete(row);
                 setShowDelete(true);

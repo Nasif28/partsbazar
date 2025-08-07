@@ -1,7 +1,14 @@
-import React from "react";
+"use client";
+import { useRouter } from "next/navigation";
+import React, { useEffect } from "react";
 
-const Admin = () => {
-  return <div>Admin</div>;
+const AdminPage = () => {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.replace("/admin/dashboard");
+  }, [router]);
+
+  return null;
 };
-
-export default Admin;
+export default AdminPage;

@@ -95,7 +95,6 @@ const AdminStaffsPage = () => {
             <Button
               variant="outline"
               size="icon"
-              className="h-8"
               onClick={() => {
                 setSelectedStaff(row);
                 setShowModal(true);
@@ -106,7 +105,6 @@ const AdminStaffsPage = () => {
             <Button
               variant="outline"
               size="icon"
-              className="h-8"
               onClick={() => {
                 setStaffToDelete(row);
                 setShowDelete(true);

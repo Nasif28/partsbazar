@@ -92,7 +92,6 @@ const AdminBrandsPage = () => {
             <Button
               variant="outline"
               size="icon"
-              className="h-8"
               onClick={() => {
                 setSelectedBrand(row);
                 setShowModal(true);
@@ -103,7 +102,6 @@ const AdminBrandsPage = () => {
             <Button
               variant="outline"
               size="icon"
-              className="h-8"
               onClick={() => {
                 setBrandToDelete(row);
                 setShowDelete(true);
