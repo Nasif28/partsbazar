@@ -1,5 +1,15 @@
 "use client";
-import { Home, Maximize, Minimize, Moon, Sun, Menu } from "lucide-react";
+import {
+  Home,
+  Maximize,
+  Minimize,
+  Moon,
+  Sun,
+  Menu,
+  User,
+  Settings,
+  LogOut,
+} from "lucide-react";
 import { useTheme } from "next-themes";
 import { useFullscreen } from "@/hooks/use-fullscreen";
 import { Button } from "@/components/ui/button";
@@ -68,9 +78,15 @@ export default function AdminNavbar() {
             </DropdownMenuTrigger>
 
             <DropdownMenuContent align="end">
-              <DropdownMenuItem>Profile</DropdownMenuItem>
-              <DropdownMenuItem>Settings</DropdownMenuItem>
-              <DropdownMenuItem>Logout</DropdownMenuItem>
+              <DropdownMenuItem>
+                <User /> Profile
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Settings /> Settings
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <LogOut /> Logout
+              </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>

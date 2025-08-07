@@ -3,17 +3,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import {
-  UserIcon,
   LayoutDashboardIcon,
   PackageIcon,
-  TagsIcon,
-  SlidersIcon,
-  ClipboardListIcon,
   UsersIcon,
-  CreditCardIcon,
   LayoutIcon,
   MegaphoneIcon,
-  MessageSquareIcon,
   ChevronRight,
   LogOut,
   Settings,
@@ -52,9 +46,9 @@ export const adminSidebarItems = {
       icon: LayoutDashboardIcon,
       isActive: true,
       items: [
-        { title: "Dashboard", url: "#" },
-        { title: "Staffs", url: "#" },
-        { title: "Roles", url: "#" },
+        { title: "Dashboard", url: "/admin/dashboard" },
+        { title: "Staffs", url: "/admin/staffs" },
+        { title: "Roles", url: "/admin/roles" },
       ],
     },
     {
