@@ -66,8 +66,8 @@ export function GlobalTable({
             ) : (
               <TableRow>
                 <TableCell
-                  colSpan={columns.length + (actions ? 1 : 0)}
-                  className="h-24 text-center"
+                  colSpan={columns.length}
+                  className="h-40 text-center"
                 >
                   No results found
                 </TableCell>

@@ -56,11 +56,11 @@ export const adminSidebarItems = {
       url: "#",
       icon: PackageIcon,
       items: [
-        { title: "Product List", url: "#" },
-        { title: "Order List", url: "#" },
-        { title: "Brand", url: "#" },
-        { title: "Category", url: "#" },
-        { title: "Attribute", url: "#" },
+        { title: "Product List", url: "/admin/products" },
+        { title: "Order List", url: "/admin/orders" },
+        { title: "Brand", url: "/admin/brands" },
+        { title: "Category", url: "/admin/categories" },
+        { title: "Attribute", url: "/admin/attributes" },
       ],
     },
     {
