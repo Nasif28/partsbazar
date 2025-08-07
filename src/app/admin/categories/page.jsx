@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Edit, Plus, Trash2 } from "lucide-react";
-import categoriesData from "@/data/categories.json";
+import categoriesData from "@/data/Categories.json";
 import { Input } from "@/components/ui/input";
 import { GlobalTable } from "@/components/Global/GlobalTable";
 import { DeleteModal } from "@/components/Global/DeleteModal";
