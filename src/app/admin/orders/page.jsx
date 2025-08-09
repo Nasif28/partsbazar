@@ -21,6 +21,14 @@ import {
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { DateFormatter } from "@/components/Global/DateFormatter";
+import {
+  DeleteButton,
+  DetailsButton,
+  EditButton,
+  PrintButton,
+  ViewButton,
+} from "@/components/Global/ActionButtons";
+import { Space } from "@/components/Global/Space";
 
 const AdminOrdersPage = () => {
   const [search, setSearch] = useState("");
@@ -103,6 +111,38 @@ const AdminOrdersPage = () => {
       {
         header: "Shipping Method",
         accessorKey: "shippingMethod",
+      },
+      {
+        header: "Actions",
+        accessorKey: "actions",
+        cell: (_, row) => (
+          <Space>
+            <ViewButton
+              onClick={() => {
+                setSelectedBrand(row);
+                setShowModal(true);
+              }}
+            />
+            <PrintButton
+              onClick={() => {
+                setSelectedBrand(row);
+                setShowModal(true);
+              }}
+            />
+            <EditButton
+              onClick={() => {
+                setSelectedBrand(row);
+                setShowModal(true);
+              }}
+            />
+            <DeleteButton
+              onClick={() => {
+                setBrandToDelete(row);
+                setShowDelete(true);
+              }}
+            />
+          </Space>
+        ),
       },
     ],
     []

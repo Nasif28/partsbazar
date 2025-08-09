@@ -5,6 +5,7 @@ import { DeleteButton, EditButton } from "@/components/Global/ActionButtons";
 import { DeleteModal } from "@/components/Global/DeleteModal";
 import { GlobalTable } from "@/components/Global/GlobalTable";
 import { Space } from "@/components/Global/Space";
+import { Tag } from "@/components/Global/Tag";
 import { Button } from "@/components/ui/button";
 import { Edit, Plus, Trash2 } from "lucide-react";
 import React, { useMemo, useState } from "react";
@@ -71,7 +72,11 @@ const AdminRolesPage = () => {
         cell: (_, row) => roles.indexOf(row) + 1,
       },
       { header: "Role Name", accessorKey: "name" },
-      { header: "Status", accessorKey: "status" },
+      {
+        header: "Status",
+        accessorKey: "status",
+        cell: (value) => <Tag status={value} />,
+      },
       { header: "Created At", accessorKey: "createdAt" },
       { header: "Created By", accessorKey: "createdby" },
       {

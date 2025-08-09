@@ -140,12 +140,12 @@ const AdminCategoriesPage = () => {
         className="w-full"
       />
 
-      <CategoryModal
+      {/* <CategoryModal
         open={showModal}
         onClose={() => setShowModal(false)}
         onSubmit={handleAddOrUpdate}
         initialData={selectedCategory}
-      />
+      /> */}
 
       <DeleteModal
         open={showDelete}
