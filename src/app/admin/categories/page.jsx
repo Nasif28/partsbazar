@@ -8,6 +8,8 @@ import { Input } from "@/components/ui/input";
 import { GlobalTable } from "@/components/Global/GlobalTable";
 import { DeleteModal } from "@/components/Global/DeleteModal";
 import CategoryModal from "@/components/Admin/Product/CategoryModal";
+import { Space } from "@/components/Global/Space";
+import { DeleteButton, EditButton } from "@/components/Global/ActionButtons";
 
 const AdminCategoriesPage = () => {
   const [categories, setCategories] = useState([]);
@@ -88,28 +90,20 @@ const AdminCategoriesPage = () => {
         header: "Actions",
         accessorKey: "actions",
         cell: (_, row) => (
-          <div className="flex items-center gap-2">
-            <Button
-              variant="outline"
-              size="icon"
+          <Space>
+            <EditButton
               onClick={() => {
                 setSelectedCategory(row);
                 setShowModal(true);
               }}
-            >
-              <Edit className="w-4 h-4" />
-            </Button>
-            <Button
-              variant="outline"
-              size="icon"
+            />
+            <DeleteButton
               onClick={() => {
                 setCategoryToDelete(row);
                 setShowDelete(true);
               }}
-            >
-              <Trash2 className="w-4 h-4" />
-            </Button>
-          </div>
+            />
+          </Space>
         ),
       },
     ],

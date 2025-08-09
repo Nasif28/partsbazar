@@ -1,8 +1,10 @@
 "use client";
 
 import { RoleModal } from "@/components/Admin/Dashboard/RoleModal";
+import { DeleteButton, EditButton } from "@/components/Global/ActionButtons";
 import { DeleteModal } from "@/components/Global/DeleteModal";
 import { GlobalTable } from "@/components/Global/GlobalTable";
+import { Space } from "@/components/Global/Space";
 import { Button } from "@/components/ui/button";
 import { Edit, Plus, Trash2 } from "lucide-react";
 import React, { useMemo, useState } from "react";
@@ -76,28 +78,20 @@ const AdminRolesPage = () => {
         header: "Actions",
         accessorKey: "actions",
         cell: (_, row) => (
-          <div className="flex items-center gap-2">
-            <Button
-              variant="outline"
-              size="icon"
+          <Space>
+            <EditButton
               onClick={() => {
                 setSelectedRole(row);
                 setShowModal(true);
               }}
-            >
-              <Edit className="w-4 h-4" />
-            </Button>
-            <Button
-              variant="outline"
-              size="icon"
+            />
+            <DeleteButton
               onClick={() => {
                 setRoleToDelete(row);
                 setShowDelete(true);
               }}
-            >
-              <Trash2 className="w-4 h-4" />
-            </Button>
-          </div>
+            />
+          </Space>
         ),
       },
     ],
