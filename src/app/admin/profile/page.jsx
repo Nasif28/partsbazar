@@ -101,19 +101,13 @@ export default function AdminProfilePage() {
   const onProfileSubmit = (data) => {
     setAdminData({ ...adminData, ...data });
     setIsEditing(false);
-    toast({
-      title: "Profile Updated",
-      description: "Your profile information has been successfully updated.",
-    });
+    toast.success("Your profile information has been successfully updated.");
   };
 
   // Handle password form submission
   const onPasswordSubmit = (data) => {
     passwordForm.reset();
-    toast({
-      title: "Password Changed",
-      description: "Your password has been successfully updated.",
-    });
+    toast.success("Your password has been successfully updated.");
   };
 
   return (
@@ -569,7 +563,7 @@ export default function AdminProfilePage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center">
                         <div className="bg-muted p-2 rounded-lg">
-                          <Monitor className="text-muted-foreground"/>
+                          <Monitor className="text-muted-foreground" />
                         </div>
                         <div className="ml-4">
                           <p className="font-medium">MacBook Pro</p>
@@ -586,7 +580,7 @@ export default function AdminProfilePage() {
                     <div className="flex items-center justify-between">
                       <div className="flex items-center">
                         <div className="bg-muted p-2 rounded-lg">
-                         <Smartphone className="text-muted-foreground"/>
+                          <Smartphone className="text-muted-foreground" />
                         </div>
                         <div className="ml-4">
                           <p className="font-medium">iPhone 13 Pro</p>

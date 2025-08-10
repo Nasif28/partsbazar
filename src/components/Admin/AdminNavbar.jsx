@@ -88,14 +88,14 @@ export default function AdminNavbar() {
                 </Link>
               </DropdownMenuItem>
 
-              <DropdownMenuItem asChild>
+              {/* <DropdownMenuItem asChild>
                 <Link
                   href="/admin/settings"
                   className="flex items-center gap-2 cursor-pointer"
                 >
                   <Settings className="h-4 w-4" /> Settings
                 </Link>
-              </DropdownMenuItem>
+              </DropdownMenuItem> */}
 
               <DropdownMenuItem asChild>
                 <Link

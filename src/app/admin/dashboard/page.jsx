@@ -324,7 +324,7 @@ export default function AdminDashboardPage() {
           </InsightCard>
 
           {/* Best Selling Products */}
-          <InsightCard title="Best Sailing Products">
+          <InsightCard title="Best Selling Products">
             <div className="overflow-x-auto">
               {data.bestSellingProducts.length > 0 ? (
                 <GlobalTable
