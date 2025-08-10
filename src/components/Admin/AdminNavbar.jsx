@@ -23,6 +23,7 @@ import Breadcrumbs from "../Global/Breadcrumbs";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import { SidebarTrigger } from "../ui/sidebar";
 import { Separator } from "../ui/separator";
+import Link from "next/link";
 
 export default function AdminNavbar() {
   const { theme, setTheme } = useTheme();
@@ -71,21 +72,38 @@ export default function AdminNavbar() {
 
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
-              <Avatar className="rounded-lg h-10 w-10">
+              <Avatar className="rounded-lg h-10 w-10 cursor-pointer">
                 <AvatarImage src="https://github.com/shadcn.png" />
                 <AvatarFallback>NZ</AvatarFallback>
               </Avatar>
             </DropdownMenuTrigger>
 
             <DropdownMenuContent align="end">
-              <DropdownMenuItem>
-                <User /> Profile
+              <DropdownMenuItem asChild>
+                <Link
+                  href="/admin/profile"
+                  className="flex items-center gap-2 cursor-pointer"
+                >
+                  <User className="h-4 w-4" /> Profile
+                </Link>
               </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Settings /> Settings
+
+              <DropdownMenuItem asChild>
+                <Link
+                  href="/admin/settings"
+                  className="flex items-center gap-2 cursor-pointer"
+                >
+                  <Settings className="h-4 w-4" /> Settings
+                </Link>
               </DropdownMenuItem>
-              <DropdownMenuItem>
-                <LogOut /> Logout
+
+              <DropdownMenuItem asChild>
+                <Link
+                  href="/admin/logout"
+                  className="flex items-center gap-2 cursor-pointer"
+                >
+                  <LogOut className="h-4 w-4" /> Logout
+                </Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
