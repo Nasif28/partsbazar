@@ -150,7 +150,7 @@ const AdminOrdersPage = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between mb-4">
+      <div className="flex items-center justify-between mb-2">
         <h1 className="text-xl font-bold">Manage Orders</h1>
         <Button
           onClick={() => {

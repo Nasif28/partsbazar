@@ -1,0 +1,185 @@
+{
+    "welcome": {
+        "name": "Md. Akramullah",
+        "totalEarnings": 38941.00,
+        "currency": "TK"
+    },
+    "summaryCards": [
+        {
+            "title": "IN-HOUSE PRODUCTS",
+            "value": 202,
+            "link": "View All"
+        },
+        {
+            "title": "INHOUSE ORDERS",
+            "value": 61,
+            "link": "View All"
+        },
+        {
+            "title": "SUBSCRIPTION INCOME",
+            "value": 0.00,
+            "link": "View All"
+        },
+        {
+            "title": "ORDER INCOME",
+            "value": 38941.00,
+            "link": "View All"
+        },
+        {
+            "title": "TOTAL CUSTOMERS",
+            "value": 39,
+            "link": "View All"
+        },
+        {
+            "title": "TOTAL SELLERS",
+            "value": 12,
+            "link": "View All"
+        },
+        {
+            "title": "WITHDRAW AMOUNT",
+            "value": 0.00,
+            "link": "View All"
+        },
+        {
+            "title": "SHIPPED ORDERS",
+            "value": 16,
+            "link": "View All"
+        },
+        {
+            "title": "DELEVERED ORDERS",
+            "value": 30,
+            "link": "View All"
+        },
+        {
+            "title": "CANCELED ORDERS",
+            "value": 13,
+            "link": "View All"
+        }
+    ],
+    "monthlyOrderInsight": {
+        "total": 102,
+        "months": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ],
+        "orders": [
+            10,
+            15,
+            8,
+            12,
+            20,
+            18,
+            25,
+            30,
+            22,
+            18,
+            20,
+            15
+        ]
+    },
+    "bestSellingProducts": [
+        {
+            "product": "CALIPER 2016-2020",
+            "totalSold": 28,
+            "pricing": "Regular price: 12,000.0TK. Discount Price: 13TK.",
+            "topItem": "Yes",
+            "rating": 2,
+            "time": "2025-07-23"
+        },
+        {
+            "product": "CALIPER 2016-2020",
+            "totalSold": 25,
+            "pricing": "Regular price: 12,000.0TK. Discount Price: 13TK.",
+            "topItem": "Yes",
+            "rating": 5,
+            "time": "2025-07-23"
+        },
+        {
+            "product": "CALIPER 2016-2020",
+            "totalSold": 12,
+            "pricing": "Regular price: 12,000.0TK. Discount Price: 13TK.",
+            "topItem": "No",
+            "rating": 3,
+            "time": "2025-07-23"
+        }
+    ],
+    "topCategories": [
+        {
+            "name": "BRAKES",
+            "inventory": "Inventory app"
+        },
+        {
+            "name": "FILTER",
+            "inventory": "Inventory app"
+        },
+        {
+            "name": "LUBRICANT/OIL",
+            "inventory": "Inventory app"
+        },
+        {
+            "name": "ENGINE PARTS",
+            "inventory": "Inventory app"
+        },
+        {
+            "name": "CONTROL BOLTS",
+            "inventory": "Inventory app"
+        }
+    ],
+    "ordersInsight": {
+        "totalOrders": 1,
+        "pendingOrders": 1,
+        "digitalOrders": 0
+    },
+    "productInsight": {
+        "totalProducts": 0,
+        "mineralsProduct": 0,
+        "digitalProduct": 0
+    },
+    "latestTransactions": [],
+    "earningInsight": [
+        30000.00,
+        30000.00,
+        10000.00,
+        20000.00
+    ],
+    "webVisitors": {
+        "data": [
+            800,
+            400,
+            300,
+            400,
+            300,
+            750,
+            620,
+            450,
+            780,
+            340,
+            550,
+            120
+        ],
+        "labels": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ]
+    }
+}
