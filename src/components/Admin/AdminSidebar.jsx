@@ -68,7 +68,7 @@ export const adminSidebarItems = {
       url: "#",
       icon: UsersIcon,
       items: [
-        { title: "Customers", url: "#" },
+        { title: "Customers", url: "/admin/customers" },
         { title: "Transactions", url: "#" },
       ],
     },

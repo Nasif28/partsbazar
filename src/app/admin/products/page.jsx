@@ -1,6 +1,10 @@
 "use client";
 import Link from "next/link";
-import { DeleteButton, EditButton } from "@/components/Global/ActionButtons";
+import {
+  DeleteButton,
+  EditButton,
+  ViewButton,
+} from "@/components/Global/ActionButtons";
 import { DeleteModal } from "@/components/Global/DeleteModal";
 import { GlobalTable } from "@/components/Global/GlobalTable";
 import { Space } from "@/components/Global/Space";
@@ -191,6 +195,10 @@ const AdminProductsPage = () => {
         accessorKey: "actions",
         cell: (_, row) => (
           <Space>
+            <Link href={`/admin/products/${row.id}`}>
+              <ViewButton />
+            </Link>
+
             <Link href={`/admin/products/edit/${row.id}`}>
               <EditButton />
             </Link>
