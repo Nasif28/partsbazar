@@ -362,12 +362,12 @@ const CustomerDetailsPage = ({ params }) => {
           <Card>
             <CardHeader>
               <div className="flex justify-between items-center">
-                <CardTitle className="flex items-center">
+                <CardTitle className="flex items-center capitalize">
                   <ShoppingBag className="w-5 h-5 mr-2" />
-                  All Orders
+                  All {activeTab}
                 </CardTitle>
                 <div className="flex space-x-2">
-                  <Input placeholder="Search orders..." className="w-48" />
+                  <Input placeholder="Search ..." className="w-full md:w-80" />
                   <Button variant="outline">
                     <Filter className="w-4 h-4" />
                     Filter
@@ -378,7 +378,7 @@ const CustomerDetailsPage = ({ params }) => {
 
             <CardContent>
               <Tabs value={activeTab} onValueChange={setActiveTab}>
-                <TabsList className="mb-4">
+                <TabsList>
                   <TabsTrigger value="orders">Orders</TabsTrigger>
                   <TabsTrigger value="transactions">Transactions</TabsTrigger>
                   <TabsTrigger value="wishlist">Wishlist</TabsTrigger>
