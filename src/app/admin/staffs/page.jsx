@@ -2,6 +2,7 @@
 
 import { StaffModal } from "@/components/Admin/Dashboard/StaffModal";
 import { DeleteButton, EditButton } from "@/components/Global/ActionButtons";
+import { AdminPageHeader } from "@/components/Global/AdminPageHeader";
 import { DeleteModal } from "@/components/Global/DeleteModal";
 import { GlobalTable } from "@/components/Global/GlobalTable";
 import { Space } from "@/components/Global/Space";
@@ -120,18 +121,21 @@ const AdminStaffsPage = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between mb-4">
-        <h1 className="text-xl font-bold mb-4">Manage Staff</h1>
-        <Button
-          onClick={() => {
-            setSelectedStaff(null);
-            setShowModal(true);
-          }}
-        >
-          Add Staff
-          <Plus className="w-4 h-4 ml-2" />
-        </Button>
-      </div>
+      {/* Header  */}
+      <AdminPageHeader
+        title="Manage Staff"
+        actions={
+          <Button
+            onClick={() => {
+              setSelectedStaff(null);
+              setShowModal(true);
+            }}
+          >
+            Add Staff
+            <Plus className="w-4 h-4" />
+          </Button>
+        }
+      />
 
       <GlobalTable
         data={staffs}

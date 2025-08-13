@@ -18,6 +18,7 @@ import * as z from "zod";
 import { useEffect, useState } from "react";
 import { X, Plus, Minus } from "lucide-react";
 import { toast } from "sonner";
+import { AdminPageHeader } from "@/components/Global/AdminPageHeader";
 
 const productSchema = z
   .object({
@@ -307,16 +308,15 @@ export const ProductForm = ({ initialData, onSubmit }) => {
 
   return (
     <div>
-      <div className="mb-4">
-        <h1 className="text-xl font-bold">
-          {initialData ? "Edit Product" : "Create New Product"}
-        </h1>
-        <p className="text-muted-foreground">
-          {initialData
+      {/* Header  */}
+      <AdminPageHeader
+        title={initialData ? "Edit Product" : "Create New Product"}
+        subtitle={
+          initialData
             ? "Update product details"
-            : "Add a new product to your inventory"}
-        </p>
-      </div>
+            : "Add a new product to your inventory"
+        }
+      />
 
       <form onSubmit={handleSubmit(onSubmitHandler)} className="space-y-4">
         {/* Basic Information Section */}

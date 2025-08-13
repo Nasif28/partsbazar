@@ -29,6 +29,7 @@ import {
   ViewButton,
 } from "@/components/Global/ActionButtons";
 import { Space } from "@/components/Global/Space";
+import { AdminPageHeader } from "@/components/Global/AdminPageHeader";
 
 const AdminOrdersPage = () => {
   const [search, setSearch] = useState("");
@@ -150,25 +151,29 @@ const AdminOrdersPage = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between mb-2">
-        <h1 className="text-xl font-bold">Manage Orders</h1>
-        <Button
-          onClick={() => {
-            setSelectedCategory(null);
-            setShowModal(true);
-          }}
-        >
-          Add Order
-          <Plus className="w-4 h-4 ml-2" />
-        </Button>
-      </div>
-
-      <Input
-        type="text"
-        placeholder="Search orders..."
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        className="w-full md:w-80 border rounded px-4 py-2"
+      {/* Header  */}
+      <AdminPageHeader
+        title="Manage Orders"
+        actions={
+          <>
+            <Input
+              type="text"
+              placeholder="Search orders..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="w-full md:w-80"
+            />
+            <Button
+              onClick={() => {
+                setSelectedCategory(null);
+                setShowModal(true);
+              }}
+            >
+              Add Order
+              <Plus className="w-4 h-4" />
+            </Button>
+          </>
+        }
       />
 
       {/* Tab Navigation */}

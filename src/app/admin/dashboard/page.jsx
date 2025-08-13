@@ -23,6 +23,7 @@ import {
 } from "@/components/Global/ActionButtons";
 import { Space } from "@/components/Global/Space";
 import { DateFormatter } from "@/components/Global/DateFormatter";
+import { AdminPageHeader } from "@/components/Global/AdminPageHeader";
 
 function SummaryCard({ title, value, link }) {
   return (
@@ -242,20 +243,16 @@ export default function AdminDashboardPage() {
   return (
     <div>
       {/* Header  */}
-      <div className="flex items-center justify-between mb-2">
-        <div>
-          <h1 className="text-xl font-bold">
-            Welcome Back, {data.welcome.name}
-          </h1>
-          <p className="text-muted-foreground">
-            Here's what's happening with your store today
-          </p>
-        </div>
-        <Button onClick={downloadJSON} className="mt-2 md:mt-0">
-          <Download className="w-4 h-4" />
-          Export Data
-        </Button>
-      </div>
+      <AdminPageHeader
+        title={`Welcome Back, ${data.welcome.name}`}
+        subtitle="Here's what's happening with your store today"
+        actions={
+          <Button onClick={downloadJSON}>
+            <Download className="w-4 h-4" />
+            Export Data
+          </Button>
+        }
+      />
 
       {/* Total Earnings */}
       <div className="bg-primary text-white p-6 mb-4">

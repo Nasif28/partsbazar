@@ -69,7 +69,7 @@ export const adminSidebarItems = {
       icon: UsersIcon,
       items: [
         { title: "Customers", url: "/admin/customers" },
-        { title: "Transactions", url: "#" },
+        { title: "Transactions", url: "/admin/transactions" },
       ],
     },
     {

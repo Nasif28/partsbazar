@@ -10,6 +10,7 @@ import { DeleteModal } from "@/components/Global/DeleteModal";
 import CategoryModal from "@/components/Admin/Product/CategoryModal";
 import { Space } from "@/components/Global/Space";
 import { DeleteButton, EditButton } from "@/components/Global/ActionButtons";
+import { AdminPageHeader } from "@/components/Global/AdminPageHeader";
 
 const AdminCategoriesPage = () => {
   const [categories, setCategories] = useState([]);
@@ -112,25 +113,29 @@ const AdminCategoriesPage = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between mb-4">
-        <h1 className="text-xl font-bold">Manage Categories</h1>
-        <Button
-          onClick={() => {
-            setSelectedCategory(null);
-            setShowModal(true);
-          }}
-        >
-          Add Category
-          <Plus className="w-4 h-4 ml-2" />
-        </Button>
-      </div>
-
-      <Input
-        type="text"
-        placeholder="Search by category name"
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        className="mb-4 w-full border rounded px-4 py-2"
+      {/* Header  */}
+      <AdminPageHeader
+        title="Manage Categories"
+        actions={
+          <>
+            <Input
+              type="text"
+              placeholder="Search by category name"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="w-full md:w-80"
+            />
+            <Button
+              onClick={() => {
+                setSelectedCategory(null);
+                setShowModal(true);
+              }}
+            >
+              Add Category
+              <Plus className="w-4 h-4" />
+            </Button>
+          </>
+        }
       />
 
       <GlobalTable

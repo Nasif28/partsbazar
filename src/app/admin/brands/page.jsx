@@ -10,6 +10,7 @@ import { BrandModal } from "@/components/Admin/Product/BrandModal";
 import { DeleteModal } from "@/components/Global/DeleteModal";
 import { Space } from "@/components/Global/Space";
 import { DeleteButton, EditButton } from "@/components/Global/ActionButtons";
+import { AdminPageHeader } from "@/components/Global/AdminPageHeader";
 
 const AdminBrandsPage = () => {
   const [brands, setBrands] = useState([]);
@@ -112,25 +113,29 @@ const AdminBrandsPage = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between mb-4">
-        <h1 className="text-xl font-bold">Manage Brands</h1>
-        <Button
-          onClick={() => {
-            setSelectedBrand(null);
-            setShowModal(true);
-          }}
-        >
-          Add Brand
-          <Plus className="w-4 h-4 ml-2" />
-        </Button>
-      </div>
-
-      <Input
-        type="text"
-        placeholder="Search by brand name"
-        value={search}
-        onChange={(e) => setSearch(e.target.value)}
-        className="mb-4 w-full border rounded px-4 py-2"
+      {/* Header  */}
+      <AdminPageHeader
+        title="Manage Brands"
+        actions={
+          <>
+            <Input
+              type="text"
+              placeholder="Search by brand name"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="w-full md:w-80"
+            />
+            <Button
+              onClick={() => {
+                setSelectedBrand(null);
+                setShowModal(true);
+              }}
+            >
+              Add Brand
+              <Plus className="w-4 h-4" />
+            </Button>
+          </>
+        }
       />
 
       <GlobalTable

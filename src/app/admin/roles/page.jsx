@@ -2,6 +2,7 @@
 
 import { RoleModal } from "@/components/Admin/Dashboard/RoleModal";
 import { DeleteButton, EditButton } from "@/components/Global/ActionButtons";
+import { AdminPageHeader } from "@/components/Global/AdminPageHeader";
 import { DeleteModal } from "@/components/Global/DeleteModal";
 import { GlobalTable } from "@/components/Global/GlobalTable";
 import { Space } from "@/components/Global/Space";
@@ -105,18 +106,21 @@ const AdminRolesPage = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between mb-4">
-        <h1 className="text-xl font-bold mb-4">Manage Role</h1>
-        <Button
-          onClick={() => {
-            setSelectedRole(null);
-            setShowModal(true);
-          }}
-        >
-          Add Role
-          <Plus className="w-4 h-4 ml-2" />
-        </Button>
-      </div>
+      {/* Header  */}
+      <AdminPageHeader
+        title="Manage Role"
+        actions={
+          <Button
+            onClick={() => {
+              setSelectedRole(null);
+              setShowModal(true);
+            }}
+          >
+            Add Role
+            <Plus className="w-4 h-4" />
+          </Button>
+        }
+      />
 
       <GlobalTable
         data={roles}

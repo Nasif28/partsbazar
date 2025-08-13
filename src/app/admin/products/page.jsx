@@ -13,6 +13,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Plus } from "lucide-react";
 import React, { useMemo, useState } from "react";
+import { AdminPageHeader } from "@/components/Global/AdminPageHeader";
 
 const AdminProductsPage = () => {
   const [showDelete, setShowDelete] = useState(false);
@@ -218,7 +219,30 @@ const AdminProductsPage = () => {
 
   return (
     <div>
-      <div className="flex items-center justify-between mb-4">
+      {/* Header  */}
+      <AdminPageHeader
+        title="Product List"
+        subtitle="Manage all products in your inventory"
+        actions={
+          <>
+            <Input
+              type="text"
+              placeholder="Search by product name, brand or category"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              className="w-full md:w-80"
+            />
+            <Link href="/admin/products/add">
+              <Button>
+                <Plus className="w-4 h-4" />
+                Add Product
+              </Button>
+            </Link>
+          </>
+        }
+      />
+
+      {/* <div className="flex items-center justify-between mb-4">
         <div>
           <h1 className="text-xl font-bold">Product List</h1>
           <p className="text-muted-foreground">
@@ -240,7 +264,7 @@ const AdminProductsPage = () => {
             </Button>
           </Link>
         </div>
-      </div>
+      </div> */}
 
       <div>
         <GlobalTable
