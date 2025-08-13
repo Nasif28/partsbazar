@@ -142,7 +142,7 @@ const AdminTransactionsPage = () => {
   return (
     <div>
       <AdminPageHeader
-        title="Transactions List"
+        title="Transaction List"
         subtitle="Manage all platform transactions"
         actions={
           <>
