@@ -242,30 +242,6 @@ const AdminProductsPage = () => {
         }
       />
 
-      {/* <div className="flex items-center justify-between mb-4">
-        <div>
-          <h1 className="text-xl font-bold">Product List</h1>
-          <p className="text-muted-foreground">
-            Manage all products in your inventory
-          </p>
-        </div>
-        <div className="flex flex-col sm:flex-row gap-3">
-          <Input
-            type="text"
-            placeholder="Search by product name, brand or category"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className="w-full md:w-80"
-          />
-          <Link href="/admin/products/add">
-            <Button>
-              <Plus className="w-4 h-4 mr-2" />
-              Add Product
-            </Button>
-          </Link>
-        </div>
-      </div> */}
-
       <div>
         <GlobalTable
           data={filteredProducts}
