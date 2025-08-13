@@ -70,6 +70,7 @@ export const adminSidebarItems = {
       items: [
         { title: "Customers", url: "/admin/customers" },
         { title: "Transactions", url: "/admin/transactions" },
+        { title: "Payments", url: "/admin/payments" },
       ],
     },
     {
