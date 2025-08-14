@@ -80,12 +80,13 @@ export const adminSidebarItems = {
       items: [
         { title: "Frontend Section", url: "#" },
         { title: "Menus", url: "#" },
+        { title: "Categories", url: "#" },
         { title: "Contacts", url: "#" },
         { title: "Testimonials", url: "/admin/testimonials" },
         { title: "Videos", url: "#" },
         { title: "Blogs", url: "#" },
+        { title: "Policy", url: "/admin/policy" },
         { title: "FAQs", url: "#" },
-        { title: "Categories", url: "#" },
       ],
     },
     {
