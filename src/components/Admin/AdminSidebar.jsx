@@ -81,7 +81,7 @@ export const adminSidebarItems = {
         { title: "Frontend Section", url: "#" },
         { title: "Menus", url: "#" },
         { title: "Contacts", url: "#" },
-        { title: "Testimonials", url: "#" },
+        { title: "Testimonials", url: "/admin/testimonials" },
         { title: "Videos", url: "#" },
         { title: "Blogs", url: "#" },
         { title: "FAQs", url: "#" },

@@ -15,7 +15,7 @@ export function Tag({ status }) {
     Canceled: "bg-gray-100 text-gray-800",
     Return: "bg-orange-100 text-orange-800",
     Active: "bg-emerald-100 text-emerald-800",
-    Inactive: "bg-pink-100 text-pink-800",
+    Inactive: "bg-red-100 text-red-800",
   };
 
   return (
