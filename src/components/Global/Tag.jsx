@@ -16,6 +16,8 @@ export function Tag({ status }) {
     Return: "bg-orange-100 text-orange-800",
     Active: "bg-emerald-100 text-emerald-800",
     Inactive: "bg-red-100 text-red-800",
+    Yes: "bg-emerald-100 text-emerald-800",
+    No: "bg-red-100 text-red-800",
   };
 
   return (
