@@ -5,7 +5,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { FileText, Save, X } from "lucide-react";
 import { useRouter } from "next/navigation";
-import RichTextEditor from "./RichTextEditor";
+// import RichTextEditor from "./RichTextEditor";
+import dynamic from "next/dynamic";
+const RichTextEditor = dynamic(() => import("./RichTextEditor"), {
+  ssr: false,
+});
 
 const PolicyEditor = ({ policyName, onSave, isCreating = false }) => {
   const [title, setTitle] = useState(policyName);
