@@ -194,7 +194,7 @@ const AdminFAQsPage = () => {
                   e.stopPropagation();
                   handleMoveRank(value.row.original.id, "up");
                 }}
-                className="text-gray-400 hover:text-gray-800"
+                className="text-muted-foreground/50 hover:text-muted-foreground"
               >
                 <ArrowUp className="w-3 h-3" />
               </button>
@@ -203,7 +203,7 @@ const AdminFAQsPage = () => {
                   e.stopPropagation();
                   handleMoveRank(value.row.original.id, "down");
                 }}
-                className="text-gray-400 hover:text-gray-800"
+                className="text-muted-foreground/50 hover:text-muted-foreground"
               >
                 <ArrowDown className="w-3 h-3" />
               </button>
