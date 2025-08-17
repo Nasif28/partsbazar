@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { FileText, Save, X } from "lucide-react";
 import { useRouter } from "next/navigation";
-import RichTextEditor from "@/components/Global/TiptapEditor";
+import RichTextEditor from "@/components/Global/RichTextEditor";
 
 const PolicyEditor = ({ policyName, onSave, isCreating = false }) => {
   const [title, setTitle] = useState(policyName);

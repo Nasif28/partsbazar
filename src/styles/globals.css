@@ -228,5 +228,33 @@ body {
   animation: float 4s ease-in-out infinite;
 }
 
+/* Fix heading font sizes in the editor */
+.ProseMirror h1 {
+  font-size: 2.25em !important;
+  font-weight: 600;
+}
 
-/* Delete */
+.ProseMirror h2 {
+  font-size: 1.8em !important;
+  font-weight: 600;
+}
+
+.ProseMirror h3 {
+  font-size: 1.5em !important;
+  font-weight: 600;
+}
+
+.ProseMirror h4 {
+  font-size: 1.25em !important;
+  font-weight: 600;
+}
+
+.ProseMirror h5 {
+  font-size: 1.1em !important;
+  font-weight: 600;
+}
+
+.ProseMirror h6 {
+  font-size: 1em !important;
+  font-weight: 600;
+}
