@@ -640,7 +640,7 @@ const RichTextEditor = ({
         )}
         <EditorContent
           editor={editor}
-          className="prose dark:prose-invert max-w-none min-h-[300px] h-[calc(100vh-300px)] overflow-y-auto"
+          className="prose dark:prose-invert max-w-none min-h-[300px] h-[calc(100vh-320px)] overflow-y-auto"
         />
       </div>
     </div>
