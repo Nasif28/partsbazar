@@ -99,6 +99,7 @@ export const adminSidebarItems = {
         { title: "Coupon", url: "/admin/coupon" },
         { title: "Campaign", url: "/admin/campaign" },
         { title: "Flash Deal List", url: "/admin/flashdeal" },
+        { title: "Subscribers", url: "/admin/subscribers" },
       ],
     },
     {
