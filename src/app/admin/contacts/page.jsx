@@ -48,7 +48,7 @@ const AdminContactListPage = () => {
         message:
           "My order #12345 hasn't arrived yet. It's been 2 weeks since the shipping confirmation.",
         date: "2023-07-22T14:45:00Z",
-        status: "in_progress",
+        status: "in progress",
       },
       {
         id: 3,
@@ -81,7 +81,7 @@ const AdminContactListPage = () => {
         message:
           "I'm having trouble setting up the device I purchased. The manual wasn't clear about step 4.",
         date: "2023-08-15T11:05:00Z",
-        status: "in_progress",
+        status: "in progress",
       },
     ]);
   }, []);

@@ -108,7 +108,8 @@ export const adminSidebarItems = {
       icon: Settings,
       items: [
         { title: "Send Mail", url: "#" },
-        { title: "View Visitor", url: "#" },
+        { title: "View Visitor", url: "/admin/visitors" },
+        { title: "Shipping", url: "/admin/shipping" },
         { title: "SEO", url: "#" },
         { title: "Language", url: "#" },
         { title: "Payment Methods", url: "#" },

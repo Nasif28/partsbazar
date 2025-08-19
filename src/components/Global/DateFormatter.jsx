@@ -5,6 +5,7 @@ export function DateFormatter({
   showAgo = true,
   showTime = true,
   showDate = true,
+  textColor = "muted-foreground",
 }) {
   const formatDate = (dateString) => {
     const dateObj = new Date(dateString);
@@ -61,15 +62,15 @@ export function DateFormatter({
   return (
     <div className="flex flex-col">
       {agoText && (
-        <span className="text-xs font-medium text-muted-foreground">
+        <span className={`text-xs font-medium text-${textColor}`}>
           {agoText}
         </span>
       )}
       {timeText && (
-        <span className="text-xs text-muted-foreground">{timeText}</span>
+        <span className={`text-xs text-${textColor}`}>{timeText}</span>
       )}
       {dateText && (
-        <span className="text-xs text-muted-foreground">{dateText}</span>
+        <span className={`text-xs text-${textColor}`}>{dateText}</span>
       )}
     </div>
   );

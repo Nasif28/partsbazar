@@ -7,6 +7,7 @@ export function Tag({ status }) {
   const normalizedStatus = status.toLowerCase();
 
   const statusStyles = {
+    new: "bg-green-100 text-green-800",
     paid: "bg-green-100 text-green-800",
     unpaid: "bg-red-100 text-red-800",
     rejected: "bg-red-100 text-red-800",
