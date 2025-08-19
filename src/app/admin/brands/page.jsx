@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Edit, Plus, Trash2 } from "lucide-react";
+import { Plus } from "lucide-react";
 import brandData from "@/data/Brands.json";
 import { Input } from "@/components/ui/input";
 import { GlobalTable } from "@/components/Global/GlobalTable";

@@ -81,7 +81,6 @@ export const adminSidebarItems = {
         { title: "Frontend Section", url: "/admin/frontend" },
         { title: "Home Section", url: "/admin/sections" },
         { title: "Menus", url: "/admin/menus" },
-        { title: "Contacts", url: "/admin/contacts" },
         { title: "Blogs", url: "/admin/blogs" },
         { title: "Videos", url: "/admin/videos" },
         { title: "Testimonials", url: "/admin/testimonials" },
@@ -100,6 +99,7 @@ export const adminSidebarItems = {
         { title: "Campaign", url: "/admin/campaign" },
         { title: "Flash Deal List", url: "/admin/flashdeal" },
         { title: "Subscribers", url: "/admin/subscribers" },
+        { title: "Contacts", url: "/admin/contacts" },
       ],
     },
     {

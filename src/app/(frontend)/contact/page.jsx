@@ -45,7 +45,7 @@ const ContactCard = ({ icon, title, content }) => (
     <div className="p-3 rounded-full bg-primary/10 text-primary">{icon}</div>
     <div>
       <h3 className="font-semibold mb-1">{title}</h3>
-      <div className="text-gray-600 text-sm whitespace-pre-line">{content}</div>
+      <div className="text-muted-foreground text-sm whitespace-pre-line">{content}</div>
     </div>
   </div>
 );

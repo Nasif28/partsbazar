@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Edit, Trash2, Eye, Printer, Info, BookText } from "lucide-react";
+import { Edit, Trash2, Eye, Printer, Info, BookText, Send } from "lucide-react";
 import {
   Tooltip,
   TooltipContent,
@@ -8,12 +8,16 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 
-function IconButton({ icon: Icon, defaultLabel, tooltip, onClick }) {
+function IconButton({ icon: Icon, defaultLabel, tooltip, variant, onClick }) {
   return (
     <TooltipProvider>
       <Tooltip>
         <TooltipTrigger asChild>
-          <Button variant="outline" size="icon" onClick={onClick}>
+          <Button
+            variant={variant ? variant : "outline"}
+            size="icon"
+            onClick={onClick}
+          >
             <Icon className="w-4 h-4" />
           </Button>
         </TooltipTrigger>
@@ -41,6 +45,7 @@ export function DeleteButton({ onClick, tooltip }) {
     <IconButton
       icon={Trash2}
       defaultLabel="Delete"
+      variant="default"
       tooltip={tooltip}
       onClick={onClick}
     />
@@ -74,6 +79,18 @@ export function DetailsButton({ onClick, tooltip }) {
     <IconButton
       icon={BookText}
       defaultLabel="Details"
+      tooltip={tooltip}
+      onClick={onClick}
+    />
+  );
+}
+
+export function SendMailButton({ onClick, tooltip }) {
+  return (
+    <IconButton
+      icon={Send}
+      defaultLabel="Send Mail"
+      variant="highlight"
       tooltip={tooltip}
       onClick={onClick}
     />
