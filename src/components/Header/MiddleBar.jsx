@@ -37,7 +37,7 @@ const MiddleBar = () => {
         <div className="container py-1 mx-auto">
           {/* Mobile Search */}
           {mobileSearchOpen && (
-            <div className="sm:hidden absolute top-full left-0 right-0 px-5 bg-background z-50 ">
+            <div className="sm:hidden absolute top-full left-0 right-0 px-5 pt-2 bg-none z-50 ">
               <SearchBar
                 isMobileOpen={mobileSearchOpen}
                 onClose={() => setMobileSearchOpen(false)}

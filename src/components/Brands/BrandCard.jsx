@@ -5,15 +5,15 @@ const BrandCard = ({ brand }) => {
   return (
     <Link
       href={`/products?brand=${encodeURIComponent(brand.bname)}`}
-      className="group flex flex-col items-center justify-center p-4 bg-background rounded-lg shadow-sm border border-sidebar-border hover:shadow-md hover:border-primary transition-all duration-300"
+      className="group flex flex-col items-center justify-center p-2 md:p-4 bg-background rounded-lg shadow-sm border border-sidebar-border hover:shadow-md hover:border-primary transition-all duration-300"
     >
-      <div className="relative w-24 h-24 mb-3 flex items-center justify-center">
+      <div className="relative w-24 h-24 mb-1 sm:mb-3 flex items-center justify-center">
         {brand.logo ? (
           <Image
             src={brand.logo}
             alt={brand.bname}
             fill
-            className="object-contain p-2"
+            className="object-contain sm:p-2"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         ) : (

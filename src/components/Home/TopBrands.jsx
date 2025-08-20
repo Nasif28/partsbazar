@@ -45,7 +45,7 @@ const TopBrands = () => {
         />
 
         {loading && topBrands.length === 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {Array.from({ length: 6 }).map((_, index) => (
               <div
                 key={index}
@@ -57,7 +57,7 @@ const TopBrands = () => {
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div className="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2 sm:gap-4">
             {topBrands.slice(0, 12).map((brand) => (
               <BrandCard key={brand.id} brand={brand} />
             ))}

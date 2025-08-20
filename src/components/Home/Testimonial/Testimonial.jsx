@@ -20,10 +20,8 @@ const Testimonial = () => {
   const [isFormOpen, setIsFormOpen] = useState(false);
 
   const handleSubmitReview = (newReview) => {
-    // Generate unique ID for the new review
     const id = Math.max(...testimonials.map((t) => t.id)) + 1;
 
-    // Add current date
     const today = new Date();
     const formattedDate = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
 
@@ -37,13 +35,8 @@ const Testimonial = () => {
       location: newReview.address || "Not specified",
     };
 
-    // Update testimonials
     setTestimonials([...testimonials, reviewToAdd]);
-
-    // Close modal
     setIsFormOpen(false);
-
-    // Show success toast
     toast.info(" Your review has been successfully submitted");
   };
 
@@ -62,11 +55,11 @@ const Testimonial = () => {
 
       <div className="myContainer" style={{ transform: "scaleX(-1)" }}>
         <div className="container mx-auto relative">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-12 items-center">
             {/* Left Column: Heading and Button */}
-            <div className="text-center lg:text-left space-y-8">
+            <div className="text-center lg:text-left space-y-4 lg:space-y-8">
               <div>
-                <h2 className="text-3xl md:text-4xl md:max-w-sm font-bold text-white mb-2">
+                <h2 className="text-3xl md:text-4xl md:max-w-sm font-bold text-white mb-2 lg:mx-0 mx-auto">
                   What Our Customers Say About Us
                 </h2>
 
@@ -103,14 +96,17 @@ const Testimonial = () => {
               >
                 <CarouselContent>
                   {testimonials.map((testimonial) => (
-                    <CarouselItem key={testimonial.id} className="md:basis-1/2">
+                    <CarouselItem
+                      key={testimonial.id}
+                      className="sm:basis-1/2 basis-1/1"
+                    >
                       <TestimonialCard testimonial={testimonial} />
                     </CarouselItem>
                   ))}
                 </CarouselContent>
-                <div className="hidden md:flex">
-                  <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 cursor-pointer bg-white/50 rounded-full p-2 shadow-md hover:bg-gray-100 transition-all" />
-                  <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 cursor-pointer bg-white/50 rounded-full p-2 shadow-md hover:bg-gray-100 transition-all" />
+                <div className="">
+                  <CarouselPrevious className="absolute left-0 top-1/2 -translate-y-1/2 translate-x-4 md:-translate-x-2 cursor-pointer bg-white/50 rounded-full p-2 shadow-md hover:bg-gray-100 transition-all" />
+                  <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2 md:translate-x-4 -translate-x-2 cursor-pointer bg-white/50 rounded-full p-2 shadow-md hover:bg-gray-100 transition-all" />
                 </div>
               </Carousel>
             </div>

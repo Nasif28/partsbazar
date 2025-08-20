@@ -88,11 +88,11 @@ export default function Fitment() {
 
   return (
     <div className="bg-background border border-primary p-5 rounded-xl shadow-md">
-      <h2 className="text-xl text-primary font-bold mb-4">
+      <h2 className="text-lg sm:text-xl text-primary font-bold mb-4">
         SELECT VEHICLE TO FIND EXACT FIT PARTS
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">
         {/* Make Selector */}
         <div>
           <Select value={selectedMake} onValueChange={handleMakeChange}>
@@ -170,12 +170,14 @@ export default function Fitment() {
         </div>
 
         {/* Search Button */}
-        <Button
-          disabled={!selectedPart}
-          className="bg-primary hover:bg-primary-dark text-white py-2 px-4 rounded disabled:opacity-50 disabled:cursor-not-allowed"
-        >
-          Search
-        </Button>
+        <div className="col-span-2 sm:col-span-1">
+          <Button
+            disabled={!selectedPart}
+            className="disabled:opacity-50 w-full disabled:cursor-not-allowed"
+          >
+            Search
+          </Button>
+        </div>
       </div>
     </div>
   );

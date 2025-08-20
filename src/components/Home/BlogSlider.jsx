@@ -14,6 +14,7 @@ import {
 import { ChevronRight } from "lucide-react";
 import Autoplay from "embla-carousel-autoplay";
 import SectionHeader from "../Global/SectionHeader";
+import SectionSlider from "../Global/SectionSlider";
 
 const BlogSlider = () => {
   const dispatch = useDispatch();
@@ -33,44 +34,12 @@ const BlogSlider = () => {
             linkText="All Blogs"
           />
 
-          {loading ? (
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {[...Array(3)].map((_, i) => (
-                <div
-                  key={i}
-                  className="rounded-lg shadow-md overflow-hidden animate-pulse"
-                >
-                  <div className="bg-background h-60" />
-                  <div className="p-4">
-                    <div className="h-6 bg-background rounded w-3/4 mb-2" />
-                    <div className="h-4 bg-background rounded w-full mb-1" />
-                    <div className="h-4 bg-background rounded w-5/6" />
-                  </div>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div className="relative">
-              <Carousel
-                opts={{ align: "start", loop: true }}
-                plugins={[Autoplay({ delay: 3000, stopOnInteraction: false })]}
-                className="w-full"
-              >
-                <CarouselContent>
-                  {popularBlogs.map((blog) => (
-                    <CarouselItem key={blog.id} className="md:basis-1/3 ">
-                      <div className="rounded-lg">
-                        <BlogCard blog={blog} />
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-
-                <CarouselPrevious className="left-2 2xl:-left-12" />
-                <CarouselNext className="right-2 2xl:-right-12" />
-              </Carousel>
-            </div>
-          )}
+          <SectionSlider
+            items={popularBlogs}
+            loading={loading}
+            itemClassName="xl:basis-1/3 sm:basis-1/2"
+            renderItem={(blog) => <BlogCard blog={blog} />}
+          />
         </div>
       </div>
     </section>

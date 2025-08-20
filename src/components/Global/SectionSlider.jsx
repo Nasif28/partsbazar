@@ -15,7 +15,7 @@ const SectionSlider = ({
   loading,
   loadingComponent,
   className = "",
-  itemClassName = "md:basis-1/3",
+  itemClassName = "lg:basis-1/3 md:basis-1/2",
   autoplayOptions = { delay: 3000, stopOnInteraction: false },
   showArrows = true,
   opts = { align: "start", loop: true },

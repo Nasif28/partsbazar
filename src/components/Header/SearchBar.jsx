@@ -2,6 +2,7 @@
 import { Search, X } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { useEffect, useState } from "react";
+import { Empty } from "../Global/Empty";
 
 const mockProducts = [
   { id: 1, name: "Laptop", category: "Electronics" },
@@ -34,7 +35,7 @@ const SearchBar = ({ isMobileOpen, onClose }) => {
       product.name.toLowerCase().includes(term.toLowerCase())
     );
     setResults(filtered);
-    setIsOpen(filtered.length > 0);
+    setIsOpen(true);
   });
 
   useEffect(() => {
@@ -53,7 +54,7 @@ const SearchBar = ({ isMobileOpen, onClose }) => {
         <Input
           type="text"
           placeholder="Search products..."
-          className="px-10 py-2 md:py-6 rounded-full focus-visible:ring-1 focus-visible:ring-primary"
+          className="px-10 py-2 md:py-6 rounded-full focus-visible:ring-1 sm:bg-transparent bg-input focus-visible:ring-primary"
           aria-label="Search products"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
@@ -78,21 +79,25 @@ const SearchBar = ({ isMobileOpen, onClose }) => {
         )}
       </div>
 
-      {isOpen && results.length > 0 && (
+      {isOpen && (
         <div className="absolute z-50 w-full mt-1 bg-popover text-popover-foreground rounded-lg shadow-lg border">
-          <ul>
-            {results.map((product) => (
-              <li
-                key={product.id}
-                className="px-4 py-2 hover:bg-accent cursor-pointer"
-              >
-                <div className="font-medium">{product.name}</div>
-                <div className="text-sm text-muted-foreground">
-                  {product.category}
-                </div>
-              </li>
-            ))}
-          </ul>
+          {results.length > 0 ? (
+            <ul>
+              {results.map((product) => (
+                <li
+                  key={product.id}
+                  className="px-4 py-2 hover:bg-accent cursor-pointer"
+                >
+                  <div className="font-medium">{product.name}</div>
+                  <div className="text-sm text-muted-foreground">
+                    {product.category}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            searchTerm.trim() !== "" && <Empty />
+          )}
         </div>
       )}
     </div>

@@ -27,7 +27,7 @@ export default function VideoSlider() {
           <SectionSlider
             items={featuredVideos}
             loading={loading}
-            itemClassName="md:basis-1/4"
+            itemClassName="lg:basis-1/4 md:basis-1/3 basis-1/2"
             renderItem={(video) => <VideoCard video={video} />}
           />
         </div>

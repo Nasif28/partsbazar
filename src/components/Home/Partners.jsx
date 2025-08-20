@@ -13,43 +13,41 @@ import SectionSlider from "../Global/SectionSlider";
 
 const Partners = () => {
   return (
-    <main className="myContainer">
-      <section className="container secP">
-        <div>
+    <main className="secP">
+      <section className="myContainer">
+        <div className="container mx-auto">
           <SectionHeader
             title="Trusted Partners"
             href="/partners"
             linkText="All Partners"
           />
 
-          <div className="container mx-auto">
-            <TooltipProvider>
-              <SectionSlider
-                items={partners}
-                autoplayOptions={false}
-                itemClassName="md:basis-1/6 flex justify-center"
-                renderItem={(partner) => (
-                  <Tooltip key={partner.id}>
-                    <TooltipTrigger asChild>
-                      <div className="p-4 flex items-center justify-center">
-                        <Image
-                          src={partner.thumbnail}
-                          alt={partner.name}
-                          width={100}
-                          height={100}
-                          className="object-contain"
-                        />
-                      </div>
-                    </TooltipTrigger>
-                    <TooltipContent>
-                      <p className="font-medium">{partner.name}</p>
-                    </TooltipContent>
-                  </Tooltip>
-                )}
-                emptyMessage="No Partner found"
-              />
-            </TooltipProvider>
-          </div>
+          <TooltipProvider>
+            <SectionSlider
+              items={partners}
+              autoplayOptions={false}
+              itemClassName="lg:basis-1/6 sm:basis-1/4 basis-1/3 flex justify-center"
+              renderItem={(partner) => (
+                <Tooltip key={partner.id}>
+                  <TooltipTrigger asChild>
+                    <div className="p-4 flex items-center justify-center">
+                      <Image
+                        src={partner.thumbnail}
+                        alt={partner.name}
+                        width={100}
+                        height={100}
+                        className="object-contain"
+                      />
+                    </div>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p className="font-medium">{partner.name}</p>
+                  </TooltipContent>
+                </Tooltip>
+              )}
+              emptyMessage="No Partner found"
+            />
+          </TooltipProvider>
         </div>
       </section>
     </main>

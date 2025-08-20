@@ -59,7 +59,7 @@ const ProductTab = () => {
             items={activeProducts}
             loading={loading}
             autoplayOptions={false}
-            itemClassName="md:basis-1/5"
+            itemClassName="lg:basis-1/5 md:basis-1/3 basis-1/2"
             renderItem={(product) => <ProductCardContainer product={product} />}
             emptyMessage={`No products found in ${activeCategory}`}
           />

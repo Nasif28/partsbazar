@@ -21,7 +21,7 @@ const BlogCard = ({ blog }) => {
       href={`/blogs/${blog.slug}`}
       className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
     >
-      <div className="relative h-60">
+      <div className="relative h-48 md:h-60">
         <Image
           src={blog.thumbnail}
           alt={blog.title}
@@ -39,18 +39,13 @@ const BlogCard = ({ blog }) => {
       {/* Content overlay */}
       <div
         className="absolute rounded-b-lg bottom-0 left-0 right-0 z-10 bg-gradient-to-t from-black to-transparent p-4 text-white
-  transform opacity-0 translate-y-6 group-hover:opacity-100 group-hover:translate-y-0
-  transition-all duration-500 ease-in-out"
+"
       >
         <h3 className="text-lg font-bold mb-1">{blog.title}</h3>
         <p className="text-sm">{blog.excerpt}</p>
       </div>
 
-      {/* Always visible title on mobile */}
-      <div className="p-4 bg-white md:hidden">
-        <h3 className="font-bold text-gray-800">{blog.title}</h3>
-        <p className="text-sm text-gray-600 mt-1">{blog.excerpt}</p>
-      </div>
+     
     </Link>
   );
 };

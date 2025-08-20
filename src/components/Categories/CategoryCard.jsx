@@ -11,13 +11,13 @@ const CategoryCard = ({ category, isSubcategory = false }) => {
       }
       className="bg-card rounded-lg shadow-sm border border-border overflow-hidden transition-all duration-300 hover:shadow-md hover:border-primary group"
     >
-      <div className="relative h-40">
+      <div className="relative h-24 sm:h-40">
         {category.image ? (
           <Image
             src={category.image}
             alt={category.name}
             fill
-            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            className="object-contain transition-transform duration-300 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         ) : (
@@ -29,7 +29,7 @@ const CategoryCard = ({ category, isSubcategory = false }) => {
         )}
       </div>
 
-      <div className="p-4">
+      <div className="p-2 sm:p-4">
         <div className="flex items-center justify-between">
           <h3 className="font-bold text-foreground group-hover:text-primary transition-colors">
             {category.name}

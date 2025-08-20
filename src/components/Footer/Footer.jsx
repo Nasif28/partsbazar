@@ -59,10 +59,10 @@ const Footer = () => {
     <footer className="bg-gray-900 text-white">
       <div className="myContainer">
         <div className="container mx-auto pt-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Section 1: Logo, Description, Contact Info, Social */}
-            <div className="space-y-1">
-              <div className="flex items-center">
+            <div className="space-y-1 md:col-span-1 col-span-2">
+              <div className="flex items-center justify-center md:justify-start">
                 <Image
                   src={PBLogo}
                   alt="Parts Bazar Logo"
@@ -71,22 +71,22 @@ const Footer = () => {
                 />
               </div>
 
-              <p className="text-textLight text-sm">
+              <p className="text-textLight text-sm md:text-left text-center">
                 Your Trusted Online Store for Genuine Vehicle Parts. Explore the
                 Latest Trends and Enjoy Hassle-Free Shopping. Shop with
                 Confidence, Drive with Excellence.
               </p>
 
               <div className="space-y-3 text-sm py-4">
-                <div className="flex items-center">
+                <div className="flex items-center justify-center md:justify-start">
                   <PhoneCall className="h-5 w-5 text-blue-400 mr-2" />
                   <span>01322910470, 01322910471</span>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-center md:justify-start">
                   <Mails className="h-5 w-5 text-blue-400 mr-2" />
                   <span>sales@partsbazar.com.bd</span>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center justify-center md:justify-start">
                   <MapPin className="h-6 w-6 text-blue-400 mr-2" />
                   <span>
                     122-123 Fantasia AC Market Banglamotor, Dhaka-1000
@@ -94,7 +94,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="flex space-x-4">
+              <div className="flex space-x-4 justify-center md:justify-start">
                 <a
                   href="#"
                   target="_blank"
@@ -201,7 +201,7 @@ const Footer = () => {
                     {footerData.paymentPartners.map((partner, index) => (
                       <div
                         key={index}
-                        className="bg-white py-1 px-2 rounded-md flex items-center justify-center"
+                        className="bg-white py-1 px-2 min-h-8 rounded-md flex items-center justify-center"
                       >
                         <Image
                           src={partner.icon}
@@ -217,7 +217,7 @@ const Footer = () => {
             </div>
 
             {/* Section 4: Map, Partners */}
-            <div className="space-y-8 pt-8">
+            <div className="space-y-8 pt-8 md:col-span-1 col-span-2">
               <div>
                 <h3 className="text-lg font-bold text-white mb-6 pb-2 border-b border-gray-700">
                   Visit Us
@@ -239,11 +239,11 @@ const Footer = () => {
               </div>
 
               <div>
-                <h4 className="font-medium text-white mb-3">
+                <h4 className="font-medium text-white mb-3 md:text-left text-center">
                   Download App on Mobile
                 </h4>
 
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 justify-center md:justify-start">
                   <Link href="#" target="_blank">
                     <Image
                       src={PlayStore}

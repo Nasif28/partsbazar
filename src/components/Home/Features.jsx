@@ -31,7 +31,7 @@ export default function Features() {
         <div className="container mx-auto">
           <div className="grid grid-cols-1 sm:divide-x-2 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {features.map((feature, index) => (
-              <div key={index} className="flex items-start gap-4">
+              <div key={index} className="flex sm:items-start gap-4">
                 <div className="flex items-center h-full">{feature.icon}</div>
 
                 <div>

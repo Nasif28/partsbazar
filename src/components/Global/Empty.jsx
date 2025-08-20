@@ -2,7 +2,7 @@ import React from "react";
 
 export const Empty = ({ message = "No data found" }) => {
   return (
-    <div className="flex flex-col items-center justify-center py-12">
+    <div className="flex flex-col items-center justify-center py-6 px-4">
       <div className="bg-gray-200 border-2 border-dashed rounded-xl w-16 h-16 flex items-center justify-center mb-4">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ export const Empty = ({ message = "No data found" }) => {
         </svg>
       </div>
       <h3 className="text-lg font-medium text-gray-900 mb-1">{message}</h3>
-      <p className="text-sm text-gray-500">
+      <p className="text-sm text-gray-500 text-center">
         Try adjusting your search or filter to find what you're looking for
       </p>
     </div>
