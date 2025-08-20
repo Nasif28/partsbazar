@@ -7,9 +7,16 @@ import CategoriesMenu from "../Home/Hero/CategoriesMenu";
 import clsx from "clsx";
 import Image from "next/image";
 import { PBLogo } from "@/assets/Import";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "../ui/sheet";
+import { Separator } from "../ui/separator";
 
 const Navbar = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -66,16 +73,49 @@ const Navbar = () => {
 
               {/* Mobile Menu Button */}
               <div className="lg:hidden ml-auto">
-                <Button
-                  variant="ghost"
-                  className="text-white"
-                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                >
-                  <Menu className="h-6 w-6" />
-                </Button>
+                <Sheet>
+                  <SheetTrigger asChild>
+                    <Button variant="ghost" className="text-white">
+                      <Menu className="h-6 w-6" />
+                    </Button>
+                  </SheetTrigger>
+
+                  <SheetContent side="left" className="p-0 w-72 bg-card">
+                    <SheetHeader className="p-4 border-b flex flex-row items-center justify-between">
+                      <div className="flex items-center">
+                        <Image
+                          src={PBLogo}
+                          alt="Parts Bazar Logo"
+                          width={60}
+                          height={60}
+                        />
+                        <SheetTitle className="ml-2">Parts Bazar</SheetTitle>
+                      </div>
+                    </SheetHeader>
+
+                    {/* Navigation */}
+                    <div className="p-4">
+                      <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3">
+                        Navigation
+                      </h3>
+
+                      <div className="space-y-2">
+                        {navLinks.map((link, index) => (
+                          <Link
+                            key={index}
+                            href={link.href}
+                            className="block py-2 px-3 hover:bg-primary/10  border-b hover:text-primary"
+                          >
+                            {link.name}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  </SheetContent>
+                </Sheet>
               </div>
 
-              {/* Navigation Links */}
+              {/* Desktop Navigation */}
               <div className="hidden lg:flex space-x-1 ml-4">
                 {navLinks.map((link, index) => (
                   <Link
@@ -87,56 +127,6 @@ const Navbar = () => {
                   </Link>
                 ))}
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Mobile Menu */}
-        <div
-          className={`fixed inset-y-0 left-0 w-68 bg-background z-50 transform transition-transform duration-300 lg:hidden ${
-            mobileMenuOpen ? "translate-x-0" : "-translate-x-full"
-          }`}
-        >
-          <div className="flex items-center justify-between p-4 border-b">
-            <div className="flex items-center">
-              <Image
-                src={PBLogo}
-                alt="Parts Bazar Logo"
-                width={80}
-                height={80}
-              />
-            </div>
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              <X className="h-5 w-5" />
-            </Button>
-          </div>
-
-          <div className="p-4 border-t">
-            <h3 className="font-bold mb-2">Navigation</h3>
-            <div className="space-y-2">
-              <Link
-                // key={index}
-                href="/categories"
-                className="block py-2 px-4 hover:bg-gray-100 rounded"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Categories
-              </Link>
-
-              {navLinks.map((link, index) => (
-                <Link
-                  key={index}
-                  href={link.href}
-                  className="block py-2 px-4 hover:bg-gray-100 rounded"
-                  onClick={() => setMobileMenuOpen(false)}
-                >
-                  {link.name}
-                </Link>
-              ))}
             </div>
           </div>
         </div>

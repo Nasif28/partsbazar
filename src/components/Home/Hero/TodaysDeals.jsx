@@ -69,7 +69,7 @@ const TodaysDeals = () => {
           <h2 className="text-xl font-bold text-center w-full">Today's Deal</h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-1 gap-2 overflow-y-auto max-h-[472px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xl:grid-cols-1 gap-2 overflow-y-auto max-h-[232px] xl:max-h-[472px]">
           {deals.map((deal, index) => (
             <div
               key={index}
@@ -90,7 +90,7 @@ const TodaysDeals = () => {
                 </div>
               </div>
 
-              <div className="p-2">
+              <div className="p-2 w-full">
                 <h3 className="font-bold pb-1">{deal.name}</h3>
 
                 <div className="flex items-center justify-between">

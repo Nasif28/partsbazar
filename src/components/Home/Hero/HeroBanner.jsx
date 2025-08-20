@@ -13,13 +13,13 @@ const HeroBanner = () => {
             <CategoriesMenu isOpen={true} />
           </div>
 
-          <div className="w-full flex flex-col md:flex-row gap-4">
-            <div className="w-full md:w-7/10 py-4 space-y-4">
+          <div className="w-full flex flex-col xl:flex-row py-4 gap-4">
+            <div className="w-full xl:w-7/10 space-y-4">
               <Banner />
               <Fitment />
             </div>
 
-            <div className="w-full md:w-3/10 py-4">
+            <div className="w-full xl:w-3/10">
               <TodaysDeals />
             </div>
           </div>
