@@ -107,7 +107,7 @@ const AdminOrdersPage = () => {
       {
         header: "Amount",
         accessorKey: "amount",
-        cell: (value) => `$${value.toFixed(2)}`,
+        cell: (value) => `৳${value.toFixed(2)}`,
       },
       {
         header: "Shipping Method",

@@ -167,7 +167,7 @@ export default function AdminDashboardPage() {
       {
         header: "Amount",
         accessorKey: "amount",
-        cell: (value) => `$${value.toFixed(2)}`,
+        cell: (value) => `৳${value.toFixed(2)}`,
       },
       {
         header: "Shipping Method",

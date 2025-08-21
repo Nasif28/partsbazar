@@ -54,7 +54,7 @@ export default function OrdersPage() {
       {
         header: "Price",
         accessorKey: "price",
-        cell: (value) => `$${value.toFixed(2)}`,
+        cell: (value) => `৳${value.toFixed(2)}`,
       },
       {
         header: "Stock",

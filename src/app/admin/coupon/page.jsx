@@ -114,7 +114,7 @@ const AdminCouponsPage = () => {
         accessorKey: "value",
         cell: (value, row) => (
           <span>
-            {row.type === "percentage" ? `${value}%` : `$${value.toFixed(2)}`}
+            {row.type === "percentage" ? `${value}%` : `৳${value.toFixed(2)}`}
           </span>
         ),
       },

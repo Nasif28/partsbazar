@@ -24,12 +24,12 @@ export default function ProductModal({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-3xl">
+      <DialogContent className="sm:max-w-3xl bg-card">
         <DialogHeader>
           <DialogTitle>Product Details</DialogTitle>
         </DialogHeader>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
-          <div className="relative h-64 w-full bg-gray-50">
+          <div className="relative h-64 w-full bg-muted">
             <Image
               src={product.imageUrl}
               alt={product.title}
@@ -41,7 +41,9 @@ export default function ProductModal({
 
           <div>
             <h2 className="text-xl font-bold">{product.title}</h2>
-            <p className="mt-1 text-sm text-textLight">{product.brand}</p>
+            <p className="mt-1 text-sm text-muted-foreground">
+              {product.brand}
+            </p>
 
             <div className="flex items-center gap-4 my-2">
               {product.discountPrice > 0 && (
@@ -64,27 +66,27 @@ export default function ProductModal({
             <div className="flex items-center">
               {product.discountPrice ? (
                 <>
-                  <span className="text-2xl font-bold text-textLight">
+                  <span className="text-2xl font-bold">
                     ৳{product.discountPrice.toLocaleString()}
                   </span>
-                  <span className="ml-2 text-lg text-textLight line-through">
+                  <span className="ml-2 text-lg text-muted-foreground line-through">
                     ৳{product.price.toLocaleString()}
                   </span>
                 </>
               ) : (
-                <span className="text-2xl font-bold text-textLight">
+                <span className="text-2xl font-bold text-muted-foreground">
                   ৳{product.price.toLocaleString()}
                 </span>
               )}
             </div>
 
             <div className="my-4">
-              <p className="text-textLight">{product.description}</p>
+              <p className="text-muted-foreground">{product.description}</p>
             </div>
 
             <div>
               <h3 className="font-medium">Specifications</h3>
-              <ul className="mt-2 list-disc pl-5 text-sm text-textLight">
+              <ul className="mt-2 list-disc pl-5 text-sm text-muted-foreground">
                 {product.specifications.map((spec, index) => (
                   <li key={index}>{spec}</li>
                 ))}

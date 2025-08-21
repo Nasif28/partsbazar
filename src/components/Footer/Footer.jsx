@@ -71,7 +71,7 @@ const Footer = () => {
                 />
               </div>
 
-              <p className="text-textLight text-sm md:text-left text-center">
+              <p className="text-muted-foreground text-sm md:text-left text-center">
                 Your Trusted Online Store for Genuine Vehicle Parts. Explore the
                 Latest Trends and Enjoy Hassle-Free Shopping. Shop with
                 Confidence, Drive with Excellence.
@@ -133,7 +133,7 @@ const Footer = () => {
                   Quick Menu
                 </h3>
 
-                <ul className="space-y-3 text-textLight text-sm">
+                <ul className="space-y-3 text-muted-foreground text-sm">
                   {footerData.quickLinks.map((link, index) => (
                     <li key={index}>
                       <Link
@@ -177,7 +177,7 @@ const Footer = () => {
                   Our Company
                 </h3>
 
-                <ul className="space-y-3 text-textLight text-sm">
+                <ul className="space-y-3 text-muted-foreground text-sm">
                   {footerData.companyLinks.map((link, index) => (
                     <li key={index}>
                       <Link
@@ -272,7 +272,7 @@ const Footer = () => {
       {/* Copyright */}
       <div className="myContainer">
         <div className="container mx-auto pb-5">
-          <div className="text-center text-textLight text-sm">
+          <div className="text-center text-muted-foreground text-sm">
             <p>
               partsbazar.com.bd is a registered trademark of its respective
               owners.

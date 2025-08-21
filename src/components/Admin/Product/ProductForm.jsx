@@ -462,7 +462,7 @@ export const ProductForm = ({ initialData, onSubmit }) => {
           <h3 className="text-xl font-semibold mb-6">Pricing</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="space-y-2">
-              <Label htmlFor="regularPrice">Regular Price ($) *</Label>
+              <Label htmlFor="regularPrice">Regular Price (৳) *</Label>
               <Input
                 id="regularPrice"
                 type="number"
@@ -479,7 +479,7 @@ export const ProductForm = ({ initialData, onSubmit }) => {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="purchasePrice">Purchase Price ($) *</Label>
+              <Label htmlFor="purchasePrice">Purchase Price (৳) *</Label>
               <Input
                 id="purchasePrice"
                 type="number"
@@ -496,7 +496,7 @@ export const ProductForm = ({ initialData, onSubmit }) => {
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="discountPrice">Discount Price ($)</Label>
+              <Label htmlFor="discountPrice">Discount Price (৳)</Label>
               <Input
                 id="discountPrice"
                 type="number"

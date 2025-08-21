@@ -22,7 +22,7 @@ export default function ProductCard({
     : 0;
 
   return (
-    <div className="group relative overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm transition-all hover:shadow-md">
+    <div className="group relative overflow-hidden rounded-lg border bg-card shadow-sm transition-all hover:shadow-md">
       {/* Discount badge */}
       {discountPercentage > 0 && (
         <div className="absolute left-3 top-3 z-10 rounded-full bg-red-500 px-2 py-1 text-xs font-bold text-white">
@@ -32,7 +32,7 @@ export default function ProductCard({
 
       {/* Image with background logo */}
       <Link href={`/products/${product.id}`} className="block">
-        <div className="relative h-52 w-full overflow-hidden bg-gray-50">
+        <div className="relative h-52 w-full overflow-hidden bg-muted">
           {/* Background Logo */}
           <div className="absolute inset-0 z-0">
             <Image
@@ -93,17 +93,16 @@ export default function ProductCard({
       </div>
 
       {/* Product info */}
-      <div className="p-4">
+      <div className="p-4 space-y-1">
+        <span className="text-xs font-medium text-muted-foreground">
+          {product.brand}
+        </span>
+
         <Link href={`/products/${product.id}`} className="block">
-          <span className="text-xs font-medium text-gray-500">
-            {product.brand}
-          </span>
-          <h3 className="mt-1 font-medium text-gray-900 line-clamp-2 h-12">
-            {product.title}
-          </h3>
+          <h3 className="font-medium line-clamp-2">{product.title}</h3>
         </Link>
 
-        <div className="mt-3">
+        <div>
           {product.inStock ? (
             <span className="text-xs font-medium text-green-600">In stock</span>
           ) : (
@@ -113,25 +112,25 @@ export default function ProductCard({
           )}
         </div>
 
-        <div className="mt-2 flex items-center">
+        <div className="flex items-center">
           {product.discountPrice ? (
             <>
-              <span className="text-lg font-bold text-gray-900">
+              <span className="text-lg font-bold">
                 ৳{product.discountPrice.toLocaleString()}
               </span>
-              <span className="ml-2 text-sm text-gray-500 line-through">
+              <span className="ml-2 text-sm text-muted-foreground line-through">
                 ৳{product.price.toLocaleString()}
               </span>
             </>
           ) : (
-            <span className="text-lg font-bold text-gray-900">
+            <span className="text-lg font-bold">
               ৳{product.price.toLocaleString()}
             </span>
           )}
         </div>
 
-        <Button className="mt-4 w-full" onClick={onAddToCart}>
-          <ShoppingCart className="mr-2 h-4 w-4" /> Add To Cart
+        <Button className="mt-2 w-full" onClick={onAddToCart}>
+          <ShoppingCart className="h-4 w-4" /> Add To Cart
         </Button>
       </div>
     </div>
