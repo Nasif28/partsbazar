@@ -80,7 +80,7 @@ const Categories = () => {
   return (
     <div className="myContainer">
       <div className="container mx-auto py-6">
-        <div className="mb-6 flex flex-col md:flex-row gap-4 justify-between items-center">
+        <div className="mb-6 flex gap-4 justify-between items-center">
           <Tabs defaultValue="top" className="w-full md:w-auto">
             <TabsList className="grid w-full grid-cols-2">
               <TabsTrigger
@@ -118,7 +118,7 @@ const Categories = () => {
         )}
 
         {loading ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {Array.from({ length: 8 }).map((_, index) => (
               <div
                 key={index}
@@ -134,7 +134,7 @@ const Categories = () => {
             ))}
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-6">
             {activeTab === "top" ? (
               filteredTopCategories.length > 0 ? (
                 filteredTopCategories.map((category) => (

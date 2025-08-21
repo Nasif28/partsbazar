@@ -17,12 +17,12 @@ const TopBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: "Track Order", href: "/track-order" },
-    { name: "Support", href: "/support" },
+    { name: "Track Order", href: "/track" },
+    { name: "Support", href: "/contact" },
     { name: "Contact Us", href: "/contact" },
     { name: "About Us", href: "/about" },
     { name: "FAQs", href: "/faqs" },
-    { name: "Helpline", href: "/helpline" },
+    { name: "Helpline", href: "/contact" },
   ];
   return (
     <div className="bg-muted text-sm topBar">

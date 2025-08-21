@@ -56,7 +56,7 @@ const ProductFilter = () => {
           </div>
 
           {loading ? (
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
               {[...Array(15)].map((_, i) => (
                 <div
                   key={i}
@@ -65,7 +65,10 @@ const ProductFilter = () => {
               ))}
             </div>
           ) : (
-            <ProductGrid products={filteredProducts.slice(0, 5)} />
+            <ProductGrid
+              products={filteredProducts.slice(0, 5)}
+              gridClasses="grid-cols-2 md:grid-cols-3 lg:grid-cols-5"
+            />
           )}
         </div>
       </section>

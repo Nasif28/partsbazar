@@ -7,6 +7,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import Link from "next/link";
 
 const mockCartItems = [
   {
@@ -43,8 +44,8 @@ const CartDropdown = () => {
           <ShoppingCart className="h-6 w-6" />
           <span className="text-xs">Cart</span>
           {cartItemsCount > 0 && (
-            <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
-              {cartItemsCount > 9 ? "9+" : cartItemsCount}
+            <span className="absolute top-0 right-0 bg-red-500 text-white text-xs rounded-full h-4 w-4 flex items-center justify-center">
+              {cartItemsCount}
             </span>
           )}
         </Button>
@@ -70,7 +71,9 @@ const CartDropdown = () => {
               ))}
             </div>
             <div className="p-2 border-t">
-              <Button className="w-full">View Cart</Button>
+              <Link href="/user/cart">
+                <Button className="w-full">View Cart</Button>
+              </Link>
             </div>
           </>
         ) : (

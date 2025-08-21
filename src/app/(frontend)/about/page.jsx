@@ -21,7 +21,7 @@ const AboutUsPage = () => {
       />
       
       <div className="myContainer">
-        <div className="container pageP">
+        <div className="container mx-auto pageP">
           <div className="space-y-8">
             <Story />
             <Mission />

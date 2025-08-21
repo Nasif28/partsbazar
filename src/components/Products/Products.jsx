@@ -19,16 +19,19 @@ const HomePage = () => {
           <h1 className="text-2xl font-bold mb-6">Featured Products</h1>
 
           {loading ? (
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
               {[...Array(10)].map((_, i) => (
                 <div
                   key={i}
-                  className="bg-gray-F rounded-lg animate-pulse h-64"
+                  className="bg-gray-500 rounded-lg animate-pulse h-64"
                 />
               ))}
             </div>
           ) : (
-            <ProductGrid products={allProducts.slice(0, 5)} />
+            <ProductGrid
+              products={allProducts.slice(0, 5)}
+              gridClasses="grid-cols-2 md:grid-cols-3 lg:grid-cols-5"
+            />
           )}
         </div>
       </div>

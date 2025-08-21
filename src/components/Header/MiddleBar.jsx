@@ -16,8 +16,9 @@ const MiddleBar = () => {
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
-  // Get compare count from Redux
+  // Get count from Redux
   const compareCount = useSelector((state) => state.compare.products.length);
+  const wishlistCount = useSelector((state) => state.wishlist.items.length);
 
   useEffect(() => {
     setMounted(true);
@@ -109,11 +110,16 @@ const MiddleBar = () => {
                 <Button
                   variant="ghost"
                   size="sm"
-                  className="flex flex-col items-center h-auto py-2 px-1 sm:px-2 gap-0.5"
+                  className="flex flex-col items-center h-auto py-2 px-1 sm:px-2 gap-0.5 relative"
                   aria-label="My Wishlist"
                 >
                   <Heart className="h-6 w-6" />
                   <span className="text-xs">My Wishlist</span>
+                  {wishlistCount > 0 && (
+                    <span className="absolute top-1 right-4 sm:top-0 sm:right-4 bg-primary text-primary-foreground rounded-full w-4 h-4 flex items-center justify-center text-xs">
+                      {wishlistCount}
+                    </span>
+                  )}
                 </Button>
               </Link>
 

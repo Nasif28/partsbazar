@@ -51,7 +51,7 @@ const Map = () => {
   const businessLocation = [23.746935588073562, 90.39918883766512];
 
   return (
-    <div className="w-full h-[500px] rounded-md overflow-hidden shadow-lg relative">
+    <div className="w-full h-[300px] md:h-[500px] rounded-md overflow-hidden shadow-lg relative">
       {/* Optional Floating Controls */}
       <div className="absolute z-[1000] top-4 right-4 space-y-2">
         <a

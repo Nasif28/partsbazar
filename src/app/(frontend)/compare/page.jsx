@@ -68,7 +68,7 @@ const ComparePage = () => {
 
       <section className="myContainer">
         <div className="container mx-auto py-6">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+          <div className="flex justify-between items-start md:items-center gap-4 mb-4">
             <h1 className="text-xl md:text-2xl font-bold">Compare Products</h1>
 
             <div className="flex gap-2">
@@ -89,7 +89,7 @@ const ComparePage = () => {
           <div className="overflow-x-auto">
             <div className="min-w-[800px]">
               {/* Products Row */}
-              <div className="grid grid-cols-5 gap-4 mb-6">
+              <div className="grid grid-cols-5 md:gap-4 gap-1 mb-6">
                 <div className="col-span-1"></div> {/* Empty cell for specs */}
                 {compareProducts.map((product) => (
                   <div
@@ -152,7 +152,7 @@ const ComparePage = () => {
                 {allSpecifications.map((spec, index) => (
                   <div
                     key={index}
-                    className="grid grid-cols-5 border-b gap-4 py-3 even:bg-muted/10"
+                    className="grid grid-cols-5 border-b gap-4 py-3 px-2 even:bg-muted/10"
                   >
                     <div className="col-span-1 font-medium text-muted-foreground">
                       {spec}
@@ -174,7 +174,7 @@ const ComparePage = () => {
                 ))}
 
                 {/* Ratings */}
-                <div className="grid grid-cols-5 gap-4 py-3 even:bg-muted/10">
+                <div className="grid grid-cols-5 gap-4 py-3 px-2 even:bg-muted/10">
                   <div className="col-span-1 font-medium text-muted-foreground">
                     Rating
                   </div>
@@ -194,7 +194,7 @@ const ComparePage = () => {
                 <Separator />
 
                 {/* Stock Status */}
-                <div className="grid grid-cols-5 gap-4 py-3 even:bg-muted/10">
+                <div className="grid grid-cols-5 gap-4 py-3 px-2 even:bg-muted/10">
                   <div className="col-span-1 font-medium text-muted-foreground">
                     Availability
                   </div>

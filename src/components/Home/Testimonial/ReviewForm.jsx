@@ -62,8 +62,8 @@ const ReviewForm = ({ isOpen, onClose, onSubmit }) => {
           </DialogDescription>
         </DialogHeader>
 
-        <form onSubmit={handleSubmit} className="space-y-6 pt-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <form onSubmit={handleSubmit} className="sm:space-y-6 space-y-2 pt-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-4">
             <div>
               <label className="block text-sm font-medium mb-1">
                 Your Name <span className="text-red-500">*</span>
@@ -158,9 +158,9 @@ const ReviewForm = ({ isOpen, onClose, onSubmit }) => {
               value={formData.content}
               onChange={handleChange}
               required
-              rows={4}
+              rows={8}
               placeholder="Share your experience with us..."
-              className="min-h-[120px]"
+              className="min-h-[80px]"
             />
           </div>
 

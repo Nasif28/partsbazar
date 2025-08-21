@@ -63,7 +63,7 @@ export default function VideosPage() {
 
       <section className="myContainer">
         <div className="container py-6 mx-auto">
-          <div className="flex flex-col md:flex-row gap-4 mb-6">
+          <div className="flex gap-4 mb-6">
             <div className="relative flex-1">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
               <Input
@@ -124,14 +124,14 @@ export default function VideosPage() {
           </div>
 
           {loading ? (
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
               {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
                 <Skeleton key={i} className="w-full h-80 rounded-xl" />
               ))}
             </div>
           ) : (
             <>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {filteredVideos.map((video) => (
                   <VideoCard key={video.id} video={video} />
                 ))}

@@ -32,7 +32,7 @@ export const Team = () => (
       </p>
     </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 md:gap-8 gap-2">
       {teamMembers.map((member, index) => (
         <motion.div
           key={index}
@@ -42,7 +42,7 @@ export const Team = () => (
           transition={{ duration: 0.5, delay: index * 0.1 }}
           viewport={{ once: true }}
         >
-          <div className="bg-gray-200 border-2 border-dashed w-full h-64"></div>
+          <div className="bg-gray-200 border-2 border-dashed w-full md:h-64 h-44"></div>
           <div className="p-6">
             <h3 className="text-xl font-bold">{member.name}</h3>
             <p className="text-primary mb-3">{member.role}</p>

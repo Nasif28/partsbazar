@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -22,6 +22,8 @@ import PageHeader from "@/components/Global/PageHeader";
 import { Separator } from "@/components/ui/separator";
 import { AddressIcon } from "@/assets/Import";
 import Link from "next/link";
+import { Loading } from "@/components/SVG/Loading";
+import { GlobalTable } from "@/components/Global/GlobalTable";
 
 const orders = [
   {
@@ -52,9 +54,9 @@ const orders = [
       date: "1 week ago",
     },
     items: [
-      { id: 1, name: "Car Engine Oil", price: "450.00৳", quantity: 2 },
-      { id: 2, name: "Air Filter", price: "320.50৳", quantity: 1 },
-      { id: 3, name: "Brake Pads", price: "759.51৳", quantity: 1 },
+      { id: 1, name: "Car Engine Oil", price: "450.00", quantity: 2 },
+      { id: 2, name: "Air Filter", price: "320.50", quantity: 1 },
+      { id: 3, name: "Brake Pads", price: "759.51", quantity: 1 },
     ],
     tracking: [
       { step: "Order Placed", date: "05 Jul 2025, 10:30 AM", completed: true },
@@ -152,7 +154,7 @@ const orders = [
 
 const statusConfig = {
   cancelled: {
-    color: "bg-destructive",
+    color: "bg-primary",
     icon: <X className="h-5 w-5 text-white" />,
     text: "Cancelled",
     progress: 30,
@@ -231,6 +233,35 @@ export default function TrackOrderPage() {
     },
   };
 
+  const columns = useMemo(
+    () => [
+      {
+        header: "#",
+        accessorKey: "sn",
+        cell: (_, row) => order.items.indexOf(row) + 1,
+      },
+      {
+        header: "Product",
+        accessorKey: "name",
+      },
+      {
+        header: "Price",
+        accessorKey: "price",
+        cell: (value) => <> {value}৳</>,
+      },
+      {
+        header: "Quantity",
+        accessorKey: "quantity",
+      },
+      {
+        header: "Total",
+        accessorKey: "total",
+        cell: (_, row) => <> {row.price * row.quantity}৳</>,
+      },
+    ],
+    [order]
+  );
+
   return (
     <main>
       <PageHeader
@@ -304,26 +335,7 @@ export default function TrackOrderPage() {
                     >
                       {isLoading ? (
                         <div className="flex items-center justify-center">
-                          <svg
-                            className="animate-spin -ml-1 mr-3 h-5 w-5 text-white"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                          >
-                            <circle
-                              className="opacity-25"
-                              cx="12"
-                              cy="12"
-                              r="10"
-                              stroke="currentColor"
-                              strokeWidth="4"
-                            ></circle>
-                            <path
-                              className="opacity-75"
-                              fill="currentColor"
-                              d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                            ></path>
-                          </svg>
+                          <Loading />
                           Tracking Order...
                         </div>
                       ) : (
@@ -355,9 +367,9 @@ export default function TrackOrderPage() {
               transition={{ duration: 0.5 }}
               className="space-y-8"
             >
-              <Card className="bg-card py-0 border border-border rounded-xl shadow-sm overflow-hidden">
-                <CardHeader className="bg-gradient-to-r from-primary/10 to-primary-dark/10 pt-5 pb-4">
-                  <CardTitle className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <Card className="py-0 border overflow-hidden">
+                <CardHeader className="bg-gradient-to-r from-primary/10 to-primary-dark/30 pt-5 pb-4">
+                  <CardTitle className="flex justify-between items-center gap-4">
                     <div className="flex items-center">
                       <span className="bg-primary text-primary-foreground p-2 rounded-lg mr-3">
                         <Package className="h-5 w-5" />
@@ -373,7 +385,7 @@ export default function TrackOrderPage() {
                     </div>
 
                     <div
-                      className={`inline-flex items-center px-3 py-1.5 rounded-md text-sm font-medium ${
+                      className={`inline-flex items-center px-3 py-1.5 h-10 rounded-md text-sm font-medium ${
                         getStatusInfo(order.status).color
                       } text-white`}
                     >
@@ -613,65 +625,20 @@ export default function TrackOrderPage() {
                     </div>
                   </div>
 
+                  <Separator className="mb-6 mt-10" />
+
                   {/* Order Items */}
-                  <div className="mt-10">
+                  <div className="mb-4">
                     <h3 className="text-lg font-semibold mb-4 text-foreground">
                       Order Items
                     </h3>
-                    <div className="overflow-x-auto">
-                      <table className="min-w-full divide-y divide-border">
-                        <thead className="bg-muted/30">
-                          <tr>
-                            <th
-                              scope="col"
-                              className="px-4 py-3 text-left text-sm font-bold text-muted-foreground uppercase tracking-wider"
-                            >
-                              Product
-                            </th>
-                            <th
-                              scope="col"
-                              className="px-4 py-3 text-left text-sm font-bold text-muted-foreground uppercase tracking-wider"
-                            >
-                              Price
-                            </th>
-                            <th
-                              scope="col"
-                              className="px-4 py-3 text-left text-sm font-bold text-muted-foreground uppercase tracking-wider"
-                            >
-                              Qty
-                            </th>
-                            <th
-                              scope="col"
-                              className="px-4 py-3 text-left text-sm font-bold text-muted-foreground uppercase tracking-wider"
-                            >
-                              Total
-                            </th>
-                          </tr>
-                        </thead>
 
-                        <tbody className="divide-y divide-border bg-card">
-                          {order.items.map((item, index) => (
-                            <tr key={index} className="hover:bg-muted/10">
-                              <td className="px-4 py-4 whitespace-nowrap text-sm font-medium text-foreground">
-                                {item.name}
-                              </td>
-                              <td className="px-4 py-4 whitespace-nowrap text-sm text-muted-foreground">
-                                {item.price}
-                              </td>
-                              <td className="px-4 py-4 whitespace-nowrap text-sm text-muted-foreground">
-                                {item.quantity}
-                              </td>
-                              <td className="px-4 py-4 whitespace-nowrap text-sm font-medium">
-                                {parseFloat(
-                                  item.price.replace("৳", "").replace(",", "")
-                                ) * item.quantity}
-                                ৳
-                              </td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
+                    <GlobalTable
+                      data={order.items}
+                      columns={columns}
+                      itemsPerPage={10}
+                      className="w-full"
+                    />
                   </div>
                 </CardContent>
               </Card>

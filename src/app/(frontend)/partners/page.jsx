@@ -27,7 +27,7 @@ const TrustedPartnersPage = () => {
       />
 
       <section className="myContainer">
-        <div className="container py-6">
+        <div className="container mx-auto py-6">
           <div className="max-w-2xl mx-auto mb-6">
             <Input
               type="text"
@@ -39,7 +39,7 @@ const TrustedPartnersPage = () => {
           </div>
 
           {filteredPartners.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 xl:gap-8">
               {filteredPartners.map((partner) => (
                 <PartnerCard key={partner.id} partner={partner} />
               ))}

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const PartnerCard = ({ partner }) => {
   return (
-    <div className="bg-card rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all h-full flex flex-col">
+    <div className="bg-card rounded-xl shadow-md overflow-hidden hover:shadow-lg border transition-all h-full flex flex-col">
       <div className="p-6 flex-grow">
         <div className="flex justify-center mb-4">
           <div className="bg-muted rounded-lg p-2 flex items-center justify-center h-32 w-full">

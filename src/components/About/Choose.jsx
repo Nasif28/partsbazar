@@ -4,7 +4,7 @@ export const Choose = () => (
   <section className="py-10">
     <div className="max-w-4xl mx-auto text-center mb-16">
       <h2 className="text-3xl font-bold mb-4">Why Choose Partsbazar?</h2>
-      <p className="text-xl text-gray-600 dark:text-gray-400">
+      <p className="text-xl text-muted-foreground">
         We go beyond just selling parts - we provide complete automotive
         solutions
       </p>
@@ -21,7 +21,7 @@ export const Choose = () => (
               <h3 className="text-xl font-semibold mb-2">
                 Extensive Product Catalog
               </h3>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-muted-foreground">
                 As a specialized e-commerce platform, Partsbazar features an
                 extensive catalog of automobile parts, including engine
                 components, suspension parts, brakes, batteries, electricals,
@@ -39,7 +39,7 @@ export const Choose = () => (
               <h3 className="text-xl font-semibold mb-2">
                 Convenience & Reliability
               </h3>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-muted-foreground">
                 Partsbazar aims to make the process of buying automobile parts
                 as convenient as possible, offering reliable delivery services
                 that bring the products directly to customers' doorsteps.
@@ -53,7 +53,7 @@ export const Choose = () => (
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-2">Quality Assurance</h3>
-              <p className="text-gray-600 dark:text-gray-400">
+              <p className="text-muted-foreground">
                 With a focus on quality and authenticity, the platform ensures
                 that all parts meet the highest standards and are sourced from
                 trusted manufacturers.
