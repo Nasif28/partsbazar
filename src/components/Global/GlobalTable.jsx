@@ -40,8 +40,8 @@ export function GlobalTable({
 
   return (
     <div className={`flex flex-col gap-4 ${className}`}>
-      <div className=" bg-card shadow-sm">
-        <Table>
+      <div className="w-full overflow-x-auto">
+        <Table className="min-w-full bg-card shadow-sm">
           <TableHeader className="bg-secondary text-secondary-foreground">
             <TableRow>
               {columns.map((column) => (
