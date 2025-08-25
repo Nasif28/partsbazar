@@ -126,7 +126,9 @@ export function AdminSidebar() {
   return (
     <Sidebar collapsible="icon">
       <SidebarHeader className="flex items-center justify-center min-h-16">
-        <Image src={PBLogo} alt="Logo" width={100} height={100} />
+        <Link href="/admin">
+          <Image src={PBLogo} alt="Logo" width={100} height={100} />
+        </Link>
       </SidebarHeader>
 
       <Separator className="mb-2" />
