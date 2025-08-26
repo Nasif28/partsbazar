@@ -142,9 +142,11 @@ const ProductInfo = ({ product }) => {
             <Button
               variant="outline"
               className="flex-1"
+
               // onClick={handleAddToWishlist}
             >
-              <Heart className="mr-2 h-4 w-4" /> Wishlist
+              <Heart className="h-4 w-4" />
+              <span className="hidden sm:inline">Wishlist</span>
             </Button>
 
             <Button
@@ -152,7 +154,8 @@ const ProductInfo = ({ product }) => {
               className="flex-1"
               // onClick={handleAddToCompare}
             >
-              <BarChart2 className="mr-2 h-4 w-4" /> Compare
+              <BarChart2 className="h-4 w-4" />
+              <span className="hidden sm:inline">Compare</span>
             </Button>
 
             <Button
@@ -160,29 +163,25 @@ const ProductInfo = ({ product }) => {
               className="flex-1"
               onClick={() => setShowSocialShare(!showSocialShare)}
             >
-              <Share2 className="mr-2 h-4 w-4" /> Share
+              <Share2 className="h-4 w-4" />
+              <span className="hidden sm:inline">Share</span>
             </Button>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-          <Button
-            onClick={handleAddToCart}
-            className="bg-blue-600 hover:bg-blue-700 h-12"
-          >
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-3">
+          <Button onClick={handleAddToCart} className="h-12">
             <ShoppingCart className="mr-2 h-4 w-4" /> Add to Cart
           </Button>
 
-          <Button
-            onClick={handleBuyNow}
-            className="bg-green-600 hover:bg-green-700 h-12"
-          >
+          <Button onClick={handleBuyNow} variant="outline" className="h-12">
             <ShoppingBag className="mr-2 h-4 w-4" /> Buy Now
           </Button>
 
           <Button
             onClick={handleWhatsAppOrder}
-            className="bg-green-500 hover:bg-green-600 h-12"
+            variant="highlight"
+            className="h-12"
           >
             <MessageSquare className="mr-2 h-4 w-4" /> Order via WhatsApp
           </Button>
